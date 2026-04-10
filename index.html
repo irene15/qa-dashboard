@@ -347,7 +347,6 @@
       <thead>
         <tr>
           <th>Ticket name</th>
-          <th>Card ID</th>
           <th>Returns</th>
           <th>Status</th>
           <th>Assignee</th>
@@ -414,12 +413,11 @@
     document.getElementById('main-count').textContent = `${tickets.length} tickets`;
     const mainTbody = document.getElementById('main-tbody');
     if (tickets.length === 0) {
-      mainTbody.innerHTML = '<tr><td colspan="7" class="empty">No tickets with returns found</td></tr>';
+      mainTbody.innerHTML = '<tr><td colspan="6" class="empty">No tickets with returns found</td></tr>';
     } else {
       mainTbody.innerHTML = tickets.map(t => `
         <tr>
           <td><a class="ticket-link" href="${t.card_url || '#'}" target="_blank" rel="noopener">${escHtml(t.ticket_name)}</a></td>
-          <td class="td-mono td-muted">${shortId(t.card_id)}</td>
           <td>${returnBadge(t.return_count)}</td>
           <td class="td-muted">${escHtml(t.current_status)}</td>
           <td>${escHtml(t.assignee)}</td>
