@@ -9,7 +9,7 @@ Static HTML dashboard fed by a Python script that pulls data from Trello.
 | `sync.py` | Fetches Trello data → writes `data.json` |
 | `index.html` | Dashboard — open in browser |
 | `data.json` | Auto-generated, do not edit manually |
-| `.github/workflows/weekly_sync.yml` | Runs sync every Sunday 06:00 UTC |
+| `.github/workflows/weekly_sync.yml` | Runs sync every Friday 06:00 UTC |
 
 ## Setup
 
