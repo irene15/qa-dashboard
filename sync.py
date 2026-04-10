@@ -9,8 +9,8 @@ TRELLO_TOKEN   = os.environ.get("TRELLO_TOKEN",   "YOUR_TOKEN")
 BOARD_ID       = os.environ.get("TRELLO_BOARD_ID","YOUR_BOARD_ID")
 
 # Names of your custom fields in Trello (case-sensitive)
-RETURN_COUNT_FIELD_NAME  = "Returns count"
-QUALITY_GATE_FIELD_NAME  = "Quality Gate"
+RETURN_COUNT_FIELD_NAME  = "return_count"
+QUALITY_GATE_FIELD_NAME  = "quality_gate"
 
 OUTPUT_FILE   = "data.json"
 SNAPSHOT_FILE = "snapshot.json"
@@ -30,7 +30,6 @@ def get(path, **params):
 def fetch_custom_field_defs(board_id):
     fields = get(f"/boards/{board_id}/customFields")
     field_map = {f["id"]: f["name"] for f in fields}
-    # Build idValue -> option text map for dropdown fields
     option_map = {}
     for f in fields:
         for opt in f.get("options", []):
@@ -53,7 +52,7 @@ def fetch_cards(board_id):
 
 
 def parse_custom_fields(card_cf_items, field_defs, option_map):
-    result = {"return_count": 0, "quality_gate": None}
+    result = {"return_count": 0, "quality_gate": "yes"}
     for item in card_cf_items:
         field_name = field_defs.get(item.get("idCustomField"), "")
         if field_name == RETURN_COUNT_FIELD_NAME:
@@ -69,12 +68,11 @@ def parse_custom_fields(card_cf_items, field_defs, option_map):
             else:
                 val = item.get("value") or {}
                 text = val.get("text", "").strip().lower()
-            result["quality_gate"] = text if text in ("yes", "no") else None
+            result["quality_gate"] = text if text in ("yes", "no") else "yes"
     return result
 
 
 def load_snapshot():
-    """Load previous snapshot. Returns {} if file does not exist yet."""
     if not os.path.exists(SNAPSHOT_FILE):
         return {}
     with open(SNAPSHOT_FILE, "r", encoding="utf-8") as f:
@@ -110,15 +108,15 @@ def main():
     print("Fetching board data from Trello...")
 
     field_defs, option_map = fetch_custom_field_defs(BOARD_ID)
-    list_map     = fetch_lists(BOARD_ID)
-    cards        = fetch_cards(BOARD_ID)
-    snapshot     = load_snapshot()
-    is_first_run = len(snapshot) == 0
+    list_map               = fetch_lists(BOARD_ID)
+    cards                  = fetch_cards(BOARD_ID)
+    snapshot               = load_snapshot()
+    is_first_run           = len(snapshot) == 0
 
     all_tickets = []
     for card in cards:
-        cf           = parse_custom_fields(card.get("customFieldItems", []), field_defs, option_map)
-        assignees    = [m["fullName"] for m in card.get("members", [])]
+        cf        = parse_custom_fields(card.get("customFieldItems", []), field_defs, option_map)
+        assignees = [m["fullName"] for m in card.get("members", [])]
         all_tickets.append({
             "card_id":             card["id"],
             "ticket_name":         card["name"],
@@ -147,13 +145,12 @@ def main():
 
     if not is_first_run:
         for t in all_tickets:
-            prev    = snapshot.get(t["card_id"], {})
-            new_rc  = t["return_count"] - prev.get("return_count", 0)
+            prev        = snapshot.get(t["card_id"], {})
+            new_rc      = t["return_count"] - prev.get("return_count", 0)
             qg_new_fail = t["quality_gate"] == "no" and prev.get("quality_gate") != "no"
 
             if new_rc > 0:
                 weekly_tickets.append({**t, "new_returns": new_rc})
-
             if qg_new_fail:
                 weekly_failed_qg.append(t)
 
@@ -175,14 +172,11 @@ def main():
         },
     }
 
-    # Save snapshot for next run
     save_snapshot(all_tickets)
 
-    # Write data.json
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    # Inject into index.html
     if os.path.exists(TEMPLATE_FILE):
         with open(TEMPLATE_FILE, "r", encoding="utf-8") as f:
             html = f.read()
@@ -197,10 +191,10 @@ def main():
         print(f"Data injected into {TEMPLATE_FILE}")
 
     print(f"Done.")
-    print(f"  Tab 1 — returned tickets : {len(tab1)}")
-    print(f"  Tab 1 — failed QG        : {len(tab1_failed_qg)}")
-    print(f"  Tab 2 — new returns this week : {len(weekly_tickets)} {'(first run — snapshot saved, Tab 2 empty)' if is_first_run else ''}")
-    print(f"  Tab 2 — new failed QG    : {len(weekly_failed_qg)}")
+    print(f"  Tab 1 — returned tickets      : {len(tab1)}")
+    print(f"  Tab 1 — failed QG             : {len(tab1_failed_qg)}")
+    print(f"  Tab 2 — new returns this week : {len(weekly_tickets)} {'(first run)' if is_first_run else ''}")
+    print(f"  Tab 2 — new failed QG         : {len(weekly_failed_qg)}")
 
 
 if __name__ == "__main__":
