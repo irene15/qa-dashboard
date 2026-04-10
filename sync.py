@@ -4,9 +4,9 @@ import requests
 from datetime import datetime, timezone
 
 # ── CONFIG ──────────────────────────────────────────────────────────────────
-TRELLO_API_KEY = os.environ.get("TRELLO_API_KEY", "e6036df8fe9fe9b9be83062babe9d822")
-TRELLO_TOKEN   = os.environ.get("TRELLO_TOKEN",   "ATTA4ac610262566b7d6a9ed41a5aa98d2d008980474c9c0fe21bd491977dca540793739E082")
-BOARD_ID       = os.environ.get("TRELLO_BOARD_ID","N3QQeK1Q")
+TRELLO_API_KEY = os.environ.get("TRELLO_API_KEY", "YOUR_API_KEY")
+TRELLO_TOKEN   = os.environ.get("TRELLO_TOKEN",   "YOUR_TOKEN")
+BOARD_ID       = os.environ.get("TRELLO_BOARD_ID","YOUR_BOARD_ID")
 
 # Names of your custom fields in Trello (case-sensitive)
 RETURN_COUNT_FIELD_NAME  = "return_count"
