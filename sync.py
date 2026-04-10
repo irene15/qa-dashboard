@@ -60,7 +60,7 @@ def parse_custom_fields(card_cf_items, field_defs):
             val = item.get("value") or {}
             text = val.get("text", "").strip().lower()
             if text in ("yes", "no"):
-                result["quality_gate"] = text.capitalize()
+                result["quality_gate"] = text  # keep lowercase: "yes" / "no"
             else:
                 result["quality_gate"] = None
     return result
@@ -120,7 +120,7 @@ def main():
             "assignee":            ", ".join(assignees) if assignees else "—",
             "created_date":        card["dateLastActivity"][:10],
             "quality_gate":        cf["quality_gate"],
-            "quality_gate_failed": cf["quality_gate"] == "No",
+            "quality_gate_failed": cf["quality_gate"] == "no",
             "card_url":            card["url"],
         })
 
@@ -142,7 +142,7 @@ def main():
         for t in all_tickets:
             prev    = snapshot.get(t["card_id"], {})
             new_rc  = t["return_count"] - prev.get("return_count", 0)
-            qg_new_fail = t["quality_gate"] == "No" and prev.get("quality_gate") != "No"
+            qg_new_fail = t["quality_gate"] == "no" and prev.get("quality_gate") != "no"
 
             if new_rc > 0:
                 weekly_tickets.append({**t, "new_returns": new_rc})
