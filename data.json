@@ -1,6 +1,6 @@
 {
   "last_updated": "Apr 10, 2026",
-  "is_first_run": true,
+  "is_first_run": false,
   "kpi": {
     "total_cards": 235,
     "returned_cards": 33,
