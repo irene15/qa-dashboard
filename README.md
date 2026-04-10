@@ -23,8 +23,8 @@ Open your Trello board in browser → the URL looks like:
 ### 3. Check custom field names
 In `sync.py`, update these two constants to match exactly what you named them in Trello:
 ```python
-RETURN_COUNT_FIELD_NAME = "Returns count"
-QUALITY_GATE_FIELD_NAME = "Quality Gate"
+RETURN_COUNT_FIELD_NAME = "return_count"
+QUALITY_GATE_FIELD_NAME = "quality_gate"
 ```
 
 ### 4. Test locally
