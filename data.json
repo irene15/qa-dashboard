@@ -1,11 +1,12 @@
 {
   "last_updated": "Apr 10, 2026",
+  "is_first_run": true,
   "kpi": {
     "total_cards": 235,
     "returned_cards": 33,
     "pct_returned": 14.0,
     "avg_return_count": 1.6,
-    "failed_qg_count": 0
+    "failed_qg_count": 1
   },
   "tickets": [
     {
@@ -15,7 +16,7 @@
       "current_status": "Delivered February 2026",
       "assignee": "Michael Bolay, Taras Tsavolyk, Hemang Chawla, Iryna, Arthur Souviron, vitalina.r",
       "created_date": "2026-03-05",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/mSXLKAtR/3785-pa-add-third-party-non-st-url-scan-pages-as-per-unified-ui"
     },
@@ -26,7 +27,7 @@
       "current_status": "Delivered January 2026",
       "assignee": "Rizwan, Hemang Chawla, Iryna, vitalina.r",
       "created_date": "2026-01-28",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/kTOWjeFw/3786-stios-add-third-party-non-st-url-scan-pages-as-per-unified-ui"
     },
@@ -36,9 +37,9 @@
       "return_count": 3,
       "current_status": "Ready for Release",
       "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
-      "created_date": "2026-04-02",
-      "quality_gate": null,
-      "quality_gate_failed": false,
+      "created_date": "2026-04-10",
+      "quality_gate": "no",
+      "quality_gate_failed": true,
       "card_url": "https://trello.com/c/SzwdOk5v/3924-enterprise-portal-single-brand-and-product-fields-translation"
     },
     {
@@ -48,7 +49,7 @@
       "current_status": "Delivered January 2026",
       "assignee": "Taras Tsavolyk, Hemang Chawla, vitalina.r, Iryna",
       "created_date": "2026-03-05",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/IfinKfUj/3851-pawechat-update-launching-screen-to-match-unified-ui"
     },
@@ -59,7 +60,7 @@
       "current_status": "Delivered February 2026",
       "assignee": "Taras Tsavolyk, vitalina.r, Iryna, Hemang Chawla",
       "created_date": "2026-03-05",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/KQX3p2ho/3873-va-source-and-country-are-missing-in-the-fake-report"
     },
@@ -70,7 +71,7 @@
       "current_status": "Delivered January 2026",
       "assignee": "Yan, Iryna, Diana Fomina, Michael Tai",
       "created_date": "2026-01-30",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/094Nnq4I/3848-e-label-new-template-for-other-fb-products"
     },
@@ -81,7 +82,7 @@
       "current_status": "Delivered January 2026",
       "assignee": "Iryna, Hemang Chawla, vitalina.r, Tom.Ji, Rizwan",
       "created_date": "2026-01-12",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/TQ7vwSXC/3724-androidst-okr24-survey-native-app-users-on-choosing-to-not-buy-counterfeits-and-shared-internally-with-scantrusters"
     },
@@ -92,7 +93,7 @@
       "current_status": "Development",
       "assignee": "Iryna, vitalina.r, Arthur Souviron",
       "created_date": "2026-04-07",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/5XuzJ1aZ/4043-beenterprise-portal-update-permissions"
     },
@@ -103,7 +104,7 @@
       "current_status": "Done (only for QA team)",
       "assignee": "Yan, Dave Hao, Diana Fomina, Iryna",
       "created_date": "2026-04-09",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/rMDCF0Fy/3983-ulbs01-csv-import-issue-contains-displays-twice"
     },
@@ -114,7 +115,7 @@
       "current_status": "Ready for Release",
       "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
       "created_date": "2026-04-10",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/JLifCqJJ/4011-enterprise-portal-brand-and-product-fields-bulk-translation-by-excel-upload"
     },
@@ -125,7 +126,7 @@
       "current_status": "Delivered February 2026",
       "assignee": "Iryna, vitalina.r, Hemang Chawla",
       "created_date": "2026-03-02",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/khA5BRED/3952-whitelist-blacklist-tracking-known-external-domains"
     },
@@ -136,7 +137,7 @@
       "current_status": "Delivered February 2026",
       "assignee": "Iryna, Taras Tsavolyk, vitalina.r, Hemang Chawla",
       "created_date": "2026-02-25",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/pCCvpbKf/3943-pa-release-checklist-3rd-party-codes-release"
     },
@@ -147,7 +148,7 @@
       "current_status": "Delivered February 2026",
       "assignee": "Taras Tsavolyk, Michael Bolay, Hemang Chawla, Iryna, vitalina.r",
       "created_date": "2026-03-05",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/LcH9NP8B/3784-va-add-third-party-non-st-url-scan-pages-as-per-unified-ui"
     },
@@ -158,7 +159,7 @@
       "current_status": "Delivered February 2026",
       "assignee": "Yan, Arthur Souviron, Iryna, Khalid Lamptey, Diana Fomina",
       "created_date": "2026-03-05",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/tzOLJ8aP/3876-gallery-use-file-name-as-the-key-when-uploading-multiple-images"
     },
@@ -169,7 +170,7 @@
       "current_status": "Delivered January 2026",
       "assignee": "Michael Tai, Yan, Iryna, Diana Fomina",
       "created_date": "2026-01-29",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/0PLqqNuP/3917-qr-manager-e-label-data-bulk-upload-for-the-new-template"
     },
@@ -180,7 +181,7 @@
       "current_status": "Delivered January 2026",
       "assignee": "Iryna, Yan, Arthur Souviron, Michael Tai, Diana Fomina",
       "created_date": "2026-01-29",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/vuxtiUZU/3936-e-label-editor-wine-color-in-product-information-section-does-not-update-after-changing-it-in-consumption-unit"
     },
@@ -191,7 +192,7 @@
       "current_status": "Delivered January 2026",
       "assignee": "Iryna, Yan, Diana Fomina, Michael Tai",
       "created_date": "2026-01-29",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/pq3w4eKF/3941-e-label-editor-ui-issue-when-sku-is-too-long"
     },
@@ -202,7 +203,7 @@
       "current_status": "Delivered January 2026",
       "assignee": "Iryna, Arthur Souviron, Michael Tai, vitalina.r",
       "created_date": "2026-01-28",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/FjD7pIBZ/3935-portal-campaign-dropdown-for-companies-with-1000-campaings"
     },
@@ -213,7 +214,7 @@
       "current_status": "Delivered January 2026",
       "assignee": "Khalid Lamptey, Iryna, vitalina.r, Arthur Souviron",
       "created_date": "2026-01-28",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/px9XTWph/3918-portaladmin-panel-wo-template-cannot-be-searched-by-id"
     },
@@ -224,7 +225,7 @@
       "current_status": "Delivered January 2026",
       "assignee": "Tom.Ji, vitalina.r, Iryna",
       "created_date": "2026-01-22",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/XcxAboWX/3777-androidste-accept-scanning-code-format-from-portal-settings-for-look-up-scanning-page"
     },
@@ -235,7 +236,7 @@
       "current_status": "Delivered January 2026",
       "assignee": "Tom.Ji, vitalina.r, Iryna",
       "created_date": "2026-01-22",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/T1mNvrPq/3913-steandroid-release-v2312"
     },
@@ -246,7 +247,7 @@
       "current_status": "Delivered January 2026",
       "assignee": "Rizwan, vitalina.r, Iryna, Tom.Ji, Hemang Chawla",
       "created_date": "2026-01-12",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/5HLvP3Mj/3859-androidst-release-1613"
     },
@@ -257,7 +258,7 @@
       "current_status": "Development",
       "assignee": "Rizwan, vitalina.r, Iryna",
       "created_date": "2026-03-20",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/PJ90aVcc/4016-stios-release-v540"
     },
@@ -268,7 +269,7 @@
       "current_status": "Development",
       "assignee": "Rizwan, Iryna, vitalina.r, Hemang Chawla",
       "created_date": "2026-03-16",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/WCq8IT2S/3990-stios-unified-ui-for-unsupported-phones"
     },
@@ -279,7 +280,7 @@
       "current_status": "Development",
       "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla, Michael Bolay",
       "created_date": "2026-04-08",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/63GMKhPb/4061-androidprinter-app-release1120"
     },
@@ -290,7 +291,7 @@
       "current_status": "Development",
       "assignee": "Rizwan, vitalina.r, Iryna, Michael Bolay, Hemang Chawla",
       "created_date": "2026-04-08",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/UG27f9S1/4062-androidprinter-app-support-pixel-phones"
     },
@@ -301,7 +302,7 @@
       "current_status": "Development",
       "assignee": "Michael Tai, Yan, Iryna, Diana Fomina",
       "created_date": "2026-04-10",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/UDSZad5X/4065-e-label-saas-portal-have-brands-appear-in-alphbetical-order-in-the-side-menu"
     },
@@ -312,7 +313,7 @@
       "current_status": "Ready for Release",
       "assignee": "Yan, Dave Hao, Iryna, Diana Fomina",
       "created_date": "2026-04-07",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/ZuGHFE73/3890-ulbs02-csv-template-update"
     },
@@ -323,7 +324,7 @@
       "current_status": "Ready for Release",
       "assignee": "Arthur Souviron, Iryna, vitalina.r",
       "created_date": "2026-04-01",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/0ZQ2r8hS/4049-portal-add-calibration-session-id-to-the-calibration-session"
     },
@@ -334,7 +335,7 @@
       "current_status": "Ready for Release",
       "assignee": "Yan, Iryna, vitalina.r, Michael Tai",
       "created_date": "2026-04-01",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/1ufFj1lz/4012-enterprise-portal-search-code-in-organization"
     },
@@ -345,7 +346,7 @@
       "current_status": "Delivered March 2026",
       "assignee": "Taras Tsavolyk, vitalina.r, Iryna, Hemang Chawla, Yan",
       "created_date": "2026-03-03",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/4YxUReCd/3927-pa-ux-backend-error-page-should-be-updated"
     },
@@ -356,7 +357,7 @@
       "current_status": "Delivered January 2026",
       "assignee": "Iryna, Arthur Souviron, Roksolyana",
       "created_date": "2026-01-08",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/B7vThX5z/3874-stc-editor-ui-changes"
     },
@@ -367,68 +368,33 @@
       "current_status": "Delivered January 2026",
       "assignee": "Iryna, Taras Tsavolyk, Hemang Chawla, vitalina.r",
       "created_date": "2026-01-20",
-      "quality_gate": null,
+      "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/tbNRMJ2f/3843-pa-fix-ui-updates-release-checklist"
     }
   ],
-  "failed_qg": [],
-  "returns_per_assignee": [
+  "failed_qg": [
     {
-      "assignee": "Iryna",
-      "returns": 54
-    },
-    {
-      "assignee": "vitalina.r",
-      "returns": 43
-    },
-    {
-      "assignee": "Hemang Chawla",
-      "returns": 29
-    },
-    {
-      "assignee": "Arthur Souviron",
-      "returns": 23
-    },
-    {
-      "assignee": "Taras Tsavolyk",
-      "returns": 19
-    },
-    {
-      "assignee": "Michael Bolay",
-      "returns": 13
-    },
-    {
-      "assignee": "Yan",
-      "returns": 12
-    },
-    {
-      "assignee": "Rizwan",
-      "returns": 10
-    },
-    {
-      "assignee": "Diana Fomina",
-      "returns": 10
-    },
-    {
-      "assignee": "Michael Tai",
-      "returns": 8
-    },
-    {
-      "assignee": "Khalid Lamptey",
-      "returns": 7
-    },
-    {
-      "assignee": "Tom.Ji",
-      "returns": 6
-    },
-    {
-      "assignee": "Dave Hao",
-      "returns": 3
-    },
-    {
-      "assignee": "Roksolyana",
-      "returns": 1
+      "card_id": "6964a3bc8c7e0e821bc6bcc3",
+      "ticket_name": "[Enterprise portal] single brand and product fields translation",
+      "return_count": 3,
+      "current_status": "Ready for Release",
+      "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
+      "created_date": "2026-04-10",
+      "quality_gate": "no",
+      "quality_gate_failed": true,
+      "card_url": "https://trello.com/c/SzwdOk5v/3924-enterprise-portal-single-brand-and-product-fields-translation"
     }
-  ]
+  ],
+  "weekly": {
+    "kpi": {
+      "total_cards": 235,
+      "returned_cards": 0,
+      "pct_returned": 0.0,
+      "avg_return_count": 0,
+      "failed_qg_count": 0
+    },
+    "tickets": [],
+    "failed_qg": []
+  }
 }
