@@ -2,7 +2,7 @@ name: Weekly Trello Sync
 
 on:
   schedule:
-    - cron: "10 21 * * *"     # Every Friday at 06:00 UTC
+    - cron: "23 16 * * *"     # Every Friday at 06:00 UTC
   workflow_dispatch:        # Allow manual trigger from GitHub UI
 
 permissions:
