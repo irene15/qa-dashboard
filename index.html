@@ -71,6 +71,36 @@
     font-weight: 500;
   }
 
+  /* ── TABS ── */
+  .tabs {
+    display: flex;
+    gap: 0;
+    padding: 0 32px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .tab-btn {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: color 0.15s, border-color 0.15s;
+    margin-bottom: -1px;
+  }
+
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+
   /* ── LAYOUT ── */
   main {
     padding: 28px 32px;
@@ -308,8 +338,16 @@
   <div class="last-updated">Last updated: <span id="last-updated-val">—</span></div>
 </header>
 
+<nav class="tabs">
+  <button class="tab-btn active" onclick="switchTab('tab1', this)">All time</button>
+  <button class="tab-btn" onclick="switchTab('tab2', this)">This week</button>
+</nav>
+
 <main>
   <div id="error-banner"></div>
+
+  <!-- TAB 1: All time -->
+  <div id="tab1" class="tab-panel active">
 
   <!-- KPIs -->
   <div class="section-label">Key metrics</div>
@@ -378,9 +416,94 @@
     </table>
   </div>
 
+  </div><!-- /tab1 -->
+
+  <!-- TAB 2: This week -->
+  <div id="tab2" class="tab-panel">
+
+  <div id="weekly-first-run-notice" style="display:none;margin-bottom:24px;padding:12px 16px;background:rgba(79,142,247,0.08);border:1px solid rgba(79,142,247,0.2);border-radius:6px;font-family:var(--mono);font-size:12px;color:var(--accent)">
+    First run completed — snapshot saved. Weekly data will appear after the next sync.
+  </div>
+
+  <!-- Weekly KPIs -->
+  <div class="section-label">This week — key metrics</div>
+  <div class="kpi-grid">
+    <div class="kpi-card blue">
+      <div class="kpi-value" id="w-kpi-total">—</div>
+      <div class="kpi-label">Total cards</div>
+    </div>
+    <div class="kpi-card orange">
+      <div class="kpi-value" id="w-kpi-returned">—</div>
+      <div class="kpi-label">Returned this week</div>
+    </div>
+    <div class="kpi-card orange">
+      <div class="kpi-value" id="w-kpi-pct">—</div>
+      <div class="kpi-label">% returned</div>
+    </div>
+    <div class="kpi-card gray">
+      <div class="kpi-value" id="w-kpi-avg">—</div>
+      <div class="kpi-label">Avg new returns</div>
+    </div>
+    <div class="kpi-card red">
+      <div class="kpi-value" id="w-kpi-failqg">—</div>
+      <div class="kpi-label">New failed QG</div>
+    </div>
+  </div>
+
+  <!-- Weekly returns table -->
+  <div class="section-label">New returns this week</div>
+  <div class="table-wrap">
+    <div class="table-header">
+      <span class="table-title">Tickets with new returns since last sync · sorted by new returns ↓</span>
+      <span class="table-count" id="w-main-count">0 tickets</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Ticket name</th>
+          <th>New returns</th>
+          <th>Total returns</th>
+          <th>Status</th>
+          <th>Assignee</th>
+          <th>Quality gate</th>
+        </tr>
+      </thead>
+      <tbody id="w-main-tbody"></tbody>
+    </table>
+  </div>
+
+  <!-- Weekly failed QG table -->
+  <div class="section-label">New failed quality gate this week</div>
+  <div class="table-wrap">
+    <div class="table-header">
+      <span class="table-title">Tickets where Quality Gate changed to No this week</span>
+      <span class="table-count" id="w-qg-count">0 tickets</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Ticket name</th>
+          <th>Status</th>
+          <th>Assignee</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody id="w-qg-tbody"></tbody>
+    </table>
+  </div>
+
+  </div><!-- /tab2 -->
+
 </main>
 
 <script>
+  function switchTab(id, btn) {
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    btn.classList.add('active');
+  }
+
   function returnBadge(n) {
     const cls = n >= 5 ? 'badge-high' : n >= 3 ? 'badge-mid' : 'badge-low';
     return `<span class="badge-return ${cls}">${n}</span>`;
@@ -392,23 +515,40 @@
     return '<span class="badge-qg-none">—</span>';
   }
 
-  function shortId(id) {
-    return id ? id.slice(-8) : '—';
+  function escHtml(str) {
+    return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+
+  function renderKpi(k, prefix) {
+    document.getElementById(prefix + 'kpi-total').textContent    = k.total_cards ?? '—';
+    document.getElementById(prefix + 'kpi-returned').textContent = k.returned_cards ?? '—';
+    document.getElementById(prefix + 'kpi-pct').textContent      = k.pct_returned != null ? k.pct_returned + '%' : '—';
+    document.getElementById(prefix + 'kpi-avg').textContent      = k.avg_return_count ?? '—';
+    document.getElementById(prefix + 'kpi-failqg').textContent   = k.failed_qg_count ?? '—';
+  }
+
+  function renderFailedQg(items, tbodyId, countId) {
+    document.getElementById(countId).textContent = `${items.length} tickets`;
+    const tbody = document.getElementById(tbodyId);
+    if (items.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="4" class="empty">No failed quality gate tickets</td></tr>';
+    } else {
+      tbody.innerHTML = items.map(t => `
+        <tr>
+          <td><a class="ticket-link" href="${t.card_url || '#'}" target="_blank" rel="noopener">${escHtml(t.ticket_name)}</a></td>
+          <td class="td-muted">${escHtml(t.current_status)}</td>
+          <td>${escHtml(t.assignee)}</td>
+          <td class="td-mono td-muted">${t.created_date || '—'}</td>
+        </tr>
+      `).join('');
+    }
   }
 
   function render(data) {
-    // Header
     document.getElementById('last-updated-val').textContent = data.last_updated || '—';
 
-    // KPIs
-    const k = data.kpi || {};
-    document.getElementById('kpi-total').textContent    = k.total_cards ?? '—';
-    document.getElementById('kpi-returned').textContent = k.returned_cards ?? '—';
-    document.getElementById('kpi-pct').textContent      = k.pct_returned != null ? k.pct_returned + '%' : '—';
-    document.getElementById('kpi-avg').textContent      = k.avg_return_count ?? '—';
-    document.getElementById('kpi-failqg').textContent   = k.failed_qg_count ?? '—';
-
-    // Main table
+    // ── Tab 1 ──
+    renderKpi(data.kpi || {}, '');
     const tickets = data.tickets || [];
     document.getElementById('main-count').textContent = `${tickets.length} tickets`;
     const mainTbody = document.getElementById('main-tbody');
@@ -426,28 +566,32 @@
         </tr>
       `).join('');
     }
+    renderFailedQg(data.failed_qg || [], 'qg-tbody', 'qg-count');
 
-    // Failed QG table
-    const failed = data.failed_qg || [];
-    document.getElementById('qg-count').textContent = `${failed.length} tickets`;
-    const qgTbody = document.getElementById('qg-tbody');
-    if (failed.length === 0) {
-      qgTbody.innerHTML = '<tr><td colspan="4" class="empty">No failed quality gate tickets</td></tr>';
+    // ── Tab 2 ──
+    if (data.is_first_run) {
+      document.getElementById('weekly-first-run-notice').style.display = 'block';
+    }
+    const w = data.weekly || {};
+    renderKpi(w.kpi || {}, 'w-');
+    const wTickets = w.tickets || [];
+    document.getElementById('w-main-count').textContent = `${wTickets.length} tickets`;
+    const wTbody = document.getElementById('w-main-tbody');
+    if (wTickets.length === 0) {
+      wTbody.innerHTML = '<tr><td colspan="6" class="empty">No new returns this week</td></tr>';
     } else {
-      qgTbody.innerHTML = failed.map(t => `
+      wTbody.innerHTML = wTickets.map(t => `
         <tr>
           <td><a class="ticket-link" href="${t.card_url || '#'}" target="_blank" rel="noopener">${escHtml(t.ticket_name)}</a></td>
+          <td>${returnBadge(t.new_returns)}</td>
+          <td class="td-mono td-muted">${t.return_count}</td>
           <td class="td-muted">${escHtml(t.current_status)}</td>
           <td>${escHtml(t.assignee)}</td>
-          <td class="td-mono td-muted">${t.created_date || '—'}</td>
+          <td>${qgBadge(t.quality_gate, t.quality_gate_failed)}</td>
         </tr>
       `).join('');
     }
-
-  }
-
-  function escHtml(str) {
-    return String(str || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    renderFailedQg(w.failed_qg || [], 'w-qg-tbody', 'w-qg-count');
   }
 
   function showError(msg) {
