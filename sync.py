@@ -29,7 +29,13 @@ def get(path, **params):
 
 def fetch_custom_field_defs(board_id):
     fields = get(f"/boards/{board_id}/customFields")
-    return {f["id"]: f["name"] for f in fields}
+    field_map = {f["id"]: f["name"] for f in fields}
+    # Build idValue -> option text map for dropdown fields
+    option_map = {}
+    for f in fields:
+        for opt in f.get("options", []):
+            option_map[opt["id"]] = opt["value"].get("text", "").strip().lower()
+    return field_map, option_map
 
 
 def fetch_lists(board_id):
@@ -46,7 +52,7 @@ def fetch_cards(board_id):
     )
 
 
-def parse_custom_fields(card_cf_items, field_defs):
+def parse_custom_fields(card_cf_items, field_defs, option_map):
     result = {"return_count": 0, "quality_gate": None}
     for item in card_cf_items:
         field_name = field_defs.get(item.get("idCustomField"), "")
@@ -57,12 +63,13 @@ def parse_custom_fields(card_cf_items, field_defs):
             except (ValueError, TypeError):
                 result["return_count"] = 0
         elif field_name == QUALITY_GATE_FIELD_NAME:
-            val = item.get("value") or {}
-            text = val.get("text", "").strip().lower()
-            if text in ("yes", "no"):
-                result["quality_gate"] = text  # keep lowercase: "yes" / "no"
+            id_value = item.get("idValue")
+            if id_value:
+                text = option_map.get(id_value, "")
             else:
-                result["quality_gate"] = None
+                val = item.get("value") or {}
+                text = val.get("text", "").strip().lower()
+            result["quality_gate"] = text if text in ("yes", "no") else None
     return result
 
 
@@ -102,7 +109,7 @@ def build_kpi(tickets, total_cards, count_field="return_count"):
 def main():
     print("Fetching board data from Trello...")
 
-    field_defs   = fetch_custom_field_defs(BOARD_ID)
+    field_defs, option_map = fetch_custom_field_defs(BOARD_ID)
     list_map     = fetch_lists(BOARD_ID)
     cards        = fetch_cards(BOARD_ID)
     snapshot     = load_snapshot()
@@ -110,7 +117,7 @@ def main():
 
     all_tickets = []
     for card in cards:
-        cf           = parse_custom_fields(card.get("customFieldItems", []), field_defs)
+        cf           = parse_custom_fields(card.get("customFieldItems", []), field_defs, option_map)
         assignees    = [m["fullName"] for m in card.get("members", [])]
         all_tickets.append({
             "card_id":             card["id"],
