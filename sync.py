@@ -9,8 +9,8 @@ TRELLO_TOKEN   = os.environ.get("TRELLO_TOKEN",   "YOUR_TOKEN")
 BOARD_ID       = os.environ.get("TRELLO_BOARD_ID","YOUR_BOARD_ID")
 
 # Names of your custom fields in Trello (case-sensitive)
-RETURN_COUNT_FIELD_NAME  = "Returns count"
-QUALITY_GATE_FIELD_NAME  = "Quality Gate"
+RETURN_COUNT_FIELD_NAME  = "return_count"
+QUALITY_GATE_FIELD_NAME  = "quality_gate"
 
 OUTPUT_FILE   = "data.json"
 TEMPLATE_FILE = "index.html"
