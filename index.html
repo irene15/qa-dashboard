@@ -341,6 +341,7 @@
 <nav class="tabs">
   <button class="tab-btn active" onclick="switchTab('tab1', this)">All time</button>
   <button class="tab-btn" onclick="switchTab('tab2', this)">This week</button>
+  <button class="tab-btn" id="tab3-btn" onclick="switchTab('tab3', this)">Quarter</button>
 </nav>
 
 <main>
@@ -494,6 +495,79 @@
 
   </div><!-- /tab2 -->
 
+  <!-- TAB 3: Quarter -->
+  <div id="tab3" class="tab-panel">
+
+  <div id="quarterly-new-notice" style="display:none;margin-bottom:24px;padding:12px 16px;background:rgba(79,142,247,0.08);border:1px solid rgba(79,142,247,0.2);border-radius:6px;font-family:var(--mono);font-size:12px;color:var(--accent)">
+    New quarter started — snapshot saved. Quarterly data will appear after the next sync.
+  </div>
+
+  <div class="section-label" id="q-section-label">Quarter — key metrics</div>
+  <div class="kpi-grid">
+    <div class="kpi-card blue">
+      <div class="kpi-value" id="q-kpi-total">—</div>
+      <div class="kpi-label">Total cards</div>
+    </div>
+    <div class="kpi-card orange">
+      <div class="kpi-value" id="q-kpi-returned">—</div>
+      <div class="kpi-label">Returned this quarter</div>
+    </div>
+    <div class="kpi-card orange">
+      <div class="kpi-value" id="q-kpi-pct">—</div>
+      <div class="kpi-label">% returned</div>
+    </div>
+    <div class="kpi-card gray">
+      <div class="kpi-value" id="q-kpi-avg">—</div>
+      <div class="kpi-label">Avg new returns</div>
+    </div>
+    <div class="kpi-card red">
+      <div class="kpi-value" id="q-kpi-failqg">—</div>
+      <div class="kpi-label">New failed QG</div>
+    </div>
+  </div>
+
+  <div class="section-label">New returns this quarter</div>
+  <div class="table-wrap">
+    <div class="table-header">
+      <span class="table-title">Tickets with new returns since quarter start · sorted by new returns ↓</span>
+      <span class="table-count" id="q-main-count">0 tickets</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Ticket name</th>
+          <th>New returns</th>
+          <th>Total returns</th>
+          <th>Status</th>
+          <th>Assignee</th>
+          <th>Quality gate</th>
+        </tr>
+      </thead>
+      <tbody id="q-main-tbody"></tbody>
+    </table>
+  </div>
+
+  <div class="section-label">New failed quality gate this quarter</div>
+  <div class="table-wrap">
+    <div class="table-header">
+      <span class="table-title">Tickets where Quality Gate changed to No this quarter</span>
+      <span class="table-count" id="q-qg-count">0 tickets</span>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Ticket name</th>
+          <th>Status</th>
+          <th>Assignee</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody id="q-qg-tbody"></tbody>
+    </table>
+  </div>
+
+  </div><!-- /tab3 -->
+
 </main>
 
 <script>
@@ -592,6 +666,35 @@
       `).join('');
     }
     renderFailedQg(w.failed_qg || [], 'w-qg-tbody', 'w-qg-count');
+
+    // ── Tab 3: Quarter ──
+    const q = data.quarterly || {};
+    if (q.label) {
+      document.getElementById('tab3-btn').textContent = q.label;
+      document.getElementById('q-section-label').textContent = `${q.label} — key metrics`;
+    }
+    if (q.is_new) {
+      document.getElementById('quarterly-new-notice').style.display = 'block';
+    }
+    renderKpi(q.kpi || {}, 'q-');
+    const qTickets = q.tickets || [];
+    document.getElementById('q-main-count').textContent = `${qTickets.length} tickets`;
+    const qTbody = document.getElementById('q-main-tbody');
+    if (qTickets.length === 0) {
+      qTbody.innerHTML = '<tr><td colspan="6" class="empty">No new returns this quarter</td></tr>';
+    } else {
+      qTbody.innerHTML = qTickets.map(t => `
+        <tr>
+          <td><a class="ticket-link" href="${t.card_url || '#'}" target="_blank" rel="noopener">${escHtml(t.ticket_name)}</a></td>
+          <td>${returnBadge(t.new_returns)}</td>
+          <td class="td-mono td-muted">${t.return_count}</td>
+          <td class="td-muted">${escHtml(t.current_status)}</td>
+          <td>${escHtml(t.assignee)}</td>
+          <td>${qgBadge(t.quality_gate, t.quality_gate_failed)}</td>
+        </tr>
+      `).join('');
+    }
+    renderFailedQg(q.failed_qg || [], 'q-qg-tbody', 'q-qg-count');
   }
 
   function showError(msg) {

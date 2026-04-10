@@ -8,17 +8,25 @@ TRELLO_API_KEY = os.environ.get("TRELLO_API_KEY", "YOUR_API_KEY")
 TRELLO_TOKEN   = os.environ.get("TRELLO_TOKEN",   "YOUR_TOKEN")
 BOARD_ID       = os.environ.get("TRELLO_BOARD_ID","YOUR_BOARD_ID")
 
-# Names of your custom fields in Trello (case-sensitive)
 RETURN_COUNT_FIELD_NAME  = "return_count"
 QUALITY_GATE_FIELD_NAME  = "quality_gate"
 
-OUTPUT_FILE   = "data.json"
-SNAPSHOT_FILE = "snapshot.json"
-TEMPLATE_FILE = "index.html"
+OUTPUT_FILE          = "data.json"
+SNAPSHOT_FILE        = "snapshot.json"
+SNAPSHOT_QUARTER_FILE = "snapshot_quarter.json"
+TEMPLATE_FILE        = "index.html"
 # ────────────────────────────────────────────────────────────────────────────
 
 BASE = "https://api.trello.com/1"
 AUTH = {"key": TRELLO_API_KEY, "token": TRELLO_TOKEN}
+
+
+def get_current_quarter(dt):
+    return (dt.month - 1) // 3 + 1
+
+
+def get_quarter_label(dt):
+    return f"Q{get_current_quarter(dt)} {dt.year}"
 
 
 def get(path, **params):
@@ -72,14 +80,14 @@ def parse_custom_fields(card_cf_items, field_defs, option_map):
     return result
 
 
-def load_snapshot():
-    if not os.path.exists(SNAPSHOT_FILE):
+def load_snapshot(path):
+    if not os.path.exists(path):
         return {}
-    with open(SNAPSHOT_FILE, "r", encoding="utf-8") as f:
+    with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def save_snapshot(all_tickets):
+def save_snapshot(path, all_tickets, quarter_label=None):
     snap = {
         t["card_id"]: {
             "return_count": t["return_count"],
@@ -87,7 +95,9 @@ def save_snapshot(all_tickets):
         }
         for t in all_tickets
     }
-    with open(SNAPSHOT_FILE, "w", encoding="utf-8") as f:
+    if quarter_label:
+        snap["__quarter__"] = quarter_label
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(snap, f, ensure_ascii=False, indent=2)
 
 
@@ -104,14 +114,39 @@ def build_kpi(tickets, total_cards, count_field="return_count"):
     }
 
 
+def calc_diff(all_tickets, snapshot, new_returns_field="new_returns"):
+    tickets   = []
+    failed_qg = []
+    for t in all_tickets:
+        prev        = snapshot.get(t["card_id"], {})
+        new_rc      = t["return_count"] - prev.get("return_count", 0)
+        qg_new_fail = t["quality_gate"] == "no" and prev.get("quality_gate") != "no"
+        if new_rc > 0:
+            tickets.append({**t, new_returns_field: new_rc})
+        if qg_new_fail:
+            failed_qg.append(t)
+    tickets.sort(key=lambda t: t[new_returns_field], reverse=True)
+    failed_qg.sort(key=lambda t: t["created_date"], reverse=True)
+    return tickets, failed_qg
+
+
 def main():
     print("Fetching board data from Trello...")
+
+    now                    = datetime.now(timezone.utc)
+    current_quarter_label  = get_quarter_label(now)
 
     field_defs, option_map = fetch_custom_field_defs(BOARD_ID)
     list_map               = fetch_lists(BOARD_ID)
     cards                  = fetch_cards(BOARD_ID)
-    snapshot               = load_snapshot()
-    is_first_run           = len(snapshot) == 0
+
+    snapshot         = load_snapshot(SNAPSHOT_FILE)
+    snap_quarter     = load_snapshot(SNAPSHOT_QUARTER_FILE)
+    is_first_run     = len(snapshot) == 0
+
+    # Check if quarter snapshot belongs to current quarter
+    snap_quarter_label = snap_quarter.get("__quarter__")
+    is_new_quarter     = snap_quarter_label != current_quarter_label
 
     all_tickets = []
     for card in cards:
@@ -129,7 +164,7 @@ def main():
             "card_url":            card["url"],
         })
 
-    # ── Tab 1: all-time ─────────────────────────────────────────────────────
+    # ── Tab 1: all-time ──────────────────────────────────────────────────────
     tab1 = sorted(
         [t for t in all_tickets if t["return_count"] > 0],
         key=lambda t: t["return_count"], reverse=True
@@ -140,39 +175,41 @@ def main():
     )
 
     # ── Tab 2: weekly diff ───────────────────────────────────────────────────
-    weekly_tickets   = []
-    weekly_failed_qg = []
+    weekly_tickets, weekly_failed_qg = ([], []) if is_first_run else calc_diff(all_tickets, snapshot)
 
-    if not is_first_run:
-        for t in all_tickets:
-            prev        = snapshot.get(t["card_id"], {})
-            new_rc      = t["return_count"] - prev.get("return_count", 0)
-            qg_new_fail = t["quality_gate"] == "no" and prev.get("quality_gate") != "no"
-
-            if new_rc > 0:
-                weekly_tickets.append({**t, "new_returns": new_rc})
-            if qg_new_fail:
-                weekly_failed_qg.append(t)
-
-        weekly_tickets.sort(key=lambda t: t["new_returns"], reverse=True)
-        weekly_failed_qg.sort(key=lambda t: t["created_date"], reverse=True)
+    # ── Tab 3: quarterly diff ────────────────────────────────────────────────
+    # If new quarter — save fresh snapshot, show empty
+    if is_new_quarter:
+        save_snapshot(SNAPSHOT_QUARTER_FILE, all_tickets, quarter_label=current_quarter_label)
+        quarter_tickets, quarter_failed_qg = [], []
+        print(f"  New quarter detected ({current_quarter_label}) — quarter snapshot saved")
+    else:
+        quarter_tickets, quarter_failed_qg = calc_diff(all_tickets, snap_quarter)
 
     total_cards = len(cards)
 
     output = {
-        "last_updated": datetime.now(timezone.utc).strftime("%b %d, %Y"),
-        "is_first_run": is_first_run,
-        "kpi":          build_kpi(tab1, total_cards),
-        "tickets":      tab1,
-        "failed_qg":    tab1_failed_qg,
+        "last_updated":   now.strftime("%b %d, %Y"),
+        "is_first_run":   is_first_run,
+        "kpi":            build_kpi(tab1, total_cards),
+        "tickets":        tab1,
+        "failed_qg":      tab1_failed_qg,
         "weekly": {
-            "kpi":       build_kpi(weekly_tickets, total_cards, count_field="new_returns"),
-            "tickets":   weekly_tickets,
-            "failed_qg": weekly_failed_qg,
+            "kpi":        build_kpi(weekly_tickets, total_cards, count_field="new_returns"),
+            "tickets":    weekly_tickets,
+            "failed_qg":  weekly_failed_qg,
+        },
+        "quarterly": {
+            "label":      current_quarter_label,
+            "is_new":     is_new_quarter,
+            "kpi":        build_kpi(quarter_tickets, total_cards, count_field="new_returns"),
+            "tickets":    quarter_tickets,
+            "failed_qg":  quarter_failed_qg,
         },
     }
 
-    save_snapshot(all_tickets)
+    # Save weekly snapshot
+    save_snapshot(SNAPSHOT_FILE, all_tickets)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
@@ -191,10 +228,11 @@ def main():
         print(f"Data injected into {TEMPLATE_FILE}")
 
     print(f"Done.")
-    print(f"  Tab 1 — returned tickets      : {len(tab1)}")
-    print(f"  Tab 1 — failed QG             : {len(tab1_failed_qg)}")
-    print(f"  Tab 2 — new returns this week : {len(weekly_tickets)} {'(first run)' if is_first_run else ''}")
-    print(f"  Tab 2 — new failed QG         : {len(weekly_failed_qg)}")
+    print(f"  Tab 1 — returned tickets        : {len(tab1)}")
+    print(f"  Tab 1 — failed QG               : {len(tab1_failed_qg)}")
+    print(f"  Tab 2 — new returns this week   : {len(weekly_tickets)} {'(first run)' if is_first_run else ''}")
+    print(f"  Tab 3 — new returns {current_quarter_label:<8}   : {len(quarter_tickets)} {'(new quarter)' if is_new_quarter else ''}")
+    print(f"  Tab 3 — new failed QG           : {len(quarter_failed_qg)}")
 
 
 if __name__ == "__main__":
