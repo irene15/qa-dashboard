@@ -133,9 +133,11 @@ def calc_diff(all_tickets, snapshot, new_returns_field="new_returns"):
 
 
 def get_week_label(dt):
-    # ISO week: Monday is start of week
-    monday = dt - __import__('datetime').timedelta(days=dt.weekday())
-    return monday.strftime("%Y-W%V")  # e.g. "2026-W16"
+    # Week runs Friday to Friday
+    # Find the most recent Friday (or today if Friday)
+    days_since_friday = (dt.weekday() - 4) % 7
+    last_friday = dt - __import__('datetime').timedelta(days=days_since_friday)
+    return last_friday.strftime("%Y-W%V-fri")
 
 
 def main():
@@ -205,10 +207,10 @@ def main():
     else:
         quarter_tickets, quarter_failed_qg = calc_diff(all_tickets, snap_quarter)
 
+    # Week starts on Friday
     from datetime import timedelta
-
-    # Calculate week and quarter start dates
-    week_start    = (now - timedelta(days=now.weekday())).replace(hour=0, minute=0, second=0, microsecond=0)
+    days_since_friday = (now.weekday() - 4) % 7
+    week_start    = (now - timedelta(days=days_since_friday)).replace(hour=0, minute=0, second=0, microsecond=0)
     quarter       = get_current_quarter(now)
     quarter_month = (quarter - 1) * 3 + 1
     quarter_start = now.replace(month=quarter_month, day=1, hour=0, minute=0, second=0, microsecond=0)
