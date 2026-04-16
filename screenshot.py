@@ -15,6 +15,8 @@ try:
         page = browser.new_page(viewport={"width": 1400, "height": 900})
         page.goto("http://localhost:8000/index.html", wait_until="networkidle")
         time.sleep(1)
+        page.click("text=This week")
+        time.sleep(0.5)
         page.screenshot(path="dashboard.png", full_page=False)
         browser.close()
     print("Screenshot saved: dashboard.png")
