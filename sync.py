@@ -264,8 +264,12 @@ def main():
         },
     }
 
-    # Save weekly snapshot (always update — tracks current state)
-    save_snapshot(SNAPSHOT_FILE, all_tickets, week_label=current_week_label)
+    # Save weekly snapshot only on Fridays (after diff is calculated)
+    if now.weekday() == 4:  # 4 = Friday
+        save_snapshot(SNAPSHOT_FILE, all_tickets, week_label=current_week_label)
+        print("  Weekly snapshot updated (Friday)")
+    else:
+        print(f"  Weekly snapshot NOT updated (not Friday, weekday={now.weekday()})")
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
