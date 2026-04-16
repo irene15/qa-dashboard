@@ -2,9 +2,9 @@
   "last_updated": "Apr 16, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 246,
+    "total_cards": 211,
     "returned_cards": 34,
-    "pct_returned": 13.8,
+    "pct_returned": 16.1,
     "avg_return_count": 1.6,
     "failed_qg_count": 1
   },
@@ -399,7 +399,7 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 246,
+      "total_cards": 211,
       "returned_cards": 0,
       "pct_returned": 0.0,
       "avg_return_count": 0,
@@ -412,7 +412,7 @@
     "label": "Q2 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 246,
+      "total_cards": 211,
       "returned_cards": 0,
       "pct_returned": 0.0,
       "avg_return_count": 0,
