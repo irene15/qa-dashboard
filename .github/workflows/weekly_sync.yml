@@ -2,7 +2,7 @@ name: Weekly Trello Sync
 
 on:
   schedule:
-    - cron: "0 2 * * 5"   # Every Friday at 02:00 UTC (05:00 Kyiv)
+    - cron: "0 6 * * 5"   # Every Friday at 06:00 UTC (08:00 CEST)
   workflow_dispatch:
 
 permissions:
