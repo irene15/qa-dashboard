@@ -190,13 +190,12 @@ def main():
     )
 
     # ── Tab 2: weekly diff ───────────────────────────────────────────────────
-    # If new week — save fresh snapshot, show empty
-    if is_first_run or is_new_week:
+    if is_first_run:
         weekly_tickets, weekly_failed_qg = [], []
-        if is_new_week and not is_first_run:
-            print(f"  New week detected ({current_week_label}) — weekly snapshot will reset")
     else:
         weekly_tickets, weekly_failed_qg = calc_diff(all_tickets, snapshot)
+        if is_new_week:
+            print(f"  New week ({current_week_label}) — comparing with previous week snapshot")
 
     # ── Tab 3: quarterly diff ────────────────────────────────────────────────
     # If new quarter — save fresh snapshot, show empty
