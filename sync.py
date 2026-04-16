@@ -205,6 +205,41 @@ def main():
     else:
         quarter_tickets, quarter_failed_qg = calc_diff(all_tickets, snap_quarter)
 
+    from datetime import timedelta
+
+    # Calculate week and quarter start dates
+    week_start    = (now - timedelta(days=now.weekday())).replace(hour=0, minute=0, second=0, microsecond=0)
+    quarter       = get_current_quarter(now)
+    quarter_month = (quarter - 1) * 3 + 1
+    quarter_start = now.replace(month=quarter_month, day=1, hour=0, minute=0, second=0, microsecond=0)
+
+    # Count active cards per period based on dateLastActivity
+    def is_active_since(ticket, since_dt):
+        try:
+            activity = datetime.fromisoformat(ticket["created_date"]).replace(tzinfo=timezone.utc)
+        except Exception:
+            return False
+        return activity >= since_dt
+
+    # Use raw dateLastActivity from cards for accurate comparison
+    card_activity = {c["id"]: c.get("dateLastActivity", "") for c in cards}
+
+    def count_active(since_dt):
+        count = 0
+        for card in cards:
+            raw = card.get("dateLastActivity", "")
+            if raw:
+                try:
+                    dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+                    if dt >= since_dt:
+                        count += 1
+                except Exception:
+                    pass
+        return count
+
+    active_this_week    = count_active(week_start)
+    active_this_quarter = count_active(quarter_start)
+
     total_cards = len(cards)
 
     output = {
@@ -214,14 +249,14 @@ def main():
         "tickets":        tab1,
         "failed_qg":      tab1_failed_qg,
         "weekly": {
-            "kpi":        build_kpi(weekly_tickets, total_cards, count_field="new_returns"),
+            "kpi":        build_kpi(weekly_tickets, active_this_week, count_field="new_returns"),
             "tickets":    weekly_tickets,
             "failed_qg":  weekly_failed_qg,
         },
         "quarterly": {
             "label":      current_quarter_label,
             "is_new":     is_new_quarter,
-            "kpi":        build_kpi(quarter_tickets, total_cards, count_field="new_returns"),
+            "kpi":        build_kpi(quarter_tickets, active_this_quarter, count_field="new_returns"),
             "tickets":    quarter_tickets,
             "failed_qg":  quarter_failed_qg,
         },
