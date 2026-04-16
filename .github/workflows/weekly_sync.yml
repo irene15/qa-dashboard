@@ -2,8 +2,8 @@ name: Weekly Trello Sync
 
 on:
   schedule:
-    - cron: "0 6 * * 5"   # Every Friday at 06:00 UTC
-  workflow_dispatch:        # Allow manual trigger from GitHub UI
+    - cron: "0 6 * * 5"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -26,9 +26,9 @@ jobs:
 
       - name: Run sync script
         env:
-          TRELLO_API_KEY:   ${{ secrets.TRELLO_API_KEY }}
-          TRELLO_TOKEN:     ${{ secrets.TRELLO_TOKEN }}
-          TRELLO_BOARD_ID:  ${{ secrets.TRELLO_BOARD_ID }}
+          TRELLO_API_KEY:  ${{ secrets.TRELLO_API_KEY }}
+          TRELLO_TOKEN:    ${{ secrets.TRELLO_TOKEN }}
+          TRELLO_BOARD_ID: ${{ secrets.TRELLO_BOARD_ID }}
         run: python sync.py
 
       - name: Commit and push updated files
@@ -42,39 +42,4 @@ jobs:
       - name: Send summary to Slack
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: |
-          python3 - <<'EOF'
-          import os, json, requests
-
-          webhook = os.environ.get("SLACK_WEBHOOK_URL", "")
-          if not webhook:
-              print("No webhook URL")
-              exit(0)
-
-          with open("data.json", "r", encoding="utf-8") as f:
-              data = json.load(f)
-
-          kpi     = data.get("kpi", {})
-          weekly  = data.get("weekly", {}).get("kpi", {})
-          quarter = data.get("quarterly", {})
-          q_label = quarter.get("label", "Quarter")
-          q_kpi   = quarter.get("kpi", {})
-
-          msg = f"""📊 *QA Dashboard — {data.get('last_updated', '')}*
-
-*ALL TIME*
-  Returned tickets: {kpi.get('returned_cards', 0)} ({kpi.get('pct_returned', 0)}%)
-  Avg returns: {kpi.get('avg_return_count', 0)}
-  Failed QG: {kpi.get('failed_qg_count', 0)}
-
-*THIS WEEK*
-  New returns: {weekly.get('returned_cards', 0)} tickets
-  New failed QG: {weekly.get('failed_qg_count', 0)} tickets
-
-*{q_label}*
-  New returns: {q_kpi.get('returned_cards', 0)} tickets
-  New failed QG: {q_kpi.get('failed_qg_count', 0)} tickets"""
-
-          r = requests.post(webhook, json={"text": msg})
-          print("Slack response:", r.status_code)
-          EOF
+        run: python slack_notify.py
