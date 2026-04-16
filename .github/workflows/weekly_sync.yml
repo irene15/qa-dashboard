@@ -1,0 +1,71 @@
+name: Weekly Trello Sync
+
+on:
+  schedule:
+    - cron: "0 6 * * 5"   # Every Friday at 06:00 UTC
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run sync script
+        env:
+          TRELLO_API_KEY:   ${{ secrets.TRELLO_API_KEY }}
+          TRELLO_TOKEN:     ${{ secrets.TRELLO_TOKEN }}
+          TRELLO_BOARD_ID:  ${{ secrets.TRELLO_BOARD_ID }}
+        run: python sync.py
+
+      - name: Commit and push updated files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json index.html snapshot.json snapshot_quarter.json
+          git diff --cached --quiet || git commit -m "chore: weekly data sync $(date -u '+%Y-%m-%d')"
+          git push
+
+      - name: Send index.html to Slack
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_BOT_TOKEN:   ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID:  ${{ secrets.SLACK_CHANNEL_ID }}
+        run: |
+          python3 - <<'EOF'
+          import os, requests
+
+          token      = os.environ.get("SLACK_BOT_TOKEN", "")
+          channel    = os.environ.get("SLACK_CHANNEL_ID", "")
+          webhook    = os.environ.get("SLACK_WEBHOOK_URL", "")
+
+          # Send notification message via webhook
+          if webhook:
+              requests.post(webhook, json={
+                  "text": "📊 *QA Dashboard updated* — download the file below to open in your browser."
+              })
+
+          # Upload index.html file via Bot token
+          if token and channel:
+              with open("index.html", "rb") as f:
+                  requests.post(
+                      "https://slack.com/api/files.upload",
+                      headers={"Authorization": f"Bearer {token}"},
+                      data={"channels": channel, "filename": "dashboard.html", "title": "QA Dashboard"},
+                      files={"file": f}
+                  )
+          EOF
+
