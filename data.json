@@ -438,12 +438,25 @@
     "is_new": false,
     "kpi": {
       "total_cards": 52,
-      "returned_cards": 0,
-      "pct_returned": 0.0,
-      "avg_return_count": 0,
+      "returned_cards": 1,
+      "pct_returned": 1.9,
+      "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
-    "tickets": [],
+    "tickets": [
+      {
+        "card_id": "698c85842eb98a9065652bc9",
+        "ticket_name": "[ST][iOS] Unified UI for unsupported phones",
+        "return_count": 2,
+        "current_status": "Development",
+        "assignee": "Rizwan, Iryna, vitalina.r, Hemang Chawla",
+        "created_date": "2026-04-16",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/WCq8IT2S/3990-stios-unified-ui-for-unsupported-phones",
+        "new_returns": 1
+      }
+    ],
     "failed_qg": []
   }
 }
