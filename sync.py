@@ -87,7 +87,7 @@ def load_snapshot(path):
         return json.load(f)
 
 
-def save_snapshot(path, all_tickets, quarter_label=None):
+def save_snapshot(path, all_tickets, quarter_label=None, week_label=None):
     snap = {
         t["card_id"]: {
             "return_count": t["return_count"],
@@ -97,6 +97,8 @@ def save_snapshot(path, all_tickets, quarter_label=None):
     }
     if quarter_label:
         snap["__quarter__"] = quarter_label
+    if week_label:
+        snap["__week__"] = week_label
     with open(path, "w", encoding="utf-8") as f:
         json.dump(snap, f, ensure_ascii=False, indent=2)
 
@@ -130,11 +132,18 @@ def calc_diff(all_tickets, snapshot, new_returns_field="new_returns"):
     return tickets, failed_qg
 
 
+def get_week_label(dt):
+    # ISO week: Monday is start of week
+    monday = dt - __import__('datetime').timedelta(days=dt.weekday())
+    return monday.strftime("%Y-W%V")  # e.g. "2026-W16"
+
+
 def main():
     print("Fetching board data from Trello...")
 
     now                    = datetime.now(timezone.utc)
     current_quarter_label  = get_quarter_label(now)
+    current_week_label     = get_week_label(now)
 
     field_defs, option_map = fetch_custom_field_defs(BOARD_ID)
     list_map               = fetch_lists(BOARD_ID)
@@ -142,6 +151,10 @@ def main():
 
     snapshot         = load_snapshot(SNAPSHOT_FILE)
     snap_quarter     = load_snapshot(SNAPSHOT_QUARTER_FILE)
+
+    # Weekly: check if snapshot belongs to current calendar week (Mon–Sun)
+    snap_week_label  = snapshot.get("__week__")
+    is_new_week      = snap_week_label != current_week_label
     is_first_run     = len(snapshot) == 0
 
     # Check if quarter snapshot belongs to current quarter
@@ -175,7 +188,13 @@ def main():
     )
 
     # ── Tab 2: weekly diff ───────────────────────────────────────────────────
-    weekly_tickets, weekly_failed_qg = ([], []) if is_first_run else calc_diff(all_tickets, snapshot)
+    # If new week — save fresh snapshot, show empty
+    if is_first_run or is_new_week:
+        weekly_tickets, weekly_failed_qg = [], []
+        if is_new_week and not is_first_run:
+            print(f"  New week detected ({current_week_label}) — weekly snapshot will reset")
+    else:
+        weekly_tickets, weekly_failed_qg = calc_diff(all_tickets, snapshot)
 
     # ── Tab 3: quarterly diff ────────────────────────────────────────────────
     # If new quarter — save fresh snapshot, show empty
@@ -208,8 +227,8 @@ def main():
         },
     }
 
-    # Save weekly snapshot
-    save_snapshot(SNAPSHOT_FILE, all_tickets)
+    # Save weekly snapshot (always update — tracks current state)
+    save_snapshot(SNAPSHOT_FILE, all_tickets, week_label=current_week_label)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
