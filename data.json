@@ -399,7 +399,7 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 211,
+      "total_cards": 21,
       "returned_cards": 0,
       "pct_returned": 0.0,
       "avg_return_count": 0,
@@ -412,7 +412,7 @@
     "label": "Q2 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 211,
+      "total_cards": 52,
       "returned_cards": 0,
       "pct_returned": 0.0,
       "avg_return_count": 0,
