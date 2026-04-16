@@ -1,7 +1,8 @@
-import os, requests
+import os, json, requests
 
-token   = os.environ.get("SLACK_BOT_TOKEN", "")
-channel = os.environ.get("SLACK_CHANNEL_ID", "")
+token      = os.environ.get("SLACK_BOT_TOKEN", "")
+channel    = os.environ.get("SLACK_CHANNEL_ID", "")
+is_quarter = os.environ.get("QUARTER_SCREENSHOT", "false").lower() == "true"
 
 if not token or not channel:
     print("Missing SLACK_BOT_TOKEN or SLACK_CHANNEL_ID")
@@ -10,6 +11,16 @@ if not token or not channel:
 if not os.path.exists("dashboard.png"):
     print("No screenshot found")
     exit(0)
+
+with open("data.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+q_label = data.get("quarterly", {}).get("label", "Quarter")
+
+if is_quarter:
+    comment = f"📊 {q_label} Summary — QA Dashboard"
+else:
+    comment = f"📊 QA Dashboard — This week ({data.get('last_updated', '')})"
 
 with open("dashboard.png", "rb") as f:
     content = f.read()
@@ -38,7 +49,7 @@ r3 = requests.post(
     json={
         "files": [{"id": data1["file_id"]}],
         "channel_id": channel,
-        "initial_comment": "📊 QA Dashboard — This week"
+        "initial_comment": comment
     }
 )
 print("completeUpload:", r3.json().get("ok"), r3.json().get("error", ""))
