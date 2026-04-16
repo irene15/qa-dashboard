@@ -1,10 +1,10 @@
 {
-  "last_updated": "Apr 16, 2026",
+  "last_updated": "Apr 10, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 211,
-    "returned_cards": 34,
-    "pct_returned": 16.1,
+    "total_cards": 235,
+    "returned_cards": 33,
+    "pct_returned": 14.0,
     "avg_return_count": 1.6,
     "failed_qg_count": 1
   },
@@ -96,17 +96,6 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/5XuzJ1aZ/4043-beenterprise-portal-update-permissions"
-    },
-    {
-      "card_id": "698c85842eb98a9065652bc9",
-      "ticket_name": "[ST][iOS] Unified UI for unsupported phones",
-      "return_count": 2,
-      "current_status": "Development",
-      "assignee": "Rizwan, Iryna, vitalina.r, Hemang Chawla",
-      "created_date": "2026-04-16",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/WCq8IT2S/3990-stios-unified-ui-for-unsupported-phones"
     },
     {
       "card_id": "698aa164fdec244ee8e8e3f0",
@@ -274,12 +263,23 @@
       "card_url": "https://trello.com/c/PJ90aVcc/4016-stios-release-v540"
     },
     {
+      "card_id": "698c85842eb98a9065652bc9",
+      "ticket_name": "[ST][iOS] Unified UI for unsupported phones",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Rizwan, Iryna, vitalina.r, Hemang Chawla",
+      "created_date": "2026-03-16",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/WCq8IT2S/3990-stios-unified-ui-for-unsupported-phones"
+    },
+    {
       "card_id": "69d4cf7f5805882a15725ca2",
       "ticket_name": "[Android][Printer App] Release1.12.0",
       "return_count": 1,
       "current_status": "Development",
       "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla, Michael Bolay",
-      "created_date": "2026-04-13",
+      "created_date": "2026-04-08",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/63GMKhPb/4061-androidprinter-app-release1120"
@@ -296,26 +296,26 @@
       "card_url": "https://trello.com/c/UG27f9S1/4062-androidprinter-app-support-pixel-phones"
     },
     {
-      "card_id": "69a19500d55fd54ffef9594f",
-      "ticket_name": "[PA] UI: \"Take photo\" button sometimes displayed in wrong position",
-      "return_count": 1,
-      "current_status": "QA Review",
-      "assignee": "vitalina.r, Taras Tsavolyk, Iryna, Hemang Chawla",
-      "created_date": "2026-04-14",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/G1iDHnpR/4010-pa-ui-take-photo-button-sometimes-displayed-in-wrong-position"
-    },
-    {
       "card_id": "69bb8c844aec03367b88957f",
       "ticket_name": "[e-label SaaS Portal] have brands appear in alphbetical order in the side menu",
       "return_count": 1,
-      "current_status": "Done (only for QA team)",
+      "current_status": "Development",
       "assignee": "Michael Tai, Yan, Iryna, Diana Fomina",
-      "created_date": "2026-04-16",
+      "created_date": "2026-04-10",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/UDSZad5X/4065-e-label-saas-portal-have-brands-appear-in-alphbetical-order-in-the-side-menu"
+    },
+    {
+      "card_id": "693fa71ea9ef5e316fc0a3c0",
+      "ticket_name": "[ULBS02] CSV template update",
+      "return_count": 1,
+      "current_status": "Ready for Release",
+      "assignee": "Yan, Dave Hao, Iryna, Diana Fomina",
+      "created_date": "2026-04-07",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/ZuGHFE73/3890-ulbs02-csv-template-update"
     },
     {
       "card_id": "69c387e980ea708d855298a7",
@@ -338,17 +338,6 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/1ufFj1lz/4012-enterprise-portal-search-code-in-organization"
-    },
-    {
-      "card_id": "693fa71ea9ef5e316fc0a3c0",
-      "ticket_name": "[ULBS02] CSV template update",
-      "return_count": 1,
-      "current_status": "Ready for Release",
-      "assignee": "Yan, Dave Hao, Iryna, Diana Fomina",
-      "created_date": "2026-04-13",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/ZuGHFE73/3890-ulbs02-csv-template-update"
     },
     {
       "card_id": "6964db4fc5bf5adb423c5655",
@@ -399,64 +388,13 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 25,
-      "returned_cards": 2,
-      "pct_returned": 8.0,
-      "avg_return_count": 1.0,
+      "total_cards": 235,
+      "returned_cards": 0,
+      "pct_returned": 0.0,
+      "avg_return_count": 0,
       "failed_qg_count": 0
     },
-    "tickets": [
-      {
-        "card_id": "698c85842eb98a9065652bc9",
-        "ticket_name": "[ST][iOS] Unified UI for unsupported phones",
-        "return_count": 2,
-        "current_status": "Development",
-        "assignee": "Rizwan, Iryna, vitalina.r, Hemang Chawla",
-        "created_date": "2026-04-16",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/WCq8IT2S/3990-stios-unified-ui-for-unsupported-phones",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69a19500d55fd54ffef9594f",
-        "ticket_name": "[PA] UI: \"Take photo\" button sometimes displayed in wrong position",
-        "return_count": 1,
-        "current_status": "QA Review",
-        "assignee": "vitalina.r, Taras Tsavolyk, Iryna, Hemang Chawla",
-        "created_date": "2026-04-14",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/G1iDHnpR/4010-pa-ui-take-photo-button-sometimes-displayed-in-wrong-position",
-        "new_returns": 1
-      }
-    ],
-    "failed_qg": []
-  },
-  "quarterly": {
-    "label": "Q2 2026",
-    "is_new": false,
-    "kpi": {
-      "total_cards": 52,
-      "returned_cards": 1,
-      "pct_returned": 1.9,
-      "avg_return_count": 1.0,
-      "failed_qg_count": 0
-    },
-    "tickets": [
-      {
-        "card_id": "698c85842eb98a9065652bc9",
-        "ticket_name": "[ST][iOS] Unified UI for unsupported phones",
-        "return_count": 2,
-        "current_status": "Development",
-        "assignee": "Rizwan, Iryna, vitalina.r, Hemang Chawla",
-        "created_date": "2026-04-16",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/WCq8IT2S/3990-stios-unified-ui-for-unsupported-phones",
-        "new_returns": 1
-      }
-    ],
+    "tickets": [],
     "failed_qg": []
   }
 }
