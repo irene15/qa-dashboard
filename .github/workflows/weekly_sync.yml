@@ -56,10 +56,10 @@ jobs:
               content = f.read()
 
           # Step 1: get upload URL
-          r1 = requests.post(
+          r1 = requests.get(
               "https://slack.com/api/files.getUploadURLExternal",
               headers={"Authorization": f"Bearer {token}"},
-              json={"filename": "dashboard.html", "length": len(content)}
+              params={"filename": "dashboard.html", "length": len(content)}
           )
           data1 = r1.json()
           print("getUploadURL:", data1.get("ok"), data1.get("error", ""))
