@@ -48,24 +48,45 @@ jobs:
           python3 - <<'EOF'
           import os, requests
 
-          token      = os.environ.get("SLACK_BOT_TOKEN", "")
-          channel    = os.environ.get("SLACK_CHANNEL_ID", "")
-          webhook    = os.environ.get("SLACK_WEBHOOK_URL", "")
+          token   = os.environ.get("SLACK_BOT_TOKEN", "")
+          channel = os.environ.get("SLACK_CHANNEL_ID", "")
+          webhook = os.environ.get("SLACK_WEBHOOK_URL", "")
 
-          # Send notification message via webhook
-          if webhook:
-              requests.post(webhook, json={
-                  "text": "📊 *QA Dashboard updated* — download the file below to open in your browser."
-              })
+          with open("index.html", "rb") as f:
+              content = f.read()
 
-          # Upload index.html file via Bot token
-          if token and channel:
-              with open("index.html", "rb") as f:
-                  requests.post(
-                      "https://slack.com/api/files.upload",
-                      headers={"Authorization": f"Bearer {token}"},
-                      data={"channels": channel, "filename": "dashboard.html", "title": "QA Dashboard"},
-                      files={"file": f}
-                  )
+          # Step 1: get upload URL
+          r1 = requests.post(
+              "https://slack.com/api/files.getUploadURLExternal",
+              headers={"Authorization": f"Bearer {token}"},
+              json={"filename": "dashboard.html", "length": len(content)}
+          )
+          data1 = r1.json()
+          print("getUploadURL:", data1.get("ok"), data1.get("error", ""))
+
+          if not data1.get("ok"):
+              print("Failed to get upload URL")
+              exit(0)
+
+          # Step 2: upload file
+          r2 = requests.post(
+              data1["upload_url"],
+              data=content,
+              headers={"Content-Type": "text/html"}
+          )
+          print("Upload status:", r2.status_code)
+
+          # Step 3: complete upload and share to channel
+          r3 = requests.post(
+              "https://slack.com/api/files.completeUploadExternal",
+              headers={"Authorization": f"Bearer {token}"},
+              json={
+                  "files": [{"id": data1["file_id"]}],
+                  "channel_id": channel,
+                  "initial_comment": "📊 *QA Dashboard updated* — open the file in your browser."
+              }
+          )
+          data3 = r3.json()
+          print("completeUpload:", data3.get("ok"), data3.get("error", ""))
           EOF
 
