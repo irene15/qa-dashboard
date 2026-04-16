@@ -2,7 +2,11 @@ name: Weekly Trello Sync
 
 on:
   schedule:
-    - cron: "0 6 * * 5"   # Every Friday at 06:00 UTC (08:00 CEST)
+    - cron: "0 6 * * 5"      # Every Friday at 06:00 UTC (08:00 CEST)
+    - cron: "0 14 31 3 *"    # March 31 at 16:00 CEST (14:00 UTC)
+    - cron: "0 14 30 6 *"    # June 30 at 16:00 CEST (14:00 UTC)
+    - cron: "0 14 30 9 *"    # September 30 at 16:00 CEST (14:00 UTC)
+    - cron: "0 15 31 12 *"   # December 31 at 16:00 CET (15:00 UTC)
   workflow_dispatch:
 
 permissions:
@@ -40,6 +44,8 @@ jobs:
           git push
 
       - name: Take screenshot of dashboard
+        env:
+          QUARTER_SCREENSHOT: ${{ contains(github.event.schedule, '14 31 3') || contains(github.event.schedule, '14 30 6') || contains(github.event.schedule, '14 30 9') || contains(github.event.schedule, '15 31 12') }}
         run: python screenshot.py
 
       - name: Send screenshot to Slack
