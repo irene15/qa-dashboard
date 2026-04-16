@@ -2,7 +2,7 @@ name: Weekly Trello Sync
 
 on:
   schedule:
-    - cron: "0 16 * * 5"   # Every Friday at 16:00 UTC
+    - cron: "0 2 * * 5"   # Every Friday at 02:00 UTC (05:00 Kyiv)
   workflow_dispatch:
 
 permissions:
@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests playwright && python -m playwright install chromium --with-deps
 
       - name: Run sync script
         env:
@@ -39,7 +39,12 @@ jobs:
           git diff --cached --quiet || git commit -m "chore: weekly data sync $(date -u '+%Y-%m-%d')"
           git push
 
-      - name: Send summary to Slack
+      - name: Take screenshot of dashboard
+        run: python screenshot.py
+
+      - name: Send screenshot to Slack
         env:
+          SLACK_BOT_TOKEN:  ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: python slack_notify.py
