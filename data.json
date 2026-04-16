@@ -1,6 +1,6 @@
 {
   "last_updated": "Apr 16, 2026",
-  "is_first_run": true,
+  "is_first_run": false,
   "kpi": {
     "total_cards": 246,
     "returned_cards": 34,
@@ -410,7 +410,7 @@
   },
   "quarterly": {
     "label": "Q2 2026",
-    "is_new": true,
+    "is_new": false,
     "kpi": {
       "total_cards": 246,
       "returned_cards": 0,

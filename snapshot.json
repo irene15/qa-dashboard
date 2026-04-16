@@ -707,10 +707,6 @@
     "return_count": 1,
     "quality_gate": "yes"
   },
-  "69c69da1694578c4e72f6456": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
   "693fdb9a08680f1cfee8d292": {
     "return_count": 0,
     "quality_gate": "yes"
@@ -749,6 +745,10 @@
   },
   "69bb8c844aec03367b88957f": {
     "return_count": 1,
+    "quality_gate": "yes"
+  },
+  "69c69da1694578c4e72f6456": {
+    "return_count": 0,
     "quality_gate": "yes"
   },
   "60ad4a1e75358f026369e8e3": {
