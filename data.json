@@ -3,8 +3,8 @@
   "is_first_run": false,
   "kpi": {
     "total_cards": 230,
-    "returned_cards": 40,
-    "pct_returned": 17.4,
+    "returned_cards": 39,
+    "pct_returned": 17.0,
     "avg_return_count": 1.6,
     "failed_qg_count": 1
   },
@@ -274,17 +274,6 @@
       "card_url": "https://trello.com/c/5HLvP3Mj/3859-androidst-release-1613"
     },
     {
-      "card_id": "69de0151b4aad76766c77323",
-      "ticket_name": "[Landing page editor] Release Checklist",
-      "return_count": 1,
-      "current_status": "Development",
-      "assignee": "Iryna, vitalina.r, Diana Fomina, Michael Tai",
-      "created_date": "2026-04-23",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/SbEeWjml/4074-landing-page-editor-release-checklist"
-    },
-    {
       "card_id": "69d4cf7f5805882a15725ca2",
       "ticket_name": "[Android][Printer App] Release1.12.0",
       "return_count": 1,
@@ -465,23 +454,10 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 1,
-      "returned_cards": 0,
-      "pct_returned": 0.0,
-      "avg_return_count": 0,
-      "failed_qg_count": 0
-    },
-    "tickets": [],
-    "failed_qg": []
-  },
-  "quarterly": {
-    "label": "Q2 2026",
-    "is_new": false,
-    "kpi": {
-      "total_cards": 84,
-      "returned_cards": 7,
+      "total_cards": 60,
+      "returned_cards": 5,
       "pct_returned": 8.3,
-      "avg_return_count": 1.1,
+      "avg_return_count": 1.2,
       "failed_qg_count": 0
     },
     "tickets": [
@@ -498,16 +474,78 @@
         "new_returns": 2
       },
       {
-        "card_id": "69de0151b4aad76766c77323",
-        "ticket_name": "[Landing page editor] Release Checklist",
+        "card_id": "69a909a318f709a3a5c9a927",
+        "ticket_name": "[Enterprise portal] SGTIN work order and template creation",
         "return_count": 1,
         "current_status": "Development",
-        "assignee": "Iryna, vitalina.r, Diana Fomina, Michael Tai",
+        "assignee": "Yan, Arthur Souviron, Iryna, vitalina.r, Michael Tai",
         "created_date": "2026-04-23",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/SbEeWjml/4074-landing-page-editor-release-checklist",
+        "card_url": "https://trello.com/c/215m0CTw/4015-enterprise-portal-sgtin-work-order-and-template-creation",
         "new_returns": 1
+      },
+      {
+        "card_id": "69cb537886dedf7b5327a621",
+        "ticket_name": "[e-label portal] Paddle billing upgrade - Free trial and the first purchase",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/XZhucnet/4067-e-label-portal-paddle-billing-upgrade-free-trial-and-the-first-purchase",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69dfa3d249c7c75d250c466d",
+        "ticket_name": "[PA] Restrict landscape mode and add \"Rotate back\" popup",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "vitalina.r, Hemang Chawla, Iryna, Taras Tsavolyk",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/gRWzrg4k/4077-pa-restrict-landscape-mode-and-add-rotate-back-popup",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69e07ddea6dd96292d5986b4",
+        "ticket_name": "[e-label landing page] Standardise section spacing, alignment, and footer sizing",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Yan, Diana Fomina, Michael Tai, Iryna",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/OHtup4Ur/4090-e-label-landing-page-standardise-section-spacing-alignment-and-footer-sizing",
+        "new_returns": 1
+      }
+    ],
+    "failed_qg": []
+  },
+  "quarterly": {
+    "label": "Q2 2026",
+    "is_new": false,
+    "kpi": {
+      "total_cards": 84,
+      "returned_cards": 6,
+      "pct_returned": 7.1,
+      "avg_return_count": 1.2,
+      "failed_qg_count": 0
+    },
+    "tickets": [
+      {
+        "card_id": "69a6af701f9997bfe0bebf23",
+        "ticket_name": "[PA] Release Checklist - April",
+        "return_count": 2,
+        "current_status": "QA Review",
+        "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/bedYKo6d/4007-pa-release-checklist-april",
+        "new_returns": 2
       },
       {
         "card_id": "69a909a318f709a3a5c9a927",
