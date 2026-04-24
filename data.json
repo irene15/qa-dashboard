@@ -1,10 +1,10 @@
 {
-  "last_updated": "Apr 17, 2026",
+  "last_updated": "Apr 24, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 213,
-    "returned_cards": 34,
-    "pct_returned": 16.0,
+    "total_cards": 230,
+    "returned_cards": 40,
+    "pct_returned": 17.4,
     "avg_return_count": 1.6,
     "failed_qg_count": 1
   },
@@ -35,9 +35,9 @@
       "card_id": "6964a3bc8c7e0e821bc6bcc3",
       "ticket_name": "[Enterprise portal] single brand and product fields translation",
       "return_count": 3,
-      "current_status": "Ready for Release",
+      "current_status": "Delivered April 2026",
       "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
-      "created_date": "2026-04-10",
+      "created_date": "2026-04-17",
       "quality_gate": "no",
       "quality_gate_failed": true,
       "card_url": "https://trello.com/c/SzwdOk5v/3924-enterprise-portal-single-brand-and-product-fields-translation"
@@ -98,12 +98,23 @@
       "card_url": "https://trello.com/c/5XuzJ1aZ/4043-beenterprise-portal-update-permissions"
     },
     {
+      "card_id": "69a6af701f9997bfe0bebf23",
+      "ticket_name": "[PA] Release Checklist - April",
+      "return_count": 2,
+      "current_status": "QA Review",
+      "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
+      "created_date": "2026-04-23",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/bedYKo6d/4007-pa-release-checklist-april"
+    },
+    {
       "card_id": "698c85842eb98a9065652bc9",
       "ticket_name": "[ST][iOS] Unified UI for unsupported phones",
       "return_count": 2,
-      "current_status": "Development",
+      "current_status": "Done (only for QA team)",
       "assignee": "Rizwan, Iryna, vitalina.r, Hemang Chawla",
-      "created_date": "2026-04-16",
+      "created_date": "2026-04-20",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/WCq8IT2S/3990-stios-unified-ui-for-unsupported-phones"
@@ -112,9 +123,9 @@
       "card_id": "698aa164fdec244ee8e8e3f0",
       "ticket_name": "[ULBS01] CSV import issue - \"contains\" displays twice",
       "return_count": 2,
-      "current_status": "Done (only for QA team)",
+      "current_status": "Ready for Release",
       "assignee": "Yan, Dave Hao, Diana Fomina, Iryna",
-      "created_date": "2026-04-09",
+      "created_date": "2026-04-21",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/rMDCF0Fy/3983-ulbs01-csv-import-issue-contains-displays-twice"
@@ -123,9 +134,9 @@
       "card_id": "69a79957a746c15de2f7559b",
       "ticket_name": "[Enterprise portal] brand and product fields bulk translation by Excel upload",
       "return_count": 2,
-      "current_status": "Ready for Release",
+      "current_status": "Delivered April 2026",
       "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
-      "created_date": "2026-04-10",
+      "created_date": "2026-04-17",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/JLifCqJJ/4011-enterprise-portal-brand-and-product-fields-bulk-translation-by-excel-upload"
@@ -263,15 +274,15 @@
       "card_url": "https://trello.com/c/5HLvP3Mj/3859-androidst-release-1613"
     },
     {
-      "card_id": "69a988dc6abb550889f9809f",
-      "ticket_name": "[ST][iOS] Release v5.4.0",
+      "card_id": "69de0151b4aad76766c77323",
+      "ticket_name": "[Landing page editor] Release Checklist",
       "return_count": 1,
       "current_status": "Development",
-      "assignee": "Rizwan, vitalina.r, Iryna",
-      "created_date": "2026-03-20",
+      "assignee": "Iryna, vitalina.r, Diana Fomina, Michael Tai",
+      "created_date": "2026-04-23",
       "quality_gate": "yes",
       "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/PJ90aVcc/4016-stios-release-v540"
+      "card_url": "https://trello.com/c/SbEeWjml/4074-landing-page-editor-release-checklist"
     },
     {
       "card_id": "69d4cf7f5805882a15725ca2",
@@ -296,12 +307,67 @@
       "card_url": "https://trello.com/c/UG27f9S1/4062-androidprinter-app-support-pixel-phones"
     },
     {
+      "card_id": "69a909a318f709a3a5c9a927",
+      "ticket_name": "[Enterprise portal] SGTIN work order and template creation",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Yan, Arthur Souviron, Iryna, vitalina.r, Michael Tai",
+      "created_date": "2026-04-23",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/215m0CTw/4015-enterprise-portal-sgtin-work-order-and-template-creation"
+    },
+    {
+      "card_id": "69cb537886dedf7b5327a621",
+      "ticket_name": "[e-label portal] Paddle billing upgrade - Free trial and the first purchase",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
+      "created_date": "2026-04-23",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/XZhucnet/4067-e-label-portal-paddle-billing-upgrade-free-trial-and-the-first-purchase"
+    },
+    {
+      "card_id": "69a988dc6abb550889f9809f",
+      "ticket_name": "[ST][iOS] Release v5.4.0",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Rizwan, vitalina.r, Iryna",
+      "created_date": "2026-04-23",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/PJ90aVcc/4016-stios-release-v540"
+    },
+    {
+      "card_id": "69dfa3d249c7c75d250c466d",
+      "ticket_name": "[PA] Restrict landscape mode and add \"Rotate back\" popup",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "vitalina.r, Hemang Chawla, Iryna, Taras Tsavolyk",
+      "created_date": "2026-04-23",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/gRWzrg4k/4077-pa-restrict-landscape-mode-and-add-rotate-back-popup"
+    },
+    {
+      "card_id": "69e07ddea6dd96292d5986b4",
+      "ticket_name": "[e-label landing page] Standardise section spacing, alignment, and footer sizing",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Yan, Diana Fomina, Michael Tai, Iryna",
+      "created_date": "2026-04-23",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/OHtup4Ur/4090-e-label-landing-page-standardise-section-spacing-alignment-and-footer-sizing"
+    },
+    {
       "card_id": "69a19500d55fd54ffef9594f",
       "ticket_name": "[PA] UI: \"Take photo\" button sometimes displayed in wrong position",
       "return_count": 1,
-      "current_status": "QA Review",
+      "current_status": "Done (only for QA team)",
       "assignee": "vitalina.r, Taras Tsavolyk, Iryna, Hemang Chawla",
-      "created_date": "2026-04-14",
+      "created_date": "2026-04-22",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/G1iDHnpR/4010-pa-ui-take-photo-button-sometimes-displayed-in-wrong-position"
@@ -318,28 +384,6 @@
       "card_url": "https://trello.com/c/UDSZad5X/4065-e-label-saas-portal-have-brands-appear-in-alphbetical-order-in-the-side-menu"
     },
     {
-      "card_id": "69c387e980ea708d855298a7",
-      "ticket_name": "[PORTAL] Add calibration session ID to the calibration session",
-      "return_count": 1,
-      "current_status": "Ready for Release",
-      "assignee": "Arthur Souviron, Iryna, vitalina.r",
-      "created_date": "2026-04-01",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/0ZQ2r8hS/4049-portal-add-calibration-session-id-to-the-calibration-session"
-    },
-    {
-      "card_id": "69a7fd3426512782c12ede00",
-      "ticket_name": "[Enterprise portal] Search code in organization",
-      "return_count": 1,
-      "current_status": "Ready for Release",
-      "assignee": "Yan, Iryna, vitalina.r, Michael Tai",
-      "created_date": "2026-04-01",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/1ufFj1lz/4012-enterprise-portal-search-code-in-organization"
-    },
-    {
       "card_id": "693fa71ea9ef5e316fc0a3c0",
       "ticket_name": "[ULBS02] CSV template update",
       "return_count": 1,
@@ -349,6 +393,28 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/ZuGHFE73/3890-ulbs02-csv-template-update"
+    },
+    {
+      "card_id": "69a7fd3426512782c12ede00",
+      "ticket_name": "[Enterprise portal] Search code in organization",
+      "return_count": 1,
+      "current_status": "Delivered April 2026",
+      "assignee": "Yan, Iryna, vitalina.r, Michael Tai",
+      "created_date": "2026-04-17",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/1ufFj1lz/4012-enterprise-portal-search-code-in-organization"
+    },
+    {
+      "card_id": "69c387e980ea708d855298a7",
+      "ticket_name": "[PORTAL] Add calibration session ID to the calibration session",
+      "return_count": 1,
+      "current_status": "Delivered April 2026",
+      "assignee": "Arthur Souviron, Iryna, vitalina.r",
+      "created_date": "2026-04-17",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/0ZQ2r8hS/4049-portal-add-calibration-session-id-to-the-calibration-session"
     },
     {
       "card_id": "6964db4fc5bf5adb423c5655",
@@ -389,9 +455,9 @@
       "card_id": "6964a3bc8c7e0e821bc6bcc3",
       "ticket_name": "[Enterprise portal] single brand and product fields translation",
       "return_count": 3,
-      "current_status": "Ready for Release",
+      "current_status": "Delivered April 2026",
       "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
-      "created_date": "2026-04-10",
+      "created_date": "2026-04-17",
       "quality_gate": "no",
       "quality_gate_failed": true,
       "card_url": "https://trello.com/c/SzwdOk5v/3924-enterprise-portal-single-brand-and-product-fields-translation"
@@ -399,35 +465,83 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 9,
-      "returned_cards": 2,
-      "pct_returned": 22.2,
-      "avg_return_count": 1.0,
+      "total_cards": 1,
+      "returned_cards": 6,
+      "pct_returned": 600.0,
+      "avg_return_count": 1.2,
       "failed_qg_count": 0
     },
     "tickets": [
       {
-        "card_id": "698c85842eb98a9065652bc9",
-        "ticket_name": "[ST][iOS] Unified UI for unsupported phones",
+        "card_id": "69a6af701f9997bfe0bebf23",
+        "ticket_name": "[PA] Release Checklist - April",
         "return_count": 2,
-        "current_status": "Development",
-        "assignee": "Rizwan, Iryna, vitalina.r, Hemang Chawla",
-        "created_date": "2026-04-16",
+        "current_status": "QA Review",
+        "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
+        "created_date": "2026-04-23",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/WCq8IT2S/3990-stios-unified-ui-for-unsupported-phones",
+        "card_url": "https://trello.com/c/bedYKo6d/4007-pa-release-checklist-april",
+        "new_returns": 2
+      },
+      {
+        "card_id": "69de0151b4aad76766c77323",
+        "ticket_name": "[Landing page editor] Release Checklist",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Iryna, vitalina.r, Diana Fomina, Michael Tai",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/SbEeWjml/4074-landing-page-editor-release-checklist",
         "new_returns": 1
       },
       {
-        "card_id": "69a19500d55fd54ffef9594f",
-        "ticket_name": "[PA] UI: \"Take photo\" button sometimes displayed in wrong position",
+        "card_id": "69a909a318f709a3a5c9a927",
+        "ticket_name": "[Enterprise portal] SGTIN work order and template creation",
         "return_count": 1,
-        "current_status": "QA Review",
-        "assignee": "vitalina.r, Taras Tsavolyk, Iryna, Hemang Chawla",
-        "created_date": "2026-04-14",
+        "current_status": "Development",
+        "assignee": "Yan, Arthur Souviron, Iryna, vitalina.r, Michael Tai",
+        "created_date": "2026-04-23",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/G1iDHnpR/4010-pa-ui-take-photo-button-sometimes-displayed-in-wrong-position",
+        "card_url": "https://trello.com/c/215m0CTw/4015-enterprise-portal-sgtin-work-order-and-template-creation",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69cb537886dedf7b5327a621",
+        "ticket_name": "[e-label portal] Paddle billing upgrade - Free trial and the first purchase",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/XZhucnet/4067-e-label-portal-paddle-billing-upgrade-free-trial-and-the-first-purchase",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69dfa3d249c7c75d250c466d",
+        "ticket_name": "[PA] Restrict landscape mode and add \"Rotate back\" popup",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "vitalina.r, Hemang Chawla, Iryna, Taras Tsavolyk",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/gRWzrg4k/4077-pa-restrict-landscape-mode-and-add-rotate-back-popup",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69e07ddea6dd96292d5986b4",
+        "ticket_name": "[e-label landing page] Standardise section spacing, alignment, and footer sizing",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Yan, Diana Fomina, Michael Tai, Iryna",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/OHtup4Ur/4090-e-label-landing-page-standardise-section-spacing-alignment-and-footer-sizing",
         "new_returns": 1
       }
     ],
@@ -437,20 +551,92 @@
     "label": "Q2 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 59,
-      "returned_cards": 1,
-      "pct_returned": 1.7,
-      "avg_return_count": 1.0,
+      "total_cards": 84,
+      "returned_cards": 7,
+      "pct_returned": 8.3,
+      "avg_return_count": 1.1,
       "failed_qg_count": 0
     },
     "tickets": [
       {
+        "card_id": "69a6af701f9997bfe0bebf23",
+        "ticket_name": "[PA] Release Checklist - April",
+        "return_count": 2,
+        "current_status": "QA Review",
+        "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/bedYKo6d/4007-pa-release-checklist-april",
+        "new_returns": 2
+      },
+      {
+        "card_id": "69de0151b4aad76766c77323",
+        "ticket_name": "[Landing page editor] Release Checklist",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Iryna, vitalina.r, Diana Fomina, Michael Tai",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/SbEeWjml/4074-landing-page-editor-release-checklist",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69a909a318f709a3a5c9a927",
+        "ticket_name": "[Enterprise portal] SGTIN work order and template creation",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Yan, Arthur Souviron, Iryna, vitalina.r, Michael Tai",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/215m0CTw/4015-enterprise-portal-sgtin-work-order-and-template-creation",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69cb537886dedf7b5327a621",
+        "ticket_name": "[e-label portal] Paddle billing upgrade - Free trial and the first purchase",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/XZhucnet/4067-e-label-portal-paddle-billing-upgrade-free-trial-and-the-first-purchase",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69dfa3d249c7c75d250c466d",
+        "ticket_name": "[PA] Restrict landscape mode and add \"Rotate back\" popup",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "vitalina.r, Hemang Chawla, Iryna, Taras Tsavolyk",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/gRWzrg4k/4077-pa-restrict-landscape-mode-and-add-rotate-back-popup",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69e07ddea6dd96292d5986b4",
+        "ticket_name": "[e-label landing page] Standardise section spacing, alignment, and footer sizing",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Yan, Diana Fomina, Michael Tai, Iryna",
+        "created_date": "2026-04-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/OHtup4Ur/4090-e-label-landing-page-standardise-section-spacing-alignment-and-footer-sizing",
+        "new_returns": 1
+      },
+      {
         "card_id": "698c85842eb98a9065652bc9",
         "ticket_name": "[ST][iOS] Unified UI for unsupported phones",
         "return_count": 2,
-        "current_status": "Development",
+        "current_status": "Done (only for QA team)",
         "assignee": "Rizwan, Iryna, vitalina.r, Hemang Chawla",
-        "created_date": "2026-04-16",
+        "created_date": "2026-04-20",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/WCq8IT2S/3990-stios-unified-ui-for-unsupported-phones",
