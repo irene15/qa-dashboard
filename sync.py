@@ -206,10 +206,13 @@ def main():
     else:
         quarter_tickets, quarter_failed_qg = calc_diff(all_tickets, snap_quarter)
 
-    # Week starts on Friday
+    # Week runs from previous Friday to current Friday
     from datetime import timedelta
     days_since_friday = (now.weekday() - 4) % 7
-    week_start    = (now - timedelta(days=days_since_friday)).replace(hour=0, minute=0, second=0, microsecond=0, tzinfo=timezone.utc)
+    if days_since_friday == 0:
+        # Today is Friday — week starts last Friday (7 days ago)
+        days_since_friday = 7
+    week_start = (now - timedelta(days=days_since_friday)).replace(hour=0, minute=0, second=0, microsecond=0, tzinfo=timezone.utc)
     quarter       = get_current_quarter(now)
     quarter_month = (quarter - 1) * 3 + 1
     quarter_start = now.replace(month=quarter_month, day=1, hour=0, minute=0, second=0, microsecond=0, tzinfo=timezone.utc)
@@ -237,6 +240,10 @@ def main():
 
     active_this_week    = count_active(week_start)
     active_this_quarter = count_active(quarter_start)
+    print(f"  week_start: {week_start}")
+    print(f"  quarter_start: {quarter_start}")
+    print(f"  active_this_week: {active_this_week}")
+    print(f"  active_this_quarter: {active_this_quarter}")
 
     total_cards = len(cards)
 
