@@ -209,10 +209,10 @@ def main():
     # Week starts on Friday
     from datetime import timedelta
     days_since_friday = (now.weekday() - 4) % 7
-    week_start    = (now - timedelta(days=days_since_friday)).replace(hour=0, minute=0, second=0, microsecond=0)
+    week_start    = (now - timedelta(days=days_since_friday)).replace(hour=0, minute=0, second=0, microsecond=0, tzinfo=timezone.utc)
     quarter       = get_current_quarter(now)
     quarter_month = (quarter - 1) * 3 + 1
-    quarter_start = now.replace(month=quarter_month, day=1, hour=0, minute=0, second=0, microsecond=0)
+    quarter_start = now.replace(month=quarter_month, day=1, hour=0, minute=0, second=0, microsecond=0, tzinfo=timezone.utc)
 
     # Count active cards per period based on dateLastActivity
     def is_active_since(ticket, since_dt):
@@ -221,9 +221,6 @@ def main():
         except Exception:
             return False
         return activity >= since_dt
-
-    # Use raw dateLastActivity from cards for accurate comparison
-    card_activity = {c["id"]: c.get("dateLastActivity", "") for c in cards}
 
     def count_active(since_dt):
         count = 0
