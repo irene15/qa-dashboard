@@ -1,10 +1,10 @@
 {
-  "last_updated": "May 01, 2026",
+  "last_updated": "May 08, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 240,
-    "returned_cards": 42,
-    "pct_returned": 17.5,
+    "total_cards": 244,
+    "returned_cards": 44,
+    "pct_returned": 18.0,
     "avg_return_count": 1.6,
     "failed_qg_count": 1
   },
@@ -120,12 +120,23 @@
       "card_url": "https://trello.com/c/215m0CTw/4015-enterprise-portal-sgtin-work-order-and-template-creation"
     },
     {
+      "card_id": "69cb537886dedf7b5327a621",
+      "ticket_name": "[e-label portal] Paddle billing upgrade - Free trial and the first purchase",
+      "return_count": 2,
+      "current_status": "Development",
+      "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
+      "created_date": "2026-05-04",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/XZhucnet/4067-e-label-portal-paddle-billing-upgrade-free-trial-and-the-first-purchase"
+    },
+    {
       "card_id": "69a988dc6abb550889f9809f",
       "ticket_name": "[ST][iOS] Release v5.4.0",
       "return_count": 2,
       "current_status": "QA Review",
       "assignee": "Rizwan, vitalina.r, Iryna",
-      "created_date": "2026-04-30",
+      "created_date": "2026-05-07",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/PJ90aVcc/4016-stios-release-v540"
@@ -296,17 +307,6 @@
       "card_url": "https://trello.com/c/5HLvP3Mj/3859-androidst-release-1613"
     },
     {
-      "card_id": "69d4cf7f5805882a15725ca2",
-      "ticket_name": "[Android][Printer App] Release1.12.0",
-      "return_count": 1,
-      "current_status": "Development",
-      "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla, Michael Bolay",
-      "created_date": "2026-04-27",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/63GMKhPb/4061-androidprinter-app-release1120"
-    },
-    {
       "card_id": "69d4cfd7c56df00f20743a82",
       "ticket_name": "[Android][Printer App] Support Pixel Phones",
       "return_count": 1,
@@ -323,10 +323,43 @@
       "return_count": 1,
       "current_status": "Development",
       "assignee": "Yan, Iryna, jelle.sturm, Julie, Diana Fomina",
-      "created_date": "2026-04-30",
+      "created_date": "2026-05-07",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/RvJLjQ5X/4088-be-ulbs-email-content-update"
+    },
+    {
+      "card_id": "68e63cb3281777c643c10f7b",
+      "ticket_name": "[Image gallery] Archived image is re-archived together with the active image in Gallery",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Yan, Diana Fomina",
+      "created_date": "2026-05-07",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/ZrMJ3Tvy/4059-image-gallery-archived-image-is-re-archived-together-with-the-active-image-in-gallery"
+    },
+    {
+      "card_id": "6964c74688a71f1b7e8f42c9",
+      "ticket_name": "[Scantrust Pro] Portal language is not preserved after registration and login",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Diana Fomina",
+      "created_date": "2026-05-07",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/y4ZRdxj8/4105-scantrust-pro-portal-language-is-not-preserved-after-registration-and-login"
+    },
+    {
+      "card_id": "69d4cf7f5805882a15725ca2",
+      "ticket_name": "[Android][Printer App] Release 1.12.0",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla, Michael Bolay",
+      "created_date": "2026-05-06",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/63GMKhPb/4061-androidprinter-app-release-1120"
     },
     {
       "card_id": "69dc832354aea31c2abff319",
@@ -338,17 +371,6 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/0cA7AoaP/4087-e-label-portal-profile-page-update-and-the-cancellation-flow"
-    },
-    {
-      "card_id": "69cb537886dedf7b5327a621",
-      "ticket_name": "[e-label portal] Paddle billing upgrade - Free trial and the first purchase",
-      "return_count": 1,
-      "current_status": "QA Review",
-      "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
-      "created_date": "2026-04-29",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/XZhucnet/4067-e-label-portal-paddle-billing-upgrade-free-trial-and-the-first-purchase"
     },
     {
       "card_id": "69dc706b700d415cc31ea3e0",
@@ -454,8 +476,8 @@
       "ticket_name": "[STC editor] UI changes",
       "return_count": 1,
       "current_status": "Delivered January 2026",
-      "assignee": "Iryna, Arthur Souviron, Roksolyana",
-      "created_date": "2026-01-08",
+      "assignee": "Iryna, Arthur Souviron",
+      "created_date": "2026-05-04",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/B7vThX5z/3874-stc-editor-ui-changes"
@@ -487,83 +509,47 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 55,
-      "returned_cards": 6,
-      "pct_returned": 10.9,
+      "total_cards": 39,
+      "returned_cards": 3,
+      "pct_returned": 7.7,
       "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
     "tickets": [
       {
-        "card_id": "69cf6c582f7bab0cce2bf285",
-        "ticket_name": "[BE] ULBS email content update",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Yan, Iryna, jelle.sturm, Julie, Diana Fomina",
-        "created_date": "2026-04-30",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/RvJLjQ5X/4088-be-ulbs-email-content-update",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69a909a318f709a3a5c9a927",
-        "ticket_name": "[Enterprise portal] SGTIN work order and template creation",
+        "card_id": "69cb537886dedf7b5327a621",
+        "ticket_name": "[e-label portal] Paddle billing upgrade - Free trial and the first purchase",
         "return_count": 2,
         "current_status": "Development",
-        "assignee": "Yan, Arthur Souviron, Iryna, vitalina.r, Michael Tai",
-        "created_date": "2026-04-30",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/215m0CTw/4015-enterprise-portal-sgtin-work-order-and-template-creation",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69a988dc6abb550889f9809f",
-        "ticket_name": "[ST][iOS] Release v5.4.0",
-        "return_count": 2,
-        "current_status": "QA Review",
-        "assignee": "Rizwan, vitalina.r, Iryna",
-        "created_date": "2026-04-30",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/PJ90aVcc/4016-stios-release-v540",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69dc832354aea31c2abff319",
-        "ticket_name": "[e-label portal] Profile page update and the cancellation flow",
-        "return_count": 1,
-        "current_status": "QA Review",
-        "assignee": "Yan, Diana Fomina, Iryna, Arthur Souviron",
-        "created_date": "2026-04-29",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/0cA7AoaP/4087-e-label-portal-profile-page-update-and-the-cancellation-flow",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69dc706b700d415cc31ea3e0",
-        "ticket_name": "[e-label portal] Paddle billing upgrade, downgrade flow",
-        "return_count": 1,
-        "current_status": "QA Review",
         "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
-        "created_date": "2026-04-29",
+        "created_date": "2026-05-04",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/wvFHl6LH/4068-e-label-portal-paddle-billing-upgrade-downgrade-flow",
+        "card_url": "https://trello.com/c/XZhucnet/4067-e-label-portal-paddle-billing-upgrade-free-trial-and-the-first-purchase",
         "new_returns": 1
       },
       {
-        "card_id": "69a6af701f9997bfe0bebf23",
-        "ticket_name": "[PA] Release Checklist - April",
-        "return_count": 3,
-        "current_status": "Delivered April 2026",
-        "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
-        "created_date": "2026-04-30",
+        "card_id": "68e63cb3281777c643c10f7b",
+        "ticket_name": "[Image gallery] Archived image is re-archived together with the active image in Gallery",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Yan, Diana Fomina",
+        "created_date": "2026-05-07",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/bedYKo6d/4007-pa-release-checklist-april",
+        "card_url": "https://trello.com/c/ZrMJ3Tvy/4059-image-gallery-archived-image-is-re-archived-together-with-the-active-image-in-gallery",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6964c74688a71f1b7e8f42c9",
+        "ticket_name": "[Scantrust Pro] Portal language is not preserved after registration and login",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Diana Fomina",
+        "created_date": "2026-05-07",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/y4ZRdxj8/4105-scantrust-pro-portal-language-is-not-preserved-after-registration-and-login",
         "new_returns": 1
       }
     ],
@@ -573,9 +559,9 @@
     "label": "Q2 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 96,
-      "returned_cards": 10,
-      "pct_returned": 10.4,
+      "total_cards": 113,
+      "returned_cards": 12,
+      "pct_returned": 10.6,
       "avg_return_count": 1.3,
       "failed_qg_count": 0
     },
@@ -605,27 +591,51 @@
         "new_returns": 2
       },
       {
+        "card_id": "69cb537886dedf7b5327a621",
+        "ticket_name": "[e-label portal] Paddle billing upgrade - Free trial and the first purchase",
+        "return_count": 2,
+        "current_status": "Development",
+        "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
+        "created_date": "2026-05-04",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/XZhucnet/4067-e-label-portal-paddle-billing-upgrade-free-trial-and-the-first-purchase",
+        "new_returns": 2
+      },
+      {
         "card_id": "69cf6c582f7bab0cce2bf285",
         "ticket_name": "[BE] ULBS email content update",
         "return_count": 1,
         "current_status": "Development",
         "assignee": "Yan, Iryna, jelle.sturm, Julie, Diana Fomina",
-        "created_date": "2026-04-30",
+        "created_date": "2026-05-07",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/RvJLjQ5X/4088-be-ulbs-email-content-update",
         "new_returns": 1
       },
       {
-        "card_id": "69a988dc6abb550889f9809f",
-        "ticket_name": "[ST][iOS] Release v5.4.0",
-        "return_count": 2,
-        "current_status": "QA Review",
-        "assignee": "Rizwan, vitalina.r, Iryna",
-        "created_date": "2026-04-30",
+        "card_id": "68e63cb3281777c643c10f7b",
+        "ticket_name": "[Image gallery] Archived image is re-archived together with the active image in Gallery",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Yan, Diana Fomina",
+        "created_date": "2026-05-07",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/PJ90aVcc/4016-stios-release-v540",
+        "card_url": "https://trello.com/c/ZrMJ3Tvy/4059-image-gallery-archived-image-is-re-archived-together-with-the-active-image-in-gallery",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6964c74688a71f1b7e8f42c9",
+        "ticket_name": "[Scantrust Pro] Portal language is not preserved after registration and login",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Diana Fomina",
+        "created_date": "2026-05-07",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/y4ZRdxj8/4105-scantrust-pro-portal-language-is-not-preserved-after-registration-and-login",
         "new_returns": 1
       },
       {
@@ -641,18 +651,6 @@
         "new_returns": 1
       },
       {
-        "card_id": "69cb537886dedf7b5327a621",
-        "ticket_name": "[e-label portal] Paddle billing upgrade - Free trial and the first purchase",
-        "return_count": 1,
-        "current_status": "QA Review",
-        "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
-        "created_date": "2026-04-29",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/XZhucnet/4067-e-label-portal-paddle-billing-upgrade-free-trial-and-the-first-purchase",
-        "new_returns": 1
-      },
-      {
         "card_id": "69dc706b700d415cc31ea3e0",
         "ticket_name": "[e-label portal] Paddle billing upgrade, downgrade flow",
         "return_count": 1,
@@ -662,6 +660,18 @@
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/wvFHl6LH/4068-e-label-portal-paddle-billing-upgrade-downgrade-flow",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69a988dc6abb550889f9809f",
+        "ticket_name": "[ST][iOS] Release v5.4.0",
+        "return_count": 2,
+        "current_status": "QA Review",
+        "assignee": "Rizwan, vitalina.r, Iryna",
+        "created_date": "2026-05-07",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/PJ90aVcc/4016-stios-release-v540",
         "new_returns": 1
       },
       {
