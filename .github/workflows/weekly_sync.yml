@@ -48,9 +48,8 @@ jobs:
           name: dashboard-screenshot
           path: dashboard.png
 
-      # Uncomment when ready to send to Slack
-      # - name: Send screenshot to Slack
-      #   env:
-      #     SLACK_BOT_TOKEN:  ${{ secrets.SLACK_BOT_TOKEN }}
-      #     SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
-      #   run: python slack_notify.py
+       - name: Send screenshot to Slack
+         env:
+           SLACK_BOT_TOKEN:  ${{ secrets.SLACK_BOT_TOKEN }}
+           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
+         run: python slack_notify.py
