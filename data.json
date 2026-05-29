@@ -1,11 +1,11 @@
 {
-  "last_updated": "May 22, 2026",
+  "last_updated": "May 29, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 258,
-    "returned_cards": 52,
-    "pct_returned": 20.2,
-    "avg_return_count": 1.6,
+    "total_cards": 267,
+    "returned_cards": 55,
+    "pct_returned": 20.6,
+    "avg_return_count": 1.5,
     "failed_qg_count": 1
   },
   "tickets": [
@@ -113,8 +113,8 @@
       "ticket_name": "[BE][Enterprise portal] Update permissions",
       "return_count": 2,
       "current_status": "Development",
-      "assignee": "Iryna, vitalina.r, Arthur Souviron",
-      "created_date": "2026-04-07",
+      "assignee": "Iryna, vitalina.r, Arthur Souviron, Diana Fomina",
+      "created_date": "2026-05-26",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/5XuzJ1aZ/4043-beenterprise-portal-update-permissions"
@@ -129,17 +129,6 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/XZhucnet/4067-e-label-portal-paddle-billing-upgrade-free-trial-and-the-first-purchase"
-    },
-    {
-      "card_id": "6964c74688a71f1b7e8f42c9",
-      "ticket_name": "[Scantrust Pro] Portal language is not preserved after registration and login",
-      "return_count": 2,
-      "current_status": "Development",
-      "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Diana Fomina, Ivanna Kavetska",
-      "created_date": "2026-05-12",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/y4ZRdxj8/4105-scantrust-pro-portal-language-is-not-preserved-after-registration-and-login"
     },
     {
       "card_id": "69dc706b700d415cc31ea3e0",
@@ -164,28 +153,6 @@
       "card_url": "https://trello.com/c/215m0CTw/4015-enterprise-portal-sgtin-work-order-and-template-creation"
     },
     {
-      "card_id": "69a988dc6abb550889f9809f",
-      "ticket_name": "[ST][iOS] Release v5.4.0",
-      "return_count": 2,
-      "current_status": "Ready for Release",
-      "assignee": "Rizwan, vitalina.r, Iryna",
-      "created_date": "2026-05-14",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/PJ90aVcc/4016-stios-release-v540"
-    },
-    {
-      "card_id": "698c85842eb98a9065652bc9",
-      "ticket_name": "[ST][iOS] Unified UI for unsupported phones",
-      "return_count": 2,
-      "current_status": "Ready for Release",
-      "assignee": "Rizwan, Iryna, vitalina.r, Hemang Chawla",
-      "created_date": "2026-05-11",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/WCq8IT2S/3990-stios-unified-ui-for-unsupported-phones"
-    },
-    {
       "card_id": "698aa164fdec244ee8e8e3f0",
       "ticket_name": "[ULBS01] CSV import issue - \"contains\" displays twice",
       "return_count": 2,
@@ -195,6 +162,28 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/rMDCF0Fy/3983-ulbs01-csv-import-issue-contains-displays-twice"
+    },
+    {
+      "card_id": "69a988dc6abb550889f9809f",
+      "ticket_name": "[ST][iOS] Release v5.4.0",
+      "return_count": 2,
+      "current_status": "Delivered May 2026",
+      "assignee": "Rizwan, vitalina.r, Iryna",
+      "created_date": "2026-05-22",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/PJ90aVcc/4016-stios-release-v540"
+    },
+    {
+      "card_id": "698c85842eb98a9065652bc9",
+      "ticket_name": "[ST][iOS] Unified UI for unsupported phones",
+      "return_count": 2,
+      "current_status": "Delivered May 2026",
+      "assignee": "Rizwan, Iryna, vitalina.r, Hemang Chawla",
+      "created_date": "2026-05-22",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/WCq8IT2S/3990-stios-unified-ui-for-unsupported-phones"
     },
     {
       "card_id": "69d4cf7f5805882a15725ca2",
@@ -217,6 +206,28 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/JLifCqJJ/4011-enterprise-portal-brand-and-product-fields-bulk-translation-by-excel-upload"
+    },
+    {
+      "card_id": "69b9652e2734cc1a4856a9c4",
+      "ticket_name": "[VA] Update Phone Selection and How to Scan",
+      "return_count": 1,
+      "current_status": "Code Review",
+      "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
+      "created_date": "2026-05-27",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan"
+    },
+    {
+      "card_id": "69e5ef2bdc5b23e66d1f9876",
+      "ticket_name": "[ST Pro] Remove pay gate",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska",
+      "created_date": "2026-05-27",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/9OI368V4/4082-st-pro-remove-pay-gate"
     },
     {
       "card_id": "6973435dd02257634c4112f6",
@@ -362,17 +373,6 @@
       "card_url": "https://trello.com/c/RvJLjQ5X/4088-be-ulbs-email-content-update"
     },
     {
-      "card_id": "69b9652e2734cc1a4856a9c4",
-      "ticket_name": "[VA] Update Phone Selection and How to Scan",
-      "return_count": 1,
-      "current_status": "Development",
-      "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-      "created_date": "2026-05-21",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan"
-    },
-    {
       "card_id": "69e5fdacbcf8ab1af532419f",
       "ticket_name": "[e-label] Paddle billing migration",
       "return_count": 1,
@@ -395,17 +395,6 @@
       "card_url": "https://trello.com/c/AXDVgbmP/4055-qr-manager-on-demand-code-creation"
     },
     {
-      "card_id": "69e8db97d51d2237e065399f",
-      "ticket_name": "[VA] Fix issue with restrict landscape mode and add \"Rotate back\" popup",
-      "return_count": 1,
-      "current_status": "Development",
-      "assignee": "Taras Tsavolyk, Hemang Chawla, vitalina.r, Iryna",
-      "created_date": "2026-05-21",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup"
-    },
-    {
       "card_id": "69e9c1bcbb472cf0cfde9fb7",
       "ticket_name": "[ST pro] Improve Paddle checkout page",
       "return_count": 1,
@@ -415,6 +404,39 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/Jbe26z6I/4094-st-pro-improve-paddle-checkout-page"
+    },
+    {
+      "card_id": "69eb407de9b037af0ad958f6",
+      "ticket_name": "[STC editor] Editor updates + AI assistent",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Iryna, Ivanna Kavetska, vitalina.r, Arthur Souviron",
+      "created_date": "2026-05-26",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/58uK1Cvv/4100-stc-editor-editor-updates-ai-assistent"
+    },
+    {
+      "card_id": "68a6fecbb4cc45071c27c562",
+      "ticket_name": "[Code ingestion][UX] Unclear explanation message is displayed for GS1 codes template",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "vitalina.r, Iryna, Khalid Lamptey, Arthur Souviron",
+      "created_date": "2026-05-29",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/j6sB1viX/4135-code-ingestionux-unclear-explanation-message-is-displayed-for-gs1-codes-template"
+    },
+    {
+      "card_id": "69e8db97d51d2237e065399f",
+      "ticket_name": "[VA] Fix issue with restrict landscape mode and add \"Rotate back\" popup",
+      "return_count": 1,
+      "current_status": "Code Review",
+      "assignee": "Taras Tsavolyk, Hemang Chawla, vitalina.r, Iryna",
+      "created_date": "2026-05-26",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup"
     },
     {
       "card_id": "69dc832354aea31c2abff319",
@@ -439,17 +461,6 @@
       "card_url": "https://trello.com/c/qXvqdjoR/4029-va-flashlight-does-not-turn-off-during-code-analysis"
     },
     {
-      "card_id": "68e63cb3281777c643c10f7b",
-      "ticket_name": "[Image gallery] Archived image is re-archived together with the active image in Gallery",
-      "return_count": 1,
-      "current_status": "Done (only for QA team)",
-      "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Yan, Diana Fomina",
-      "created_date": "2026-05-20",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/ZrMJ3Tvy/4059-image-gallery-archived-image-is-re-archived-together-with-the-active-image-in-gallery"
-    },
-    {
       "card_id": "69e8c0dd599504dc90c3bc71",
       "ticket_name": "[VA] Missing logo and language switcher icon on camera permission page",
       "return_count": 1,
@@ -459,6 +470,28 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/vvrxWLCC/4092-va-missing-logo-and-language-switcher-icon-on-camera-permission-page"
+    },
+    {
+      "card_id": "68e63cb3281777c643c10f7b",
+      "ticket_name": "[Image gallery] Archived image is re-archived together with the active image in Gallery",
+      "return_count": 1,
+      "current_status": "Ready for Release",
+      "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Yan, Diana Fomina",
+      "created_date": "2026-05-22",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/ZrMJ3Tvy/4059-image-gallery-archived-image-is-re-archived-together-with-the-active-image-in-gallery"
+    },
+    {
+      "card_id": "6964c74688a71f1b7e8f42c9",
+      "ticket_name": "[Scantrust Pro] Portal language is not preserved after registration and login",
+      "return_count": 1,
+      "current_status": "Ready for Release",
+      "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Diana Fomina, Ivanna Kavetska",
+      "created_date": "2026-05-25",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/y4ZRdxj8/4105-scantrust-pro-portal-language-is-not-preserved-after-registration-and-login"
     },
     {
       "card_id": "69e07ddea6dd96292d5986b4",
@@ -597,59 +630,47 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 42,
-      "returned_cards": 4,
-      "pct_returned": 9.5,
+      "total_cards": 38,
+      "returned_cards": 3,
+      "pct_returned": 7.9,
       "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
     "tickets": [
       {
-        "card_id": "69a6af7c74bd42c933454262",
-        "ticket_name": "[VA] Release Checklist - May",
-        "return_count": 2,
-        "current_status": "Development",
-        "assignee": "Hemang Chawla, vitalina.r, Taras Tsavolyk, Iryna",
-        "created_date": "2026-05-20",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/CoZPB9eU/4008-va-release-checklist-may",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69b9652e2734cc1a4856a9c4",
-        "ticket_name": "[VA] Update Phone Selection and How to Scan",
+        "card_id": "69e5ef2bdc5b23e66d1f9876",
+        "ticket_name": "[ST Pro] Remove pay gate",
         "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-        "created_date": "2026-05-21",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69e8db97d51d2237e065399f",
-        "ticket_name": "[VA] Fix issue with restrict landscape mode and add \"Rotate back\" popup",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Taras Tsavolyk, Hemang Chawla, vitalina.r, Iryna",
-        "created_date": "2026-05-21",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69e9c1bcbb472cf0cfde9fb7",
-        "ticket_name": "[ST pro] Improve Paddle checkout page",
-        "return_count": 1,
-        "current_status": "Development",
+        "current_status": "QA Review",
         "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska",
-        "created_date": "2026-05-22",
+        "created_date": "2026-05-27",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/Jbe26z6I/4094-st-pro-improve-paddle-checkout-page",
+        "card_url": "https://trello.com/c/9OI368V4/4082-st-pro-remove-pay-gate",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69eb407de9b037af0ad958f6",
+        "ticket_name": "[STC editor] Editor updates + AI assistent",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Iryna, Ivanna Kavetska, vitalina.r, Arthur Souviron",
+        "created_date": "2026-05-26",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/58uK1Cvv/4100-stc-editor-editor-updates-ai-assistent",
+        "new_returns": 1
+      },
+      {
+        "card_id": "68a6fecbb4cc45071c27c562",
+        "ticket_name": "[Code ingestion][UX] Unclear explanation message is displayed for GS1 codes template",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "vitalina.r, Iryna, Khalid Lamptey, Arthur Souviron",
+        "created_date": "2026-05-29",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/j6sB1viX/4135-code-ingestionux-unclear-explanation-message-is-displayed-for-gs1-codes-template",
         "new_returns": 1
       }
     ],
@@ -659,10 +680,10 @@
     "label": "Q2 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 127,
-      "returned_cards": 21,
-      "pct_returned": 16.5,
-      "avg_return_count": 1.3,
+      "total_cards": 136,
+      "returned_cards": 24,
+      "pct_returned": 17.6,
+      "avg_return_count": 1.2,
       "failed_qg_count": 0
     },
     "tickets": [
@@ -703,18 +724,6 @@
         "new_returns": 2
       },
       {
-        "card_id": "6964c74688a71f1b7e8f42c9",
-        "ticket_name": "[Scantrust Pro] Portal language is not preserved after registration and login",
-        "return_count": 2,
-        "current_status": "Development",
-        "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Diana Fomina, Ivanna Kavetska",
-        "created_date": "2026-05-12",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/y4ZRdxj8/4105-scantrust-pro-portal-language-is-not-preserved-after-registration-and-login",
-        "new_returns": 2
-      },
-      {
         "card_id": "69dc706b700d415cc31ea3e0",
         "ticket_name": "[e-label portal] Paddle billing upgrade, downgrade flow",
         "return_count": 2,
@@ -739,6 +748,30 @@
         "new_returns": 2
       },
       {
+        "card_id": "69b9652e2734cc1a4856a9c4",
+        "ticket_name": "[VA] Update Phone Selection and How to Scan",
+        "return_count": 1,
+        "current_status": "Code Review",
+        "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
+        "created_date": "2026-05-27",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69e5ef2bdc5b23e66d1f9876",
+        "ticket_name": "[ST Pro] Remove pay gate",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska",
+        "created_date": "2026-05-27",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/9OI368V4/4082-st-pro-remove-pay-gate",
+        "new_returns": 1
+      },
+      {
         "card_id": "69cf6c582f7bab0cce2bf285",
         "ticket_name": "[BE] ULBS email content update",
         "return_count": 1,
@@ -748,18 +781,6 @@
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/RvJLjQ5X/4088-be-ulbs-email-content-update",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69b9652e2734cc1a4856a9c4",
-        "ticket_name": "[VA] Update Phone Selection and How to Scan",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-        "created_date": "2026-05-21",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
         "new_returns": 1
       },
       {
@@ -787,18 +808,6 @@
         "new_returns": 1
       },
       {
-        "card_id": "69e8db97d51d2237e065399f",
-        "ticket_name": "[VA] Fix issue with restrict landscape mode and add \"Rotate back\" popup",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Taras Tsavolyk, Hemang Chawla, vitalina.r, Iryna",
-        "created_date": "2026-05-21",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup",
-        "new_returns": 1
-      },
-      {
         "card_id": "69e9c1bcbb472cf0cfde9fb7",
         "ticket_name": "[ST pro] Improve Paddle checkout page",
         "return_count": 1,
@@ -808,6 +817,42 @@
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/Jbe26z6I/4094-st-pro-improve-paddle-checkout-page",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69eb407de9b037af0ad958f6",
+        "ticket_name": "[STC editor] Editor updates + AI assistent",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Iryna, Ivanna Kavetska, vitalina.r, Arthur Souviron",
+        "created_date": "2026-05-26",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/58uK1Cvv/4100-stc-editor-editor-updates-ai-assistent",
+        "new_returns": 1
+      },
+      {
+        "card_id": "68a6fecbb4cc45071c27c562",
+        "ticket_name": "[Code ingestion][UX] Unclear explanation message is displayed for GS1 codes template",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "vitalina.r, Iryna, Khalid Lamptey, Arthur Souviron",
+        "created_date": "2026-05-29",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/j6sB1viX/4135-code-ingestionux-unclear-explanation-message-is-displayed-for-gs1-codes-template",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69e8db97d51d2237e065399f",
+        "ticket_name": "[VA] Fix issue with restrict landscape mode and add \"Rotate back\" popup",
+        "return_count": 1,
+        "current_status": "Code Review",
+        "assignee": "Taras Tsavolyk, Hemang Chawla, vitalina.r, Iryna",
+        "created_date": "2026-05-26",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup",
         "new_returns": 1
       },
       {
@@ -835,18 +880,6 @@
         "new_returns": 1
       },
       {
-        "card_id": "68e63cb3281777c643c10f7b",
-        "ticket_name": "[Image gallery] Archived image is re-archived together with the active image in Gallery",
-        "return_count": 1,
-        "current_status": "Done (only for QA team)",
-        "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Yan, Diana Fomina",
-        "created_date": "2026-05-20",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/ZrMJ3Tvy/4059-image-gallery-archived-image-is-re-archived-together-with-the-active-image-in-gallery",
-        "new_returns": 1
-      },
-      {
         "card_id": "69e8c0dd599504dc90c3bc71",
         "ticket_name": "[VA] Missing logo and language switcher icon on camera permission page",
         "return_count": 1,
@@ -859,15 +892,27 @@
         "new_returns": 1
       },
       {
-        "card_id": "69a988dc6abb550889f9809f",
-        "ticket_name": "[ST][iOS] Release v5.4.0",
-        "return_count": 2,
+        "card_id": "68e63cb3281777c643c10f7b",
+        "ticket_name": "[Image gallery] Archived image is re-archived together with the active image in Gallery",
+        "return_count": 1,
         "current_status": "Ready for Release",
-        "assignee": "Rizwan, vitalina.r, Iryna",
-        "created_date": "2026-05-14",
+        "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Yan, Diana Fomina",
+        "created_date": "2026-05-22",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/PJ90aVcc/4016-stios-release-v540",
+        "card_url": "https://trello.com/c/ZrMJ3Tvy/4059-image-gallery-archived-image-is-re-archived-together-with-the-active-image-in-gallery",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6964c74688a71f1b7e8f42c9",
+        "ticket_name": "[Scantrust Pro] Portal language is not preserved after registration and login",
+        "return_count": 1,
+        "current_status": "Ready for Release",
+        "assignee": "Iryna, Arthur Souviron, Khalid Lamptey, Diana Fomina, Ivanna Kavetska",
+        "created_date": "2026-05-25",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/y4ZRdxj8/4105-scantrust-pro-portal-language-is-not-preserved-after-registration-and-login",
         "new_returns": 1
       },
       {
@@ -883,12 +928,24 @@
         "new_returns": 1
       },
       {
+        "card_id": "69a988dc6abb550889f9809f",
+        "ticket_name": "[ST][iOS] Release v5.4.0",
+        "return_count": 2,
+        "current_status": "Delivered May 2026",
+        "assignee": "Rizwan, vitalina.r, Iryna",
+        "created_date": "2026-05-22",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/PJ90aVcc/4016-stios-release-v540",
+        "new_returns": 1
+      },
+      {
         "card_id": "698c85842eb98a9065652bc9",
         "ticket_name": "[ST][iOS] Unified UI for unsupported phones",
         "return_count": 2,
-        "current_status": "Ready for Release",
+        "current_status": "Delivered May 2026",
         "assignee": "Rizwan, Iryna, vitalina.r, Hemang Chawla",
-        "created_date": "2026-05-11",
+        "created_date": "2026-05-22",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/WCq8IT2S/3990-stios-unified-ui-for-unsupported-phones",
