@@ -1,10 +1,10 @@
 {
-  "last_updated": "May 29, 2026",
+  "last_updated": "Jun 05, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 267,
+    "total_cards": 268,
     "returned_cards": 55,
-    "pct_returned": 20.6,
+    "pct_returned": 20.5,
     "avg_return_count": 1.5,
     "failed_qg_count": 1
   },
@@ -65,6 +65,17 @@
       "card_url": "https://trello.com/c/IfinKfUj/3851-pawechat-update-launching-screen-to-match-unified-ui"
     },
     {
+      "card_id": "69dc706b700d415cc31ea3e0",
+      "ticket_name": "[e-label portal] Paddle billing upgrade, downgrade flow",
+      "return_count": 2,
+      "current_status": "QA Review",
+      "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
+      "created_date": "2026-06-03",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/wvFHl6LH/4068-e-label-portal-paddle-billing-upgrade-downgrade-flow"
+    },
+    {
       "card_id": "692484885df297ebc827fe1b",
       "ticket_name": "[VA] Source and country are missing in the fake report",
       "return_count": 2,
@@ -103,7 +114,7 @@
       "return_count": 2,
       "current_status": "Development",
       "assignee": "Hemang Chawla, vitalina.r, Taras Tsavolyk, Iryna",
-      "created_date": "2026-05-20",
+      "created_date": "2026-05-29",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/CoZPB9eU/4008-va-release-checklist-may"
@@ -123,23 +134,12 @@
       "card_id": "69cb537886dedf7b5327a621",
       "ticket_name": "[e-label portal] Paddle billing upgrade - Free trial and the first purchase",
       "return_count": 2,
-      "current_status": "Development",
+      "current_status": "Ready for Release",
       "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
-      "created_date": "2026-05-22",
+      "created_date": "2026-06-03",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/XZhucnet/4067-e-label-portal-paddle-billing-upgrade-free-trial-and-the-first-purchase"
-    },
-    {
-      "card_id": "69dc706b700d415cc31ea3e0",
-      "ticket_name": "[e-label portal] Paddle billing upgrade, downgrade flow",
-      "return_count": 2,
-      "current_status": "Development",
-      "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
-      "created_date": "2026-05-13",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/wvFHl6LH/4068-e-label-portal-paddle-billing-upgrade-downgrade-flow"
     },
     {
       "card_id": "69a909a318f709a3a5c9a927",
@@ -206,28 +206,6 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/JLifCqJJ/4011-enterprise-portal-brand-and-product-fields-bulk-translation-by-excel-upload"
-    },
-    {
-      "card_id": "69b9652e2734cc1a4856a9c4",
-      "ticket_name": "[VA] Update Phone Selection and How to Scan",
-      "return_count": 1,
-      "current_status": "Code Review",
-      "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-      "created_date": "2026-05-27",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan"
-    },
-    {
-      "card_id": "69e5ef2bdc5b23e66d1f9876",
-      "ticket_name": "[ST Pro] Remove pay gate",
-      "return_count": 1,
-      "current_status": "QA Review",
-      "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska",
-      "created_date": "2026-05-27",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/9OI368V4/4082-st-pro-remove-pay-gate"
     },
     {
       "card_id": "6973435dd02257634c4112f6",
@@ -362,50 +340,6 @@
       "card_url": "https://trello.com/c/5HLvP3Mj/3859-androidst-release-1613"
     },
     {
-      "card_id": "69cf6c582f7bab0cce2bf285",
-      "ticket_name": "[BE] ULBS email content update",
-      "return_count": 1,
-      "current_status": "Development",
-      "assignee": "Yan, Iryna, jelle.sturm, Julie",
-      "created_date": "2026-05-19",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/RvJLjQ5X/4088-be-ulbs-email-content-update"
-    },
-    {
-      "card_id": "69e5fdacbcf8ab1af532419f",
-      "ticket_name": "[e-label] Paddle billing migration",
-      "return_count": 1,
-      "current_status": "Development",
-      "assignee": "Yan, Iryna, Diana Fomina, Arthur Souviron",
-      "created_date": "2026-05-21",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/dW052jVw/4083-e-label-paddle-billing-migration"
-    },
-    {
-      "card_id": "69cb5392e86e8a9aa39758b6",
-      "ticket_name": "[QR manager] on-demand code creation",
-      "return_count": 1,
-      "current_status": "Development",
-      "assignee": "Yan, Arthur Souviron, Iryna, Diana Fomina",
-      "created_date": "2026-05-21",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/AXDVgbmP/4055-qr-manager-on-demand-code-creation"
-    },
-    {
-      "card_id": "69e9c1bcbb472cf0cfde9fb7",
-      "ticket_name": "[ST pro] Improve Paddle checkout page",
-      "return_count": 1,
-      "current_status": "Development",
-      "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska",
-      "created_date": "2026-05-22",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/Jbe26z6I/4094-st-pro-improve-paddle-checkout-page"
-    },
-    {
       "card_id": "69eb407de9b037af0ad958f6",
       "ticket_name": "[STC editor] Editor updates + AI assistent",
       "return_count": 1,
@@ -417,37 +351,59 @@
       "card_url": "https://trello.com/c/58uK1Cvv/4100-stc-editor-editor-updates-ai-assistent"
     },
     {
-      "card_id": "68a6fecbb4cc45071c27c562",
-      "ticket_name": "[Code ingestion][UX] Unclear explanation message is displayed for GS1 codes template",
-      "return_count": 1,
-      "current_status": "Development",
-      "assignee": "vitalina.r, Iryna, Khalid Lamptey, Arthur Souviron",
-      "created_date": "2026-05-29",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/j6sB1viX/4135-code-ingestionux-unclear-explanation-message-is-displayed-for-gs1-codes-template"
-    },
-    {
       "card_id": "69e8db97d51d2237e065399f",
       "ticket_name": "[VA] Fix issue with restrict landscape mode and add \"Rotate back\" popup",
       "return_count": 1,
-      "current_status": "Code Review",
-      "assignee": "Taras Tsavolyk, Hemang Chawla, vitalina.r, Iryna",
-      "created_date": "2026-05-26",
+      "current_status": "QA Review",
+      "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
+      "created_date": "2026-06-04",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup"
     },
     {
-      "card_id": "69dc832354aea31c2abff319",
-      "ticket_name": "[e-label portal] Profile page update and the cancellation flow",
+      "card_id": "69b9652e2734cc1a4856a9c4",
+      "ticket_name": "[VA] Update Phone Selection and How to Scan",
       "return_count": 1,
-      "current_status": "Done (only for QA team)",
-      "assignee": "Yan, Diana Fomina, Iryna, Arthur Souviron",
-      "created_date": "2026-05-18",
+      "current_status": "QA Review",
+      "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
+      "created_date": "2026-06-03",
       "quality_gate": "yes",
       "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/0cA7AoaP/4087-e-label-portal-profile-page-update-and-the-cancellation-flow"
+      "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan"
+    },
+    {
+      "card_id": "69cb5392e86e8a9aa39758b6",
+      "ticket_name": "[QR manager] on-demand code creation",
+      "return_count": 1,
+      "current_status": "Done (only for QA team)",
+      "assignee": "Yan, Arthur Souviron, Iryna, Diana Fomina",
+      "created_date": "2026-06-05",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/AXDVgbmP/4055-qr-manager-on-demand-code-creation"
+    },
+    {
+      "card_id": "69e5fdacbcf8ab1af532419f",
+      "ticket_name": "[e-label] Paddle billing migration",
+      "return_count": 1,
+      "current_status": "Done (only for QA team)",
+      "assignee": "Yan, Iryna, Diana Fomina, Arthur Souviron",
+      "created_date": "2026-06-04",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/dW052jVw/4083-e-label-paddle-billing-migration"
+    },
+    {
+      "card_id": "69cf6c582f7bab0cce2bf285",
+      "ticket_name": "[BE] ULBS email content update",
+      "return_count": 1,
+      "current_status": "Done (only for QA team)",
+      "assignee": "Yan, Iryna, jelle.sturm, Julie",
+      "created_date": "2026-06-04",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/RvJLjQ5X/4088-be-ulbs-email-content-update"
     },
     {
       "card_id": "69b420e4fc66023ca0cc7aa2",
@@ -470,6 +426,50 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/vvrxWLCC/4092-va-missing-logo-and-language-switcher-icon-on-camera-permission-page"
+    },
+    {
+      "card_id": "68a6fecbb4cc45071c27c562",
+      "ticket_name": "[Code ingestion][UX] Unclear explanation message is displayed for GS1 codes template",
+      "return_count": 1,
+      "current_status": "Done (only for QA team)",
+      "assignee": "vitalina.r, Iryna, Khalid Lamptey, Arthur Souviron",
+      "created_date": "2026-06-02",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/j6sB1viX/4135-code-ingestionux-unclear-explanation-message-is-displayed-for-gs1-codes-template"
+    },
+    {
+      "card_id": "69e5ef2bdc5b23e66d1f9876",
+      "ticket_name": "[ST Pro] Remove pay gate",
+      "return_count": 1,
+      "current_status": "Ready for Release",
+      "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska",
+      "created_date": "2026-06-03",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/9OI368V4/4082-st-pro-remove-pay-gate"
+    },
+    {
+      "card_id": "69e9c1bcbb472cf0cfde9fb7",
+      "ticket_name": "[ST pro] Improve Paddle checkout page",
+      "return_count": 1,
+      "current_status": "Ready for Release",
+      "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska",
+      "created_date": "2026-06-03",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/Jbe26z6I/4094-st-pro-improve-paddle-checkout-page"
+    },
+    {
+      "card_id": "69dc832354aea31c2abff319",
+      "ticket_name": "[e-label portal] Profile page update and the cancellation flow",
+      "return_count": 1,
+      "current_status": "Ready for Release",
+      "assignee": "Yan, Diana Fomina, Iryna, Arthur Souviron",
+      "created_date": "2026-06-01",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/0cA7AoaP/4087-e-label-portal-profile-page-update-and-the-cancellation-flow"
     },
     {
       "card_id": "68e63cb3281777c643c10f7b",
@@ -631,58 +631,21 @@
   "weekly": {
     "kpi": {
       "total_cards": 38,
-      "returned_cards": 3,
-      "pct_returned": 7.9,
-      "avg_return_count": 1.0,
+      "returned_cards": 0,
+      "pct_returned": 0.0,
+      "avg_return_count": 0,
       "failed_qg_count": 0
     },
-    "tickets": [
-      {
-        "card_id": "69e5ef2bdc5b23e66d1f9876",
-        "ticket_name": "[ST Pro] Remove pay gate",
-        "return_count": 1,
-        "current_status": "QA Review",
-        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska",
-        "created_date": "2026-05-27",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/9OI368V4/4082-st-pro-remove-pay-gate",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69eb407de9b037af0ad958f6",
-        "ticket_name": "[STC editor] Editor updates + AI assistent",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Iryna, Ivanna Kavetska, vitalina.r, Arthur Souviron",
-        "created_date": "2026-05-26",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/58uK1Cvv/4100-stc-editor-editor-updates-ai-assistent",
-        "new_returns": 1
-      },
-      {
-        "card_id": "68a6fecbb4cc45071c27c562",
-        "ticket_name": "[Code ingestion][UX] Unclear explanation message is displayed for GS1 codes template",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "vitalina.r, Iryna, Khalid Lamptey, Arthur Souviron",
-        "created_date": "2026-05-29",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/j6sB1viX/4135-code-ingestionux-unclear-explanation-message-is-displayed-for-gs1-codes-template",
-        "new_returns": 1
-      }
-    ],
+    "tickets": [],
     "failed_qg": []
   },
   "quarterly": {
     "label": "Q2 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 136,
+      "total_cards": 139,
       "returned_cards": 24,
-      "pct_returned": 17.6,
+      "pct_returned": 17.3,
       "avg_return_count": 1.2,
       "failed_qg_count": 0
     },
@@ -700,12 +663,24 @@
         "new_returns": 3
       },
       {
+        "card_id": "69dc706b700d415cc31ea3e0",
+        "ticket_name": "[e-label portal] Paddle billing upgrade, downgrade flow",
+        "return_count": 2,
+        "current_status": "QA Review",
+        "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
+        "created_date": "2026-06-03",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/wvFHl6LH/4068-e-label-portal-paddle-billing-upgrade-downgrade-flow",
+        "new_returns": 2
+      },
+      {
         "card_id": "69a6af7c74bd42c933454262",
         "ticket_name": "[VA] Release Checklist - May",
         "return_count": 2,
         "current_status": "Development",
         "assignee": "Hemang Chawla, vitalina.r, Taras Tsavolyk, Iryna",
-        "created_date": "2026-05-20",
+        "created_date": "2026-05-29",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/CoZPB9eU/4008-va-release-checklist-may",
@@ -715,24 +690,12 @@
         "card_id": "69cb537886dedf7b5327a621",
         "ticket_name": "[e-label portal] Paddle billing upgrade - Free trial and the first purchase",
         "return_count": 2,
-        "current_status": "Development",
+        "current_status": "Ready for Release",
         "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
-        "created_date": "2026-05-22",
+        "created_date": "2026-06-03",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/XZhucnet/4067-e-label-portal-paddle-billing-upgrade-free-trial-and-the-first-purchase",
-        "new_returns": 2
-      },
-      {
-        "card_id": "69dc706b700d415cc31ea3e0",
-        "ticket_name": "[e-label portal] Paddle billing upgrade, downgrade flow",
-        "return_count": 2,
-        "current_status": "Development",
-        "assignee": "Yan, Arthur Souviron, Diana Fomina, Iryna",
-        "created_date": "2026-05-13",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/wvFHl6LH/4068-e-label-portal-paddle-billing-upgrade-downgrade-flow",
         "new_returns": 2
       },
       {
@@ -748,78 +711,6 @@
         "new_returns": 2
       },
       {
-        "card_id": "69b9652e2734cc1a4856a9c4",
-        "ticket_name": "[VA] Update Phone Selection and How to Scan",
-        "return_count": 1,
-        "current_status": "Code Review",
-        "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-        "created_date": "2026-05-27",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69e5ef2bdc5b23e66d1f9876",
-        "ticket_name": "[ST Pro] Remove pay gate",
-        "return_count": 1,
-        "current_status": "QA Review",
-        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska",
-        "created_date": "2026-05-27",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/9OI368V4/4082-st-pro-remove-pay-gate",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69cf6c582f7bab0cce2bf285",
-        "ticket_name": "[BE] ULBS email content update",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Yan, Iryna, jelle.sturm, Julie",
-        "created_date": "2026-05-19",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/RvJLjQ5X/4088-be-ulbs-email-content-update",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69e5fdacbcf8ab1af532419f",
-        "ticket_name": "[e-label] Paddle billing migration",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Yan, Iryna, Diana Fomina, Arthur Souviron",
-        "created_date": "2026-05-21",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/dW052jVw/4083-e-label-paddle-billing-migration",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69cb5392e86e8a9aa39758b6",
-        "ticket_name": "[QR manager] on-demand code creation",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Yan, Arthur Souviron, Iryna, Diana Fomina",
-        "created_date": "2026-05-21",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/AXDVgbmP/4055-qr-manager-on-demand-code-creation",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69e9c1bcbb472cf0cfde9fb7",
-        "ticket_name": "[ST pro] Improve Paddle checkout page",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska",
-        "created_date": "2026-05-22",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/Jbe26z6I/4094-st-pro-improve-paddle-checkout-page",
-        "new_returns": 1
-      },
-      {
         "card_id": "69eb407de9b037af0ad958f6",
         "ticket_name": "[STC editor] Editor updates + AI assistent",
         "return_count": 1,
@@ -832,39 +723,63 @@
         "new_returns": 1
       },
       {
-        "card_id": "68a6fecbb4cc45071c27c562",
-        "ticket_name": "[Code ingestion][UX] Unclear explanation message is displayed for GS1 codes template",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "vitalina.r, Iryna, Khalid Lamptey, Arthur Souviron",
-        "created_date": "2026-05-29",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/j6sB1viX/4135-code-ingestionux-unclear-explanation-message-is-displayed-for-gs1-codes-template",
-        "new_returns": 1
-      },
-      {
         "card_id": "69e8db97d51d2237e065399f",
         "ticket_name": "[VA] Fix issue with restrict landscape mode and add \"Rotate back\" popup",
         "return_count": 1,
-        "current_status": "Code Review",
-        "assignee": "Taras Tsavolyk, Hemang Chawla, vitalina.r, Iryna",
-        "created_date": "2026-05-26",
+        "current_status": "QA Review",
+        "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
+        "created_date": "2026-06-04",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup",
         "new_returns": 1
       },
       {
-        "card_id": "69dc832354aea31c2abff319",
-        "ticket_name": "[e-label portal] Profile page update and the cancellation flow",
+        "card_id": "69b9652e2734cc1a4856a9c4",
+        "ticket_name": "[VA] Update Phone Selection and How to Scan",
         "return_count": 1,
-        "current_status": "Done (only for QA team)",
-        "assignee": "Yan, Diana Fomina, Iryna, Arthur Souviron",
-        "created_date": "2026-05-18",
+        "current_status": "QA Review",
+        "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
+        "created_date": "2026-06-03",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/0cA7AoaP/4087-e-label-portal-profile-page-update-and-the-cancellation-flow",
+        "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69cb5392e86e8a9aa39758b6",
+        "ticket_name": "[QR manager] on-demand code creation",
+        "return_count": 1,
+        "current_status": "Done (only for QA team)",
+        "assignee": "Yan, Arthur Souviron, Iryna, Diana Fomina",
+        "created_date": "2026-06-05",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/AXDVgbmP/4055-qr-manager-on-demand-code-creation",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69e5fdacbcf8ab1af532419f",
+        "ticket_name": "[e-label] Paddle billing migration",
+        "return_count": 1,
+        "current_status": "Done (only for QA team)",
+        "assignee": "Yan, Iryna, Diana Fomina, Arthur Souviron",
+        "created_date": "2026-06-04",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/dW052jVw/4083-e-label-paddle-billing-migration",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69cf6c582f7bab0cce2bf285",
+        "ticket_name": "[BE] ULBS email content update",
+        "return_count": 1,
+        "current_status": "Done (only for QA team)",
+        "assignee": "Yan, Iryna, jelle.sturm, Julie",
+        "created_date": "2026-06-04",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/RvJLjQ5X/4088-be-ulbs-email-content-update",
         "new_returns": 1
       },
       {
@@ -889,6 +804,54 @@
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/vvrxWLCC/4092-va-missing-logo-and-language-switcher-icon-on-camera-permission-page",
+        "new_returns": 1
+      },
+      {
+        "card_id": "68a6fecbb4cc45071c27c562",
+        "ticket_name": "[Code ingestion][UX] Unclear explanation message is displayed for GS1 codes template",
+        "return_count": 1,
+        "current_status": "Done (only for QA team)",
+        "assignee": "vitalina.r, Iryna, Khalid Lamptey, Arthur Souviron",
+        "created_date": "2026-06-02",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/j6sB1viX/4135-code-ingestionux-unclear-explanation-message-is-displayed-for-gs1-codes-template",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69e5ef2bdc5b23e66d1f9876",
+        "ticket_name": "[ST Pro] Remove pay gate",
+        "return_count": 1,
+        "current_status": "Ready for Release",
+        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska",
+        "created_date": "2026-06-03",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/9OI368V4/4082-st-pro-remove-pay-gate",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69e9c1bcbb472cf0cfde9fb7",
+        "ticket_name": "[ST pro] Improve Paddle checkout page",
+        "return_count": 1,
+        "current_status": "Ready for Release",
+        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska",
+        "created_date": "2026-06-03",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/Jbe26z6I/4094-st-pro-improve-paddle-checkout-page",
+        "new_returns": 1
+      },
+      {
+        "card_id": "69dc832354aea31c2abff319",
+        "ticket_name": "[e-label portal] Profile page update and the cancellation flow",
+        "return_count": 1,
+        "current_status": "Ready for Release",
+        "assignee": "Yan, Diana Fomina, Iryna, Arthur Souviron",
+        "created_date": "2026-06-01",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/0cA7AoaP/4087-e-label-portal-profile-page-update-and-the-cancellation-flow",
         "new_returns": 1
       },
       {
