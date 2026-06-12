@@ -3,27 +3,23 @@
     "return_count": 0,
     "quality_gate": "yes"
   },
+  "69b9652e2734cc1a4856a9c4": {
+    "return_count": 2,
+    "quality_gate": "yes"
+  },
   "660cf82ea6f8e8c63c7952fb": {
     "return_count": 0,
     "quality_gate": "yes"
   },
-  "69c3a10b4c4dea44e5cb2958": {
+  "69bc2c0832623b95b28eb281": {
     "return_count": 0,
     "quality_gate": "yes"
   },
-  "69c3a0fd00109f136c4855c1": {
+  "6a26c1330c5fce5ff2899eb9": {
     "return_count": 0,
     "quality_gate": "yes"
   },
-  "69dc706b700d415cc31ea3e0": {
-    "return_count": 2,
-    "quality_gate": "yes"
-  },
-  "6a0af35822e61801c1e25d60": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "6a0fdda1e0a8d71fb3a580fa": {
+  "6a26c15ab8468f348a6e0808": {
     "return_count": 0,
     "quality_gate": "yes"
   },
@@ -447,6 +443,10 @@
     "return_count": 0,
     "quality_gate": "yes"
   },
+  "691b2c1ae070cc5382d2792e": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
   "69de0151b4aad76766c77323": {
     "return_count": 0,
     "quality_gate": "yes"
@@ -463,16 +463,12 @@
     "return_count": 0,
     "quality_gate": "yes"
   },
+  "6a292e2a5859d1198611e851": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
   "69c274f7271c5e6047226fda": {
     "return_count": 2,
-    "quality_gate": "yes"
-  },
-  "6a031b5525d04a58d6dc6626": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "6a0f088c4916fb784e2012f4": {
-    "return_count": 0,
     "quality_gate": "yes"
   },
   "69fcad4e3380892ace874416": {
@@ -495,15 +491,19 @@
     "return_count": 0,
     "quality_gate": "yes"
   },
+  "69e8db97d51d2237e065399f": {
+    "return_count": 2,
+    "quality_gate": "yes"
+  },
+  "6a26e9aa892b7f7b798da523": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
   "681dd4c21183948256281ba7": {
     "return_count": 0,
     "quality_gate": "yes"
   },
   "67bc4f95468c53e725ec7bef": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "691b2c1ae070cc5382d2792e": {
     "return_count": 0,
     "quality_gate": "yes"
   },
@@ -535,16 +535,24 @@
     "return_count": 0,
     "quality_gate": "yes"
   },
-  "6a221c69b4b72bbdbab49689": {
+  "6a031b5525d04a58d6dc6626": {
     "return_count": 0,
     "quality_gate": "yes"
   },
-  "69e8db97d51d2237e065399f": {
-    "return_count": 1,
+  "6a0f088c4916fb784e2012f4": {
+    "return_count": 0,
     "quality_gate": "yes"
   },
-  "69b9652e2734cc1a4856a9c4": {
-    "return_count": 1,
+  "678829708c703b655e86dd01": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "6a2a5dfc5a09d4751b28e9b0": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "6937040580a4ffeb5f70c1a5": {
+    "return_count": 0,
     "quality_gate": "yes"
   },
   "693fdb9a08680f1cfee8d292": {
@@ -563,15 +571,19 @@
     "return_count": 0,
     "quality_gate": "yes"
   },
-  "69cb5392e86e8a9aa39758b6": {
-    "return_count": 1,
+  "6a27c5c3174396bb4da2057b": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "6a26e1efd8f91465fff64025": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "6a281c94c015ad862d4d1993": {
+    "return_count": 0,
     "quality_gate": "yes"
   },
   "69e5fdacbcf8ab1af532419f": {
-    "return_count": 1,
-    "quality_gate": "yes"
-  },
-  "69cf6c582f7bab0cce2bf285": {
     "return_count": 1,
     "quality_gate": "yes"
   },
@@ -611,63 +623,19 @@
     "return_count": 0,
     "quality_gate": "yes"
   },
+  "6a0fdda1e0a8d71fb3a580fa": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "6a28214d7e68fe408b3f0558": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "6a221c69b4b72bbdbab49689": {
+    "return_count": 1,
+    "quality_gate": "yes"
+  },
   "60ad4a1e75358f026369e8e3": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69cb537886dedf7b5327a621": {
-    "return_count": 2,
-    "quality_gate": "yes"
-  },
-  "69e1e22d5987c6eec94a8233": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69e9e2ab5c57e8713e3b70b5": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "6a1d6628346243cb40bb290c": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "6a1e93f8ab408afbe8aa1f47": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69e9c1f50c0b925054adb24d": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69e5ef2bdc5b23e66d1f9876": {
-    "return_count": 1,
-    "quality_gate": "yes"
-  },
-  "69e9c1bcbb472cf0cfde9fb7": {
-    "return_count": 1,
-    "quality_gate": "yes"
-  },
-  "69dc832354aea31c2abff319": {
-    "return_count": 1,
-    "quality_gate": "yes"
-  },
-  "6a0c6adb1891085ae1e435fa": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69ce255e79e51ed6e155eeb4": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "68e63cb3281777c643c10f7b": {
-    "return_count": 1,
-    "quality_gate": "yes"
-  },
-  "6964c74688a71f1b7e8f42c9": {
-    "return_count": 1,
-    "quality_gate": "yes"
-  },
-  "69a1ad893a1ff5fb5f3561e0": {
     "return_count": 0,
     "quality_gate": "yes"
   },
@@ -675,76 +643,8 @@
     "return_count": 0,
     "quality_gate": "yes"
   },
-  "6966571b088430d56add0df9": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69c3a0eec1c2a149a485cda9": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "6a01f39ac0550600e9c2cb91": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69bc2c0832623b95b28eb281": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69a909a318f709a3a5c9a927": {
-    "return_count": 2,
-    "quality_gate": "yes"
-  },
-  "6a0478e457415498e3992a06": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69f31815820676db1e2449bd": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69cc90888eea28cd1ddd8fe0": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69e07ddea6dd96292d5986b4": {
-    "return_count": 1,
-    "quality_gate": "yes"
-  },
-  "68ff9d1862184158e4de8257": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "68e504e71e70d5ca68fcc76b": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "68f7976fdbd03f42950a34d2": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
   "69cd39a1f692b836703d43b6": {
     "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69c18252da13a75b0328f412": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69d4887825496110d2fa70c0": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "68ed0f4b6db395f1721c1847": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "68dab13716d0fac1412ad8f8": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69bb8c844aec03367b88957f": {
-    "return_count": 1,
     "quality_gate": "yes"
   },
   "69c69da1694578c4e72f6456": {
@@ -763,18 +663,6 @@
     "return_count": 0,
     "quality_gate": "yes"
   },
-  "691dd91921db1bc51335991e": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69c9ede3332366b1f1264d27": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
-  "69c282e60e0d820eb5d87d1d": {
-    "return_count": 0,
-    "quality_gate": "yes"
-  },
   "69c380abf9ea223d0fa7f1d3": {
     "return_count": 0,
     "quality_gate": "yes"
@@ -787,7 +675,159 @@
     "return_count": 1,
     "quality_gate": "yes"
   },
+  "691dd91921db1bc51335991e": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69e07ddea6dd96292d5986b4": {
+    "return_count": 1,
+    "quality_gate": "yes"
+  },
+  "69dc832354aea31c2abff319": {
+    "return_count": 1,
+    "quality_gate": "yes"
+  },
+  "69ce255e79e51ed6e155eeb4": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69cb5392e86e8a9aa39758b6": {
+    "return_count": 1,
+    "quality_gate": "yes"
+  },
+  "68ed0f4b6db395f1721c1847": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69e9c1f50c0b925054adb24d": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "68ff9d1862184158e4de8257": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "68e63cb3281777c643c10f7b": {
+    "return_count": 1,
+    "quality_gate": "yes"
+  },
+  "68f7976fdbd03f42950a34d2": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "68e504e71e70d5ca68fcc76b": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69a1ad893a1ff5fb5f3561e0": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "6964c74688a71f1b7e8f42c9": {
+    "return_count": 1,
+    "quality_gate": "yes"
+  },
+  "69c3a0eec1c2a149a485cda9": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69c9ede3332366b1f1264d27": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69c18252da13a75b0328f412": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69c282e60e0d820eb5d87d1d": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "6a1e93f8ab408afbe8aa1f47": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69bb8c844aec03367b88957f": {
+    "return_count": 1,
+    "quality_gate": "yes"
+  },
+  "6a0af35822e61801c1e25d60": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69c3a0fd00109f136c4855c1": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69cf6c582f7bab0cce2bf285": {
+    "return_count": 1,
+    "quality_gate": "yes"
+  },
+  "6a0c6adb1891085ae1e435fa": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69e5ef2bdc5b23e66d1f9876": {
+    "return_count": 1,
+    "quality_gate": "yes"
+  },
+  "69cc90888eea28cd1ddd8fe0": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "6a1d6628346243cb40bb290c": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69e1e22d5987c6eec94a8233": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "6966571b088430d56add0df9": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
   "69ef85c84464892b9279a650": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69f31815820676db1e2449bd": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "6a01f39ac0550600e9c2cb91": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69e9e2ab5c57e8713e3b70b5": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69a909a318f709a3a5c9a927": {
+    "return_count": 2,
+    "quality_gate": "yes"
+  },
+  "69e9c1bcbb472cf0cfde9fb7": {
+    "return_count": 1,
+    "quality_gate": "yes"
+  },
+  "69cb537886dedf7b5327a621": {
+    "return_count": 2,
+    "quality_gate": "yes"
+  },
+  "69d4887825496110d2fa70c0": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "68dab13716d0fac1412ad8f8": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "69dc706b700d415cc31ea3e0": {
+    "return_count": 2,
+    "quality_gate": "yes"
+  },
+  "69c3a10b4c4dea44e5cb2958": {
     "return_count": 0,
     "quality_gate": "yes"
   },
@@ -808,6 +848,10 @@
     "quality_gate": "yes"
   },
   "69dd10f10fa601345bd068f5": {
+    "return_count": 0,
+    "quality_gate": "yes"
+  },
+  "6a0478e457415498e3992a06": {
     "return_count": 0,
     "quality_gate": "yes"
   },
@@ -1071,5 +1115,5 @@
     "return_count": 0,
     "quality_gate": "yes"
   },
-  "__week__": "2026-W23-fri"
+  "__week__": "2026-W24-fri"
 }
