@@ -1,10 +1,10 @@
 {
-  "last_updated": "Jun 12, 2026",
+  "last_updated": "Jun 19, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 279,
-    "returned_cards": 56,
-    "pct_returned": 20.1,
+    "total_cards": 291,
+    "returned_cards": 58,
+    "pct_returned": 19.9,
     "avg_return_count": 1.6,
     "failed_qg_count": 1
   },
@@ -30,6 +30,17 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/kTOWjeFw/3786-stios-add-third-party-non-st-url-scan-pages-as-per-unified-ui"
+    },
+    {
+      "card_id": "69b9652e2734cc1a4856a9c4",
+      "ticket_name": "[VA] Update Phone Selection and How to Scan",
+      "return_count": 3,
+      "current_status": "QA Review",
+      "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
+      "created_date": "2026-06-18",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan"
     },
     {
       "card_id": "6964a3bc8c7e0e821bc6bcc3",
@@ -63,17 +74,6 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/IfinKfUj/3851-pawechat-update-launching-screen-to-match-unified-ui"
-    },
-    {
-      "card_id": "69b9652e2734cc1a4856a9c4",
-      "ticket_name": "[VA] Update Phone Selection and How to Scan",
-      "return_count": 2,
-      "current_status": "Code Review",
-      "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-      "created_date": "2026-06-11",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan"
     },
     {
       "card_id": "692484885df297ebc827fe1b",
@@ -114,7 +114,7 @@
       "return_count": 2,
       "current_status": "Development",
       "assignee": "Hemang Chawla, vitalina.r, Taras Tsavolyk, Iryna",
-      "created_date": "2026-05-29",
+      "created_date": "2026-06-17",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/CoZPB9eU/4008-va-release-checklist-may"
@@ -136,7 +136,7 @@
       "return_count": 2,
       "current_status": "Development",
       "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
-      "created_date": "2026-06-12",
+      "created_date": "2026-06-16",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup"
@@ -362,12 +362,34 @@
       "card_url": "https://trello.com/c/5HLvP3Mj/3859-androidst-release-1613"
     },
     {
+      "card_id": "6937040580a4ffeb5f70c1a5",
+      "ticket_name": "[Enterprise Portal] Partnership issues",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
+      "created_date": "2026-06-17",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/ZVn64Rk7/4147-enterprise-portal-partnership-issues"
+    },
+    {
+      "card_id": "6a0ae757cd83cc3d3c626bbf",
+      "ticket_name": "[Portal] [st pro] [e-label] Google Oauth",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Yan, Iryna, Arthur Souviron, Khalid Lamptey, Ivanna Kavetska, vitalina.r",
+      "created_date": "2026-06-18",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/Ktqkc5lD/4122-portal-st-pro-e-label-google-oauth"
+    },
+    {
       "card_id": "69eb407de9b037af0ad958f6",
       "ticket_name": "[STC editor] Editor updates + AI assistent",
       "return_count": 1,
-      "current_status": "Development",
+      "current_status": "QA Review",
       "assignee": "Iryna, Ivanna Kavetska, vitalina.r, Arthur Souviron",
-      "created_date": "2026-06-11",
+      "created_date": "2026-06-17",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/58uK1Cvv/4100-stc-editor-editor-updates-ai-assistent"
@@ -417,17 +439,6 @@
       "card_url": "https://trello.com/c/j6sB1viX/4135-code-ingestionux-unclear-explanation-message-is-displayed-for-gs1-codes-template"
     },
     {
-      "card_id": "6a221c69b4b72bbdbab49689",
-      "ticket_name": "[ULBS-CSV import] Fix contains markers show as real ingredients",
-      "return_count": 1,
-      "current_status": "Done (only for QA team)",
-      "assignee": "Iryna, Diana Fomina, Dave Hao",
-      "created_date": "2026-06-11",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/y8vJya34/4146-ulbs-csv-import-fix-contains-markers-show-as-real-ingredients"
-    },
-    {
       "card_id": "693fa71ea9ef5e316fc0a3c0",
       "ticket_name": "[ULBS02] CSV template update",
       "return_count": 1,
@@ -437,6 +448,17 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/ZuGHFE73/3890-ulbs02-csv-template-update"
+    },
+    {
+      "card_id": "6a221c69b4b72bbdbab49689",
+      "ticket_name": "[ULBS-CSV import] Fix contains markers show as real ingredients",
+      "return_count": 1,
+      "current_status": "Ready for Release",
+      "assignee": "Iryna, Diana Fomina, Dave Hao",
+      "created_date": "2026-06-18",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/y8vJya34/4146-ulbs-csv-import-fix-contains-markers-show-as-real-ingredients"
     },
     {
       "card_id": "69e07ddea6dd96292d5986b4",
@@ -641,47 +663,47 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 115,
+      "total_cards": 34,
       "returned_cards": 3,
-      "pct_returned": 2.6,
+      "pct_returned": 8.8,
       "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
     "tickets": [
       {
+        "card_id": "6937040580a4ffeb5f70c1a5",
+        "ticket_name": "[Enterprise Portal] Partnership issues",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
+        "created_date": "2026-06-17",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/ZVn64Rk7/4147-enterprise-portal-partnership-issues",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a0ae757cd83cc3d3c626bbf",
+        "ticket_name": "[Portal] [st pro] [e-label] Google Oauth",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Yan, Iryna, Arthur Souviron, Khalid Lamptey, Ivanna Kavetska, vitalina.r",
+        "created_date": "2026-06-18",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/Ktqkc5lD/4122-portal-st-pro-e-label-google-oauth",
+        "new_returns": 1
+      },
+      {
         "card_id": "69b9652e2734cc1a4856a9c4",
         "ticket_name": "[VA] Update Phone Selection and How to Scan",
-        "return_count": 2,
-        "current_status": "Code Review",
+        "return_count": 3,
+        "current_status": "QA Review",
         "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-        "created_date": "2026-06-11",
+        "created_date": "2026-06-18",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69e8db97d51d2237e065399f",
-        "ticket_name": "[VA] Fix issue with restrict landscape mode and add \"Rotate back\" popup",
-        "return_count": 2,
-        "current_status": "Development",
-        "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
-        "created_date": "2026-06-12",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a221c69b4b72bbdbab49689",
-        "ticket_name": "[ULBS-CSV import] Fix contains markers show as real ingredients",
-        "return_count": 1,
-        "current_status": "Done (only for QA team)",
-        "assignee": "Iryna, Diana Fomina, Dave Hao",
-        "created_date": "2026-06-11",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/y8vJya34/4146-ulbs-csv-import-fix-contains-markers-show-as-real-ingredients",
         "new_returns": 1
       }
     ],
@@ -691,13 +713,25 @@
     "label": "Q2 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 178,
-      "returned_cards": 25,
-      "pct_returned": 14.0,
+      "total_cards": 190,
+      "returned_cards": 27,
+      "pct_returned": 14.2,
       "avg_return_count": 1.3,
       "failed_qg_count": 0
     },
     "tickets": [
+      {
+        "card_id": "69b9652e2734cc1a4856a9c4",
+        "ticket_name": "[VA] Update Phone Selection and How to Scan",
+        "return_count": 3,
+        "current_status": "QA Review",
+        "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
+        "created_date": "2026-06-18",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
+        "new_returns": 3
+      },
       {
         "card_id": "69a6af701f9997bfe0bebf23",
         "ticket_name": "[PA] Release Checklist - April",
@@ -711,24 +745,12 @@
         "new_returns": 3
       },
       {
-        "card_id": "69b9652e2734cc1a4856a9c4",
-        "ticket_name": "[VA] Update Phone Selection and How to Scan",
-        "return_count": 2,
-        "current_status": "Code Review",
-        "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-        "created_date": "2026-06-11",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
-        "new_returns": 2
-      },
-      {
         "card_id": "69a6af7c74bd42c933454262",
         "ticket_name": "[VA] Release Checklist - May",
         "return_count": 2,
         "current_status": "Development",
         "assignee": "Hemang Chawla, vitalina.r, Taras Tsavolyk, Iryna",
-        "created_date": "2026-05-29",
+        "created_date": "2026-06-17",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/CoZPB9eU/4008-va-release-checklist-may",
@@ -740,7 +762,7 @@
         "return_count": 2,
         "current_status": "Development",
         "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
-        "created_date": "2026-06-12",
+        "created_date": "2026-06-16",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup",
@@ -783,12 +805,36 @@
         "new_returns": 2
       },
       {
+        "card_id": "6937040580a4ffeb5f70c1a5",
+        "ticket_name": "[Enterprise Portal] Partnership issues",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
+        "created_date": "2026-06-17",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/ZVn64Rk7/4147-enterprise-portal-partnership-issues",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a0ae757cd83cc3d3c626bbf",
+        "ticket_name": "[Portal] [st pro] [e-label] Google Oauth",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Yan, Iryna, Arthur Souviron, Khalid Lamptey, Ivanna Kavetska, vitalina.r",
+        "created_date": "2026-06-18",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/Ktqkc5lD/4122-portal-st-pro-e-label-google-oauth",
+        "new_returns": 1
+      },
+      {
         "card_id": "69eb407de9b037af0ad958f6",
         "ticket_name": "[STC editor] Editor updates + AI assistent",
         "return_count": 1,
-        "current_status": "Development",
+        "current_status": "QA Review",
         "assignee": "Iryna, Ivanna Kavetska, vitalina.r, Arthur Souviron",
-        "created_date": "2026-06-11",
+        "created_date": "2026-06-17",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/58uK1Cvv/4100-stc-editor-editor-updates-ai-assistent",
@@ -846,9 +892,9 @@
         "card_id": "6a221c69b4b72bbdbab49689",
         "ticket_name": "[ULBS-CSV import] Fix contains markers show as real ingredients",
         "return_count": 1,
-        "current_status": "Done (only for QA team)",
+        "current_status": "Ready for Release",
         "assignee": "Iryna, Diana Fomina, Dave Hao",
-        "created_date": "2026-06-11",
+        "created_date": "2026-06-18",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/y8vJya34/4146-ulbs-csv-import-fix-contains-markers-show-as-real-ingredients",
