@@ -1,10 +1,10 @@
 {
-  "last_updated": "Jun 19, 2026",
+  "last_updated": "Jun 26, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 291,
+    "total_cards": 290,
     "returned_cards": 58,
-    "pct_returned": 19.9,
+    "pct_returned": 20.0,
     "avg_return_count": 1.6,
     "failed_qg_count": 1
   },
@@ -21,6 +21,17 @@
       "card_url": "https://trello.com/c/mSXLKAtR/3785-pa-add-third-party-non-st-url-scan-pages-as-per-unified-ui"
     },
     {
+      "card_id": "69b9652e2734cc1a4856a9c4",
+      "ticket_name": "[VA] Update Phone Selection and How to Scan",
+      "return_count": 4,
+      "current_status": "Code Review",
+      "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
+      "created_date": "2026-06-25",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan"
+    },
+    {
       "card_id": "68f5c4d845a044b175a8eb3d",
       "ticket_name": "[ST][iOS] Add third party non ST URL scan pages as per unified UI",
       "return_count": 3,
@@ -30,17 +41,6 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/kTOWjeFw/3786-stios-add-third-party-non-st-url-scan-pages-as-per-unified-ui"
-    },
-    {
-      "card_id": "69b9652e2734cc1a4856a9c4",
-      "ticket_name": "[VA] Update Phone Selection and How to Scan",
-      "return_count": 3,
-      "current_status": "QA Review",
-      "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-      "created_date": "2026-06-18",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan"
     },
     {
       "card_id": "6964a3bc8c7e0e821bc6bcc3",
@@ -140,6 +140,28 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup"
+    },
+    {
+      "card_id": "6a0ae757cd83cc3d3c626bbf",
+      "ticket_name": "[Portal] [st pro] [e-label] Google Oauth",
+      "return_count": 2,
+      "current_status": "Development",
+      "assignee": "Yan, Iryna, Arthur Souviron, Khalid Lamptey, Ivanna Kavetska, vitalina.r",
+      "created_date": "2026-06-25",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/Ktqkc5lD/4122-portal-st-pro-e-label-google-oauth"
+    },
+    {
+      "card_id": "69eb407de9b037af0ad958f6",
+      "ticket_name": "[STC editor] Editor updates + AI assistent",
+      "return_count": 2,
+      "current_status": "Development",
+      "assignee": "Iryna, Ivanna Kavetska, vitalina.r, Arthur Souviron",
+      "created_date": "2026-06-23",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/58uK1Cvv/4100-stc-editor-editor-updates-ai-assistent"
     },
     {
       "card_id": "698aa164fdec244ee8e8e3f0",
@@ -365,34 +387,12 @@
       "card_id": "6937040580a4ffeb5f70c1a5",
       "ticket_name": "[Enterprise Portal] Partnership issues",
       "return_count": 1,
-      "current_status": "Development",
+      "current_status": "Done (only for QA team)",
       "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
-      "created_date": "2026-06-17",
+      "created_date": "2026-06-25",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/ZVn64Rk7/4147-enterprise-portal-partnership-issues"
-    },
-    {
-      "card_id": "6a0ae757cd83cc3d3c626bbf",
-      "ticket_name": "[Portal] [st pro] [e-label] Google Oauth",
-      "return_count": 1,
-      "current_status": "Development",
-      "assignee": "Yan, Iryna, Arthur Souviron, Khalid Lamptey, Ivanna Kavetska, vitalina.r",
-      "created_date": "2026-06-18",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/Ktqkc5lD/4122-portal-st-pro-e-label-google-oauth"
-    },
-    {
-      "card_id": "69eb407de9b037af0ad958f6",
-      "ticket_name": "[STC editor] Editor updates + AI assistent",
-      "return_count": 1,
-      "current_status": "QA Review",
-      "assignee": "Iryna, Ivanna Kavetska, vitalina.r, Arthur Souviron",
-      "created_date": "2026-06-17",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/58uK1Cvv/4100-stc-editor-editor-updates-ai-assistent"
     },
     {
       "card_id": "69e5fdacbcf8ab1af532419f",
@@ -663,44 +663,44 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 34,
+      "total_cards": 31,
       "returned_cards": 3,
-      "pct_returned": 8.8,
+      "pct_returned": 9.7,
       "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
     "tickets": [
       {
-        "card_id": "6937040580a4ffeb5f70c1a5",
-        "ticket_name": "[Enterprise Portal] Partnership issues",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
-        "created_date": "2026-06-17",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/ZVn64Rk7/4147-enterprise-portal-partnership-issues",
-        "new_returns": 1
-      },
-      {
         "card_id": "6a0ae757cd83cc3d3c626bbf",
         "ticket_name": "[Portal] [st pro] [e-label] Google Oauth",
-        "return_count": 1,
+        "return_count": 2,
         "current_status": "Development",
         "assignee": "Yan, Iryna, Arthur Souviron, Khalid Lamptey, Ivanna Kavetska, vitalina.r",
-        "created_date": "2026-06-18",
+        "created_date": "2026-06-25",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/Ktqkc5lD/4122-portal-st-pro-e-label-google-oauth",
         "new_returns": 1
       },
       {
+        "card_id": "69eb407de9b037af0ad958f6",
+        "ticket_name": "[STC editor] Editor updates + AI assistent",
+        "return_count": 2,
+        "current_status": "Development",
+        "assignee": "Iryna, Ivanna Kavetska, vitalina.r, Arthur Souviron",
+        "created_date": "2026-06-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/58uK1Cvv/4100-stc-editor-editor-updates-ai-assistent",
+        "new_returns": 1
+      },
+      {
         "card_id": "69b9652e2734cc1a4856a9c4",
         "ticket_name": "[VA] Update Phone Selection and How to Scan",
-        "return_count": 3,
-        "current_status": "QA Review",
+        "return_count": 4,
+        "current_status": "Code Review",
         "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-        "created_date": "2026-06-18",
+        "created_date": "2026-06-25",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
@@ -713,24 +713,24 @@
     "label": "Q2 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 190,
+      "total_cards": 191,
       "returned_cards": 27,
-      "pct_returned": 14.2,
-      "avg_return_count": 1.3,
+      "pct_returned": 14.1,
+      "avg_return_count": 1.4,
       "failed_qg_count": 0
     },
     "tickets": [
       {
         "card_id": "69b9652e2734cc1a4856a9c4",
         "ticket_name": "[VA] Update Phone Selection and How to Scan",
-        "return_count": 3,
-        "current_status": "QA Review",
+        "return_count": 4,
+        "current_status": "Code Review",
         "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-        "created_date": "2026-06-18",
+        "created_date": "2026-06-25",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
-        "new_returns": 3
+        "new_returns": 4
       },
       {
         "card_id": "69a6af701f9997bfe0bebf23",
@@ -766,6 +766,30 @@
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup",
+        "new_returns": 2
+      },
+      {
+        "card_id": "6a0ae757cd83cc3d3c626bbf",
+        "ticket_name": "[Portal] [st pro] [e-label] Google Oauth",
+        "return_count": 2,
+        "current_status": "Development",
+        "assignee": "Yan, Iryna, Arthur Souviron, Khalid Lamptey, Ivanna Kavetska, vitalina.r",
+        "created_date": "2026-06-25",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/Ktqkc5lD/4122-portal-st-pro-e-label-google-oauth",
+        "new_returns": 2
+      },
+      {
+        "card_id": "69eb407de9b037af0ad958f6",
+        "ticket_name": "[STC editor] Editor updates + AI assistent",
+        "return_count": 2,
+        "current_status": "Development",
+        "assignee": "Iryna, Ivanna Kavetska, vitalina.r, Arthur Souviron",
+        "created_date": "2026-06-23",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/58uK1Cvv/4100-stc-editor-editor-updates-ai-assistent",
         "new_returns": 2
       },
       {
@@ -808,36 +832,12 @@
         "card_id": "6937040580a4ffeb5f70c1a5",
         "ticket_name": "[Enterprise Portal] Partnership issues",
         "return_count": 1,
-        "current_status": "Development",
+        "current_status": "Done (only for QA team)",
         "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
-        "created_date": "2026-06-17",
+        "created_date": "2026-06-25",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/ZVn64Rk7/4147-enterprise-portal-partnership-issues",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a0ae757cd83cc3d3c626bbf",
-        "ticket_name": "[Portal] [st pro] [e-label] Google Oauth",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Yan, Iryna, Arthur Souviron, Khalid Lamptey, Ivanna Kavetska, vitalina.r",
-        "created_date": "2026-06-18",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/Ktqkc5lD/4122-portal-st-pro-e-label-google-oauth",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69eb407de9b037af0ad958f6",
-        "ticket_name": "[STC editor] Editor updates + AI assistent",
-        "return_count": 1,
-        "current_status": "QA Review",
-        "assignee": "Iryna, Ivanna Kavetska, vitalina.r, Arthur Souviron",
-        "created_date": "2026-06-17",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/58uK1Cvv/4100-stc-editor-editor-updates-ai-assistent",
         "new_returns": 1
       },
       {
