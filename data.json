@@ -1,10 +1,10 @@
 {
-  "last_updated": "Jul 10, 2026",
+  "last_updated": "Jul 17, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 318,
+    "total_cards": 336,
     "returned_cards": 61,
-    "pct_returned": 19.2,
+    "pct_returned": 18.2,
     "avg_return_count": 1.6,
     "failed_qg_count": 1
   },
@@ -24,9 +24,9 @@
       "card_id": "69b9652e2734cc1a4856a9c4",
       "ticket_name": "[VA] Update Phone Selection and How to Scan",
       "return_count": 5,
-      "current_status": "Done (only for QA team)",
+      "current_status": "Delivered July 2026",
       "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-      "created_date": "2026-07-09",
+      "created_date": "2026-07-14",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan"
@@ -46,9 +46,9 @@
       "card_id": "6a0ae757cd83cc3d3c626bbf",
       "ticket_name": "[Portal] [st pro] [e-label] Google Oauth",
       "return_count": 3,
-      "current_status": "Development",
+      "current_status": "Delivered July 2026",
       "assignee": "Yan, Iryna, Arthur Souviron, Khalid Lamptey, Ivanna Kavetska, vitalina.r",
-      "created_date": "2026-07-09",
+      "created_date": "2026-07-16",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/Ktqkc5lD/4122-portal-st-pro-e-label-google-oauth"
@@ -85,6 +85,17 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/IfinKfUj/3851-pawechat-update-launching-screen-to-match-unified-ui"
+    },
+    {
+      "card_id": "698aa164fdec244ee8e8e3f0",
+      "ticket_name": "[ULBS01] CSV import issue - \"contains\" displays twice",
+      "return_count": 2,
+      "current_status": "Delivered June 2026",
+      "assignee": "Yan, Dave Hao, Diana Fomina, Iryna",
+      "created_date": "2026-07-10",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/rMDCF0Fy/3983-ulbs01-csv-import-issue-contains-displays-twice"
     },
     {
       "card_id": "692484885df297ebc827fe1b",
@@ -145,23 +156,12 @@
       "card_id": "69a6af7c74bd42c933454262",
       "ticket_name": "[VA] Release Checklist - May",
       "return_count": 2,
-      "current_status": "QA Review",
+      "current_status": "Delivered July 2026",
       "assignee": "Hemang Chawla, vitalina.r, Taras Tsavolyk, Iryna",
-      "created_date": "2026-07-09",
+      "created_date": "2026-07-14",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/CoZPB9eU/4008-va-release-checklist-may"
-    },
-    {
-      "card_id": "698aa164fdec244ee8e8e3f0",
-      "ticket_name": "[ULBS01] CSV import issue - \"contains\" displays twice",
-      "return_count": 2,
-      "current_status": "Ready for Release",
-      "assignee": "Yan, Dave Hao, Diana Fomina, Iryna",
-      "created_date": "2026-04-21",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/rMDCF0Fy/3983-ulbs01-csv-import-issue-contains-displays-twice"
     },
     {
       "card_id": "69eb407de9b037af0ad958f6",
@@ -250,6 +250,17 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/JLifCqJJ/4011-enterprise-portal-brand-and-product-fields-bulk-translation-by-excel-upload"
+    },
+    {
+      "card_id": "6a221c69b4b72bbdbab49689",
+      "ticket_name": "[ULBS-CSV import] Fix contains markers show as real ingredients",
+      "return_count": 1,
+      "current_status": "Delivered June 2026",
+      "assignee": "Iryna, Diana Fomina, Dave Hao",
+      "created_date": "2026-07-10",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/y8vJya34/4146-ulbs-csv-import-fix-contains-markers-show-as-real-ingredients"
     },
     {
       "card_id": "6973435dd02257634c4112f6",
@@ -389,54 +400,10 @@
       "return_count": 1,
       "current_status": "Code Review",
       "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
-      "created_date": "2026-07-09",
+      "created_date": "2026-07-13",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name"
-    },
-    {
-      "card_id": "6937040580a4ffeb5f70c1a5",
-      "ticket_name": "[Enterprise Portal] Partnership issues",
-      "return_count": 1,
-      "current_status": "Done (only for QA team)",
-      "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
-      "created_date": "2026-06-25",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/ZVn64Rk7/4147-enterprise-portal-partnership-issues"
-    },
-    {
-      "card_id": "69e5fdacbcf8ab1af532419f",
-      "ticket_name": "[e-label] Paddle billing migration",
-      "return_count": 1,
-      "current_status": "Done (only for QA team)",
-      "assignee": "Yan, Iryna, Diana Fomina, Arthur Souviron",
-      "created_date": "2026-06-05",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/dW052jVw/4083-e-label-paddle-billing-migration"
-    },
-    {
-      "card_id": "69b420e4fc66023ca0cc7aa2",
-      "ticket_name": "[VA] Flashlight does not turn off during code analysis",
-      "return_count": 1,
-      "current_status": "Done (only for QA team)",
-      "assignee": "vitalina.r, Iryna, Hemang Chawla, Taras Tsavolyk",
-      "created_date": "2026-06-05",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/qXvqdjoR/4029-va-flashlight-does-not-turn-off-during-code-analysis"
-    },
-    {
-      "card_id": "69e8c0dd599504dc90c3bc71",
-      "ticket_name": "[VA] Missing logo and language switcher icon on camera permission page",
-      "return_count": 1,
-      "current_status": "Done (only for QA team)",
-      "assignee": "Taras Tsavolyk, vitalina.r, Iryna, Hemang Chawla",
-      "created_date": "2026-07-08",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/vvrxWLCC/4092-va-missing-logo-and-language-switcher-icon-on-camera-permission-page"
     },
     {
       "card_id": "68a6fecbb4cc45071c27c562",
@@ -450,48 +417,81 @@
       "card_url": "https://trello.com/c/j6sB1viX/4135-code-ingestionux-unclear-explanation-message-is-displayed-for-gs1-codes-template"
     },
     {
-      "card_id": "634eb187e6f72701f8b98d94",
-      "ticket_name": "[Portal] Log in vs. Sign in",
-      "return_count": 1,
-      "current_status": "Ready for Release",
-      "assignee": "Iryna, Andrea Beck, Arthur Souviron, vitalina.r",
-      "created_date": "2026-07-08",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/nDXCnXj5/4180-portal-log-in-vs-sign-in"
-    },
-    {
       "card_id": "693fa71ea9ef5e316fc0a3c0",
       "ticket_name": "[ULBS02] CSV template update",
       "return_count": 1,
       "current_status": "Ready for Release",
       "assignee": "Yan, Dave Hao, Iryna, Diana Fomina",
-      "created_date": "2026-04-13",
+      "created_date": "2026-07-10",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/ZuGHFE73/3890-ulbs02-csv-template-update"
     },
     {
-      "card_id": "6a221c69b4b72bbdbab49689",
-      "ticket_name": "[ULBS-CSV import] Fix contains markers show as real ingredients",
+      "card_id": "69e5fdacbcf8ab1af532419f",
+      "ticket_name": "[e-label] Paddle billing migration",
       "return_count": 1,
       "current_status": "Ready for Release",
-      "assignee": "Iryna, Diana Fomina, Dave Hao",
-      "created_date": "2026-06-18",
+      "assignee": "Yan, Iryna, Diana Fomina, Arthur Souviron",
+      "created_date": "2026-07-14",
       "quality_gate": "yes",
       "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/y8vJya34/4146-ulbs-csv-import-fix-contains-markers-show-as-real-ingredients"
+      "card_url": "https://trello.com/c/dW052jVw/4083-e-label-paddle-billing-migration"
+    },
+    {
+      "card_id": "6937040580a4ffeb5f70c1a5",
+      "ticket_name": "[Enterprise Portal] Partnership issues",
+      "return_count": 1,
+      "current_status": "Delivered July 2026",
+      "assignee": "vitalina.r, Iryna, Arthur Souviron, Khalid Lamptey",
+      "created_date": "2026-07-16",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/ZVn64Rk7/4147-enterprise-portal-partnership-issues"
     },
     {
       "card_id": "5ae9d39f6d69d89b8cd849b2",
       "ticket_name": "[PORTAL] Long names for printing equipment",
       "return_count": 1,
-      "current_status": "Ready for Release",
+      "current_status": "Delivered July 2026",
       "assignee": "Iryna, Arthur Souviron, vitalina.r",
-      "created_date": "2026-07-07",
+      "created_date": "2026-07-16",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/wDtDLbu9/4178-portal-long-names-for-printing-equipment"
+    },
+    {
+      "card_id": "634eb187e6f72701f8b98d94",
+      "ticket_name": "[Portal] Log in vs. Sign in",
+      "return_count": 1,
+      "current_status": "Delivered July 2026",
+      "assignee": "Iryna, Andrea Beck, Arthur Souviron, vitalina.r",
+      "created_date": "2026-07-16",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/nDXCnXj5/4180-portal-log-in-vs-sign-in"
+    },
+    {
+      "card_id": "69b420e4fc66023ca0cc7aa2",
+      "ticket_name": "[VA] Flashlight does not turn off during code analysis",
+      "return_count": 1,
+      "current_status": "Delivered July 2026",
+      "assignee": "vitalina.r, Iryna, Hemang Chawla, Taras Tsavolyk",
+      "created_date": "2026-07-14",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/qXvqdjoR/4029-va-flashlight-does-not-turn-off-during-code-analysis"
+    },
+    {
+      "card_id": "69e8c0dd599504dc90c3bc71",
+      "ticket_name": "[VA] Missing logo and language switcher icon on camera permission page",
+      "return_count": 1,
+      "current_status": "Delivered July 2026",
+      "assignee": "Taras Tsavolyk, vitalina.r, Iryna, Hemang Chawla",
+      "created_date": "2026-07-14",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/vvrxWLCC/4092-va-missing-logo-and-language-switcher-icon-on-camera-permission-page"
     },
     {
       "card_id": "69e07ddea6dd96292d5986b4",
@@ -696,71 +696,22 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 64,
-      "returned_cards": 4,
-      "pct_returned": 6.2,
-      "avg_return_count": 1.0,
+      "total_cards": 75,
+      "returned_cards": 0,
+      "pct_returned": 0.0,
+      "avg_return_count": 0,
       "failed_qg_count": 0
     },
-    "tickets": [
-      {
-        "card_id": "691c3dc8541ff89cce78f814",
-        "ticket_name": "[e-label portal] allow self-serve user to change company name",
-        "return_count": 1,
-        "current_status": "Code Review",
-        "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
-        "created_date": "2026-07-09",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69b9652e2734cc1a4856a9c4",
-        "ticket_name": "[VA] Update Phone Selection and How to Scan",
-        "return_count": 5,
-        "current_status": "Done (only for QA team)",
-        "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-        "created_date": "2026-07-09",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
-        "new_returns": 1
-      },
-      {
-        "card_id": "634eb187e6f72701f8b98d94",
-        "ticket_name": "[Portal] Log in vs. Sign in",
-        "return_count": 1,
-        "current_status": "Ready for Release",
-        "assignee": "Iryna, Andrea Beck, Arthur Souviron, vitalina.r",
-        "created_date": "2026-07-08",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/nDXCnXj5/4180-portal-log-in-vs-sign-in",
-        "new_returns": 1
-      },
-      {
-        "card_id": "5ae9d39f6d69d89b8cd849b2",
-        "ticket_name": "[PORTAL] Long names for printing equipment",
-        "return_count": 1,
-        "current_status": "Ready for Release",
-        "assignee": "Iryna, Arthur Souviron, vitalina.r",
-        "created_date": "2026-07-07",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/wDtDLbu9/4178-portal-long-names-for-printing-equipment",
-        "new_returns": 1
-      }
-    ],
+    "tickets": [],
     "failed_qg": []
   },
   "quarterly": {
     "label": "Q3 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 64,
+      "total_cards": 95,
       "returned_cards": 4,
-      "pct_returned": 6.2,
+      "pct_returned": 4.2,
       "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
@@ -771,46 +722,46 @@
         "return_count": 1,
         "current_status": "Code Review",
         "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
-        "created_date": "2026-07-09",
+        "created_date": "2026-07-13",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name",
         "new_returns": 1
       },
       {
-        "card_id": "69b9652e2734cc1a4856a9c4",
-        "ticket_name": "[VA] Update Phone Selection and How to Scan",
-        "return_count": 5,
-        "current_status": "Done (only for QA team)",
-        "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-        "created_date": "2026-07-09",
+        "card_id": "5ae9d39f6d69d89b8cd849b2",
+        "ticket_name": "[PORTAL] Long names for printing equipment",
+        "return_count": 1,
+        "current_status": "Delivered July 2026",
+        "assignee": "Iryna, Arthur Souviron, vitalina.r",
+        "created_date": "2026-07-16",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
+        "card_url": "https://trello.com/c/wDtDLbu9/4178-portal-long-names-for-printing-equipment",
         "new_returns": 1
       },
       {
         "card_id": "634eb187e6f72701f8b98d94",
         "ticket_name": "[Portal] Log in vs. Sign in",
         "return_count": 1,
-        "current_status": "Ready for Release",
+        "current_status": "Delivered July 2026",
         "assignee": "Iryna, Andrea Beck, Arthur Souviron, vitalina.r",
-        "created_date": "2026-07-08",
+        "created_date": "2026-07-16",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/nDXCnXj5/4180-portal-log-in-vs-sign-in",
         "new_returns": 1
       },
       {
-        "card_id": "5ae9d39f6d69d89b8cd849b2",
-        "ticket_name": "[PORTAL] Long names for printing equipment",
-        "return_count": 1,
-        "current_status": "Ready for Release",
-        "assignee": "Iryna, Arthur Souviron, vitalina.r",
-        "created_date": "2026-07-07",
+        "card_id": "69b9652e2734cc1a4856a9c4",
+        "ticket_name": "[VA] Update Phone Selection and How to Scan",
+        "return_count": 5,
+        "current_status": "Delivered July 2026",
+        "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
+        "created_date": "2026-07-14",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/wDtDLbu9/4178-portal-long-names-for-printing-equipment",
+        "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
         "new_returns": 1
       }
     ],
