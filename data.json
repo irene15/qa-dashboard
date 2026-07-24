@@ -1,10 +1,10 @@
 {
-  "last_updated": "Jul 17, 2026",
+  "last_updated": "Jul 24, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 336,
-    "returned_cards": 61,
-    "pct_returned": 18.2,
+    "total_cards": 348,
+    "returned_cards": 62,
+    "pct_returned": 17.8,
     "avg_return_count": 1.6,
     "failed_qg_count": 1
   },
@@ -406,15 +406,15 @@
       "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name"
     },
     {
-      "card_id": "68a6fecbb4cc45071c27c562",
-      "ticket_name": "[Code ingestion][UX] Unclear explanation message is displayed for GS1 codes template",
+      "card_id": "6a59e7d72ee18dcc4e7d1c78",
+      "ticket_name": "[Image gallery] Image validation for name length (min 5 characters) is not triggered when the name field is not manually focused before saving",
       "return_count": 1,
-      "current_status": "Done (only for QA team)",
-      "assignee": "vitalina.r, Iryna, Khalid Lamptey, Arthur Souviron",
-      "created_date": "2026-06-05",
+      "current_status": "QA Review",
+      "assignee": "Diana Fomina, Iryna, Khalid Lamptey",
+      "created_date": "2026-07-21",
       "quality_gate": "yes",
       "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/j6sB1viX/4135-code-ingestionux-unclear-explanation-message-is-displayed-for-gs1-codes-template"
+      "card_url": "https://trello.com/c/1j335NXx/4230-image-gallery-image-validation-for-name-length-min-5-characters-is-not-triggered-when-the-name-field-is-not-manually-focused-bef"
     },
     {
       "card_id": "693fa71ea9ef5e316fc0a3c0",
@@ -437,6 +437,17 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/dW052jVw/4083-e-label-paddle-billing-migration"
+    },
+    {
+      "card_id": "68a6fecbb4cc45071c27c562",
+      "ticket_name": "[Code ingestion][UX] Unclear explanation message is displayed for GS1 codes template",
+      "return_count": 1,
+      "current_status": "Delivered July 2026",
+      "assignee": "vitalina.r, Iryna, Khalid Lamptey, Arthur Souviron",
+      "created_date": "2026-07-23",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/j6sB1viX/4135-code-ingestionux-unclear-explanation-message-is-displayed-for-gs1-codes-template"
     },
     {
       "card_id": "6937040580a4ffeb5f70c1a5",
@@ -696,22 +707,35 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 75,
-      "returned_cards": 0,
-      "pct_returned": 0.0,
-      "avg_return_count": 0,
+      "total_cards": 28,
+      "returned_cards": 1,
+      "pct_returned": 3.6,
+      "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
-    "tickets": [],
+    "tickets": [
+      {
+        "card_id": "6a59e7d72ee18dcc4e7d1c78",
+        "ticket_name": "[Image gallery] Image validation for name length (min 5 characters) is not triggered when the name field is not manually focused before saving",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Diana Fomina, Iryna, Khalid Lamptey",
+        "created_date": "2026-07-21",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/1j335NXx/4230-image-gallery-image-validation-for-name-length-min-5-characters-is-not-triggered-when-the-name-field-is-not-manually-focused-bef",
+        "new_returns": 1
+      }
+    ],
     "failed_qg": []
   },
   "quarterly": {
     "label": "Q3 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 95,
-      "returned_cards": 4,
-      "pct_returned": 4.2,
+      "total_cards": 114,
+      "returned_cards": 5,
+      "pct_returned": 4.4,
       "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
@@ -726,6 +750,18 @@
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a59e7d72ee18dcc4e7d1c78",
+        "ticket_name": "[Image gallery] Image validation for name length (min 5 characters) is not triggered when the name field is not manually focused before saving",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Diana Fomina, Iryna, Khalid Lamptey",
+        "created_date": "2026-07-21",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/1j335NXx/4230-image-gallery-image-validation-for-name-length-min-5-characters-is-not-triggered-when-the-name-field-is-not-manually-focused-bef",
         "new_returns": 1
       },
       {
