@@ -1,10 +1,10 @@
 {
-  "last_updated": "Jul 24, 2026",
+  "last_updated": "Jul 31, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 348,
-    "returned_cards": 62,
-    "pct_returned": 17.8,
+    "total_cards": 366,
+    "returned_cards": 70,
+    "pct_returned": 19.1,
     "avg_return_count": 1.6,
     "failed_qg_count": 1
   },
@@ -147,10 +147,32 @@
       "return_count": 2,
       "current_status": "Development",
       "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
-      "created_date": "2026-07-07",
+      "created_date": "2026-07-30",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup"
+    },
+    {
+      "card_id": "6a561f793849c6a79e23f29d",
+      "ticket_name": "[ST iOS] Align scan history icons with Figma",
+      "return_count": 2,
+      "current_status": "Development",
+      "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
+      "created_date": "2026-07-30",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma"
+    },
+    {
+      "card_id": "6a63387cda57dd79875f87cd",
+      "ticket_name": "[ST][iOS] Native blurry-scan result screen for unreadable scans",
+      "return_count": 2,
+      "current_status": "Development",
+      "assignee": "Rizwan, Hemang Chawla, Iryna, vitalina.r",
+      "created_date": "2026-07-30",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/Dmnue2e7/4242-stios-native-blurry-scan-result-screen-for-unreadable-scans"
     },
     {
       "card_id": "69a6af7c74bd42c933454262",
@@ -395,6 +417,61 @@
       "card_url": "https://trello.com/c/5HLvP3Mj/3859-androidst-release-1613"
     },
     {
+      "card_id": "68ba9b2a0c65180e2678136c",
+      "ticket_name": "[Android][Printer] Release 2.0.0",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
+      "created_date": "2026-07-24",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/ClsKetWw/3715-androidprinter-release-200"
+    },
+    {
+      "card_id": "695f947f6dbe10a2e1a1f7e9",
+      "ticket_name": "[Android][Printer] Flexible QA",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Tom.Ji, Rizwan, Hemang Chawla, Iryna, vitalina.r, Yan",
+      "created_date": "2026-07-28",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/ww5btc7T/3922-androidprinter-flexible-qa"
+    },
+    {
+      "card_id": "698d8f90ba1fb078e741f267",
+      "ticket_name": "[Printer][android] Add WO id on pages.",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Rizwan, vitalina.r, Andrea Beck, Hemang Chawla, Tom.Ji, Iryna",
+      "created_date": "2026-07-24",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/g9mvIbkw/3995-printerandroid-add-wo-id-on-pages"
+    },
+    {
+      "card_id": "68514a1f230aa72b8694cbb6",
+      "ticket_name": "[Android][ST Printer] Move to better unique ID for QA Session Scans",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Rizwan, Iryna, vitalina.r, Tom.Ji",
+      "created_date": "2026-07-24",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/OWVvhPOA/4032-androidst-printer-move-to-better-unique-id-for-qa-session-scans"
+    },
+    {
+      "card_id": "6a567c5e4c22f86c5da0ee7f",
+      "ticket_name": "[ST iOS] Torch button font and on/off colors do not match the design",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Hemang Chawla, Rizwan, vitalina.r, Iryna",
+      "created_date": "2026-07-28",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/j7NZEhhv/4223-st-ios-torch-button-font-and-on-off-colors-do-not-match-the-design"
+    },
+    {
       "card_id": "691c3dc8541ff89cce78f814",
       "ticket_name": "[e-label portal] allow self-serve user to change company name",
       "return_count": 1,
@@ -404,6 +481,17 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name"
+    },
+    {
+      "card_id": "6a6338ff5d70752735ce7f51",
+      "ticket_name": "[ST][iOS] Release v5.5.0",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Rizwan, Iryna, vitalina.r",
+      "created_date": "2026-07-31",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/krT2Adtd/4243-stios-release-v550"
     },
     {
       "card_id": "6a59e7d72ee18dcc4e7d1c78",
@@ -707,23 +795,107 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 28,
-      "returned_cards": 1,
-      "pct_returned": 3.6,
-      "avg_return_count": 1.0,
+      "total_cards": 36,
+      "returned_cards": 8,
+      "pct_returned": 22.2,
+      "avg_return_count": 1.2,
       "failed_qg_count": 0
     },
     "tickets": [
       {
-        "card_id": "6a59e7d72ee18dcc4e7d1c78",
-        "ticket_name": "[Image gallery] Image validation for name length (min 5 characters) is not triggered when the name field is not manually focused before saving",
-        "return_count": 1,
-        "current_status": "QA Review",
-        "assignee": "Diana Fomina, Iryna, Khalid Lamptey",
-        "created_date": "2026-07-21",
+        "card_id": "6a561f793849c6a79e23f29d",
+        "ticket_name": "[ST iOS] Align scan history icons with Figma",
+        "return_count": 2,
+        "current_status": "Development",
+        "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
+        "created_date": "2026-07-30",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/1j335NXx/4230-image-gallery-image-validation-for-name-length-min-5-characters-is-not-triggered-when-the-name-field-is-not-manually-focused-bef",
+        "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma",
+        "new_returns": 2
+      },
+      {
+        "card_id": "6a63387cda57dd79875f87cd",
+        "ticket_name": "[ST][iOS] Native blurry-scan result screen for unreadable scans",
+        "return_count": 2,
+        "current_status": "Development",
+        "assignee": "Rizwan, Hemang Chawla, Iryna, vitalina.r",
+        "created_date": "2026-07-30",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/Dmnue2e7/4242-stios-native-blurry-scan-result-screen-for-unreadable-scans",
+        "new_returns": 2
+      },
+      {
+        "card_id": "68ba9b2a0c65180e2678136c",
+        "ticket_name": "[Android][Printer] Release 2.0.0",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
+        "created_date": "2026-07-24",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/ClsKetWw/3715-androidprinter-release-200",
+        "new_returns": 1
+      },
+      {
+        "card_id": "695f947f6dbe10a2e1a1f7e9",
+        "ticket_name": "[Android][Printer] Flexible QA",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Tom.Ji, Rizwan, Hemang Chawla, Iryna, vitalina.r, Yan",
+        "created_date": "2026-07-28",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/ww5btc7T/3922-androidprinter-flexible-qa",
+        "new_returns": 1
+      },
+      {
+        "card_id": "698d8f90ba1fb078e741f267",
+        "ticket_name": "[Printer][android] Add WO id on pages.",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Rizwan, vitalina.r, Andrea Beck, Hemang Chawla, Tom.Ji, Iryna",
+        "created_date": "2026-07-24",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/g9mvIbkw/3995-printerandroid-add-wo-id-on-pages",
+        "new_returns": 1
+      },
+      {
+        "card_id": "68514a1f230aa72b8694cbb6",
+        "ticket_name": "[Android][ST Printer] Move to better unique ID for QA Session Scans",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Rizwan, Iryna, vitalina.r, Tom.Ji",
+        "created_date": "2026-07-24",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/OWVvhPOA/4032-androidst-printer-move-to-better-unique-id-for-qa-session-scans",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a567c5e4c22f86c5da0ee7f",
+        "ticket_name": "[ST iOS] Torch button font and on/off colors do not match the design",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Hemang Chawla, Rizwan, vitalina.r, Iryna",
+        "created_date": "2026-07-28",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/j7NZEhhv/4223-st-ios-torch-button-font-and-on-off-colors-do-not-match-the-design",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a6338ff5d70752735ce7f51",
+        "ticket_name": "[ST][iOS] Release v5.5.0",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Rizwan, Iryna, vitalina.r",
+        "created_date": "2026-07-31",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/krT2Adtd/4243-stios-release-v550",
         "new_returns": 1
       }
     ],
@@ -733,13 +905,97 @@
     "label": "Q3 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 114,
-      "returned_cards": 5,
-      "pct_returned": 4.4,
-      "avg_return_count": 1.0,
+      "total_cards": 134,
+      "returned_cards": 13,
+      "pct_returned": 9.7,
+      "avg_return_count": 1.2,
       "failed_qg_count": 0
     },
     "tickets": [
+      {
+        "card_id": "6a561f793849c6a79e23f29d",
+        "ticket_name": "[ST iOS] Align scan history icons with Figma",
+        "return_count": 2,
+        "current_status": "Development",
+        "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
+        "created_date": "2026-07-30",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma",
+        "new_returns": 2
+      },
+      {
+        "card_id": "6a63387cda57dd79875f87cd",
+        "ticket_name": "[ST][iOS] Native blurry-scan result screen for unreadable scans",
+        "return_count": 2,
+        "current_status": "Development",
+        "assignee": "Rizwan, Hemang Chawla, Iryna, vitalina.r",
+        "created_date": "2026-07-30",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/Dmnue2e7/4242-stios-native-blurry-scan-result-screen-for-unreadable-scans",
+        "new_returns": 2
+      },
+      {
+        "card_id": "68ba9b2a0c65180e2678136c",
+        "ticket_name": "[Android][Printer] Release 2.0.0",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
+        "created_date": "2026-07-24",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/ClsKetWw/3715-androidprinter-release-200",
+        "new_returns": 1
+      },
+      {
+        "card_id": "695f947f6dbe10a2e1a1f7e9",
+        "ticket_name": "[Android][Printer] Flexible QA",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Tom.Ji, Rizwan, Hemang Chawla, Iryna, vitalina.r, Yan",
+        "created_date": "2026-07-28",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/ww5btc7T/3922-androidprinter-flexible-qa",
+        "new_returns": 1
+      },
+      {
+        "card_id": "698d8f90ba1fb078e741f267",
+        "ticket_name": "[Printer][android] Add WO id on pages.",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Rizwan, vitalina.r, Andrea Beck, Hemang Chawla, Tom.Ji, Iryna",
+        "created_date": "2026-07-24",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/g9mvIbkw/3995-printerandroid-add-wo-id-on-pages",
+        "new_returns": 1
+      },
+      {
+        "card_id": "68514a1f230aa72b8694cbb6",
+        "ticket_name": "[Android][ST Printer] Move to better unique ID for QA Session Scans",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Rizwan, Iryna, vitalina.r, Tom.Ji",
+        "created_date": "2026-07-24",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/OWVvhPOA/4032-androidst-printer-move-to-better-unique-id-for-qa-session-scans",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a567c5e4c22f86c5da0ee7f",
+        "ticket_name": "[ST iOS] Torch button font and on/off colors do not match the design",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Hemang Chawla, Rizwan, vitalina.r, Iryna",
+        "created_date": "2026-07-28",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/j7NZEhhv/4223-st-ios-torch-button-font-and-on-off-colors-do-not-match-the-design",
+        "new_returns": 1
+      },
       {
         "card_id": "691c3dc8541ff89cce78f814",
         "ticket_name": "[e-label portal] allow self-serve user to change company name",
@@ -750,6 +1006,18 @@
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a6338ff5d70752735ce7f51",
+        "ticket_name": "[ST][iOS] Release v5.5.0",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Rizwan, Iryna, vitalina.r",
+        "created_date": "2026-07-31",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/krT2Adtd/4243-stios-release-v550",
         "new_returns": 1
       },
       {
