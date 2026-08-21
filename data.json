@@ -1,11 +1,11 @@
 {
-  "last_updated": "Aug 14, 2026",
+  "last_updated": "Aug 21, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 404,
-    "returned_cards": 73,
-    "pct_returned": 18.1,
-    "avg_return_count": 1.6,
+    "total_cards": 422,
+    "returned_cards": 78,
+    "pct_returned": 18.5,
+    "avg_return_count": 1.5,
     "failed_qg_count": 1
   },
   "tickets": [
@@ -92,7 +92,7 @@
       "return_count": 2,
       "current_status": "Code Review",
       "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
-      "created_date": "2026-08-13",
+      "created_date": "2026-08-19",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup"
@@ -169,7 +169,7 @@
       "return_count": 2,
       "current_status": "Development",
       "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
-      "created_date": "2026-08-04",
+      "created_date": "2026-08-18",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma"
@@ -184,6 +184,17 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/Dmnue2e7/4242-stios-native-blurry-scan-result-screen-for-unreadable-scans"
+    },
+    {
+      "card_id": "691c3dc8541ff89cce78f814",
+      "ticket_name": "[e-label portal] allow self-serve user to change company name",
+      "return_count": 2,
+      "current_status": "Development",
+      "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
+      "created_date": "2026-08-14",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name"
     },
     {
       "card_id": "69a6af7c74bd42c933454262",
@@ -428,6 +439,17 @@
       "card_url": "https://trello.com/c/5HLvP3Mj/3859-androidst-release-1613"
     },
     {
+      "card_id": "6a0c6cdd143718820ced24b0",
+      "ticket_name": "[ST Pro] QR Color Contrast Validation Missing",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Arthur Souviron, Iryna, Ivanna Kavetska",
+      "created_date": "2026-08-17",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/q8rWdQQL/4292-st-pro-qr-color-contrast-validation-missing"
+    },
+    {
       "card_id": "6a55a5a84e2f4b350b190b8f",
       "ticket_name": "[ST][Android]Release 2.0.2",
       "return_count": 1,
@@ -494,23 +516,56 @@
       "card_url": "https://trello.com/c/j7NZEhhv/4223-st-ios-torch-button-font-and-on-off-colors-do-not-match-the-design"
     },
     {
-      "card_id": "691c3dc8541ff89cce78f814",
-      "ticket_name": "[e-label portal] allow self-serve user to change company name",
+      "card_id": "6a574721f83a50925885f9bb",
+      "ticket_name": "[Landing page editor] Add \"Footer & Consent\" tab",
       "return_count": 1,
-      "current_status": "QA Review",
-      "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
-      "created_date": "2026-08-13",
+      "current_status": "Development",
+      "assignee": "Michael Tai, Iryna, Ivanna Kavetska",
+      "created_date": "2026-08-20",
       "quality_gate": "yes",
       "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name"
+      "card_url": "https://trello.com/c/HU3FojUs/4224-landing-page-editor-add-footer-consent-tab"
+    },
+    {
+      "card_id": "6a7ab2ef897d7779b661d5ca",
+      "ticket_name": "[e-label editor] display brand name and GTIN fields on the landing page",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Yan, Diana Fomina, Michael Tai, Iryna",
+      "created_date": "2026-08-20",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/U4mhzHAy/4298-e-label-editor-display-brand-name-and-gtin-fields-on-the-landing-page"
+    },
+    {
+      "card_id": "6a7051770ca38a70adb72196",
+      "ticket_name": "[QR manager] e-label excel template update",
+      "return_count": 1,
+      "current_status": "Done (only for QA team)",
+      "assignee": "Yan, Michael Tai, Diana Fomina, Iryna",
+      "created_date": "2026-08-18",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/jVCUjl9R/4285-qr-manager-e-label-excel-template-update"
+    },
+    {
+      "card_id": "6a59e2a57d4376fab056cba8",
+      "ticket_name": "[Portal - QR Manager] ability to download csv for created codes",
+      "return_count": 1,
+      "current_status": "Done (only for QA team)",
+      "assignee": "Arthur Souviron, Yan, Khalid Lamptey, Diana Fomina, Iryna",
+      "created_date": "2026-08-19",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/6XlbhTpY/4236-portal-qr-manager-ability-to-download-csv-for-created-codes"
     },
     {
       "card_id": "6a59e7d72ee18dcc4e7d1c78",
       "ticket_name": "[Image gallery] Image validation for name length (min 5 characters) is not triggered when the name field is not manually focused before saving",
       "return_count": 1,
-      "current_status": "Done (only for QA team)",
+      "current_status": "Ready for Release",
       "assignee": "Diana Fomina, Iryna, Khalid Lamptey",
-      "created_date": "2026-08-10",
+      "created_date": "2026-08-19",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/1j335NXx/4230-image-gallery-image-validation-for-name-length-min-5-characters-is-not-triggered-when-the-name-field-is-not-manually-focused-bef"
@@ -828,22 +883,95 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 74,
-      "returned_cards": 0,
-      "pct_returned": 0.0,
-      "avg_return_count": 0,
+      "total_cards": 63,
+      "returned_cards": 6,
+      "pct_returned": 9.5,
+      "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
-    "tickets": [],
+    "tickets": [
+      {
+        "card_id": "6a0c6cdd143718820ced24b0",
+        "ticket_name": "[ST Pro] QR Color Contrast Validation Missing",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Arthur Souviron, Iryna, Ivanna Kavetska",
+        "created_date": "2026-08-17",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/q8rWdQQL/4292-st-pro-qr-color-contrast-validation-missing",
+        "new_returns": 1
+      },
+      {
+        "card_id": "691c3dc8541ff89cce78f814",
+        "ticket_name": "[e-label portal] allow self-serve user to change company name",
+        "return_count": 2,
+        "current_status": "Development",
+        "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
+        "created_date": "2026-08-14",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a574721f83a50925885f9bb",
+        "ticket_name": "[Landing page editor] Add \"Footer & Consent\" tab",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Michael Tai, Iryna, Ivanna Kavetska",
+        "created_date": "2026-08-20",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/HU3FojUs/4224-landing-page-editor-add-footer-consent-tab",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a7ab2ef897d7779b661d5ca",
+        "ticket_name": "[e-label editor] display brand name and GTIN fields on the landing page",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Yan, Diana Fomina, Michael Tai, Iryna",
+        "created_date": "2026-08-20",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/U4mhzHAy/4298-e-label-editor-display-brand-name-and-gtin-fields-on-the-landing-page",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a7051770ca38a70adb72196",
+        "ticket_name": "[QR manager] e-label excel template update",
+        "return_count": 1,
+        "current_status": "Done (only for QA team)",
+        "assignee": "Yan, Michael Tai, Diana Fomina, Iryna",
+        "created_date": "2026-08-18",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/jVCUjl9R/4285-qr-manager-e-label-excel-template-update",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a59e2a57d4376fab056cba8",
+        "ticket_name": "[Portal - QR Manager] ability to download csv for created codes",
+        "return_count": 1,
+        "current_status": "Done (only for QA team)",
+        "assignee": "Arthur Souviron, Yan, Khalid Lamptey, Diana Fomina, Iryna",
+        "created_date": "2026-08-19",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/6XlbhTpY/4236-portal-qr-manager-ability-to-download-csv-for-created-codes",
+        "new_returns": 1
+      }
+    ],
     "failed_qg": []
   },
   "quarterly": {
     "label": "Q3 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 182,
-      "returned_cards": 16,
-      "pct_returned": 8.8,
+      "total_cards": 200,
+      "returned_cards": 21,
+      "pct_returned": 10.5,
       "avg_return_count": 1.2,
       "failed_qg_count": 0
     },
@@ -866,7 +994,7 @@
         "return_count": 2,
         "current_status": "Development",
         "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
-        "created_date": "2026-08-04",
+        "created_date": "2026-08-18",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma",
@@ -883,6 +1011,30 @@
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/Dmnue2e7/4242-stios-native-blurry-scan-result-screen-for-unreadable-scans",
         "new_returns": 2
+      },
+      {
+        "card_id": "691c3dc8541ff89cce78f814",
+        "ticket_name": "[e-label portal] allow self-serve user to change company name",
+        "return_count": 2,
+        "current_status": "Development",
+        "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
+        "created_date": "2026-08-14",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name",
+        "new_returns": 2
+      },
+      {
+        "card_id": "6a0c6cdd143718820ced24b0",
+        "ticket_name": "[ST Pro] QR Color Contrast Validation Missing",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Arthur Souviron, Iryna, Ivanna Kavetska",
+        "created_date": "2026-08-17",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/q8rWdQQL/4292-st-pro-qr-color-contrast-validation-missing",
+        "new_returns": 1
       },
       {
         "card_id": "6a55a5a84e2f4b350b190b8f",
@@ -957,24 +1109,60 @@
         "new_returns": 1
       },
       {
-        "card_id": "691c3dc8541ff89cce78f814",
-        "ticket_name": "[e-label portal] allow self-serve user to change company name",
+        "card_id": "6a574721f83a50925885f9bb",
+        "ticket_name": "[Landing page editor] Add \"Footer & Consent\" tab",
         "return_count": 1,
-        "current_status": "QA Review",
-        "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
-        "created_date": "2026-08-13",
+        "current_status": "Development",
+        "assignee": "Michael Tai, Iryna, Ivanna Kavetska",
+        "created_date": "2026-08-20",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name",
+        "card_url": "https://trello.com/c/HU3FojUs/4224-landing-page-editor-add-footer-consent-tab",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a7ab2ef897d7779b661d5ca",
+        "ticket_name": "[e-label editor] display brand name and GTIN fields on the landing page",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Yan, Diana Fomina, Michael Tai, Iryna",
+        "created_date": "2026-08-20",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/U4mhzHAy/4298-e-label-editor-display-brand-name-and-gtin-fields-on-the-landing-page",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a7051770ca38a70adb72196",
+        "ticket_name": "[QR manager] e-label excel template update",
+        "return_count": 1,
+        "current_status": "Done (only for QA team)",
+        "assignee": "Yan, Michael Tai, Diana Fomina, Iryna",
+        "created_date": "2026-08-18",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/jVCUjl9R/4285-qr-manager-e-label-excel-template-update",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a59e2a57d4376fab056cba8",
+        "ticket_name": "[Portal - QR Manager] ability to download csv for created codes",
+        "return_count": 1,
+        "current_status": "Done (only for QA team)",
+        "assignee": "Arthur Souviron, Yan, Khalid Lamptey, Diana Fomina, Iryna",
+        "created_date": "2026-08-19",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/6XlbhTpY/4236-portal-qr-manager-ability-to-download-csv-for-created-codes",
         "new_returns": 1
       },
       {
         "card_id": "6a59e7d72ee18dcc4e7d1c78",
         "ticket_name": "[Image gallery] Image validation for name length (min 5 characters) is not triggered when the name field is not manually focused before saving",
         "return_count": 1,
-        "current_status": "Done (only for QA team)",
+        "current_status": "Ready for Release",
         "assignee": "Diana Fomina, Iryna, Khalid Lamptey",
-        "created_date": "2026-08-10",
+        "created_date": "2026-08-19",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/1j335NXx/4230-image-gallery-image-validation-for-name-length-min-5-characters-is-not-triggered-when-the-name-field-is-not-manually-focused-bef",
