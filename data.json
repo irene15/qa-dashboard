@@ -1,11 +1,11 @@
 {
-  "last_updated": "Aug 28, 2026",
+  "last_updated": "Sep 04, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 433,
-    "returned_cards": 79,
-    "pct_returned": 18.2,
-    "avg_return_count": 1.5,
+    "total_cards": 444,
+    "returned_cards": 80,
+    "pct_returned": 18.0,
+    "avg_return_count": 1.6,
     "failed_qg_count": 1
   },
   "tickets": [
@@ -41,6 +41,17 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/kTOWjeFw/3786-stios-add-third-party-non-st-url-scan-pages-as-per-unified-ui"
+    },
+    {
+      "card_id": "6a574721f83a50925885f9bb",
+      "ticket_name": "[Landing page editor] Add \"Footer & Consent\" tab",
+      "return_count": 3,
+      "current_status": "Done (only for QA team)",
+      "assignee": "Michael Tai, Iryna, Ivanna Kavetska, Yan",
+      "created_date": "2026-09-04",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/HU3FojUs/4224-landing-page-editor-add-footer-consent-tab"
     },
     {
       "card_id": "6a0ae757cd83cc3d3c626bbf",
@@ -142,17 +153,6 @@
       "card_url": "https://trello.com/c/TQ7vwSXC/3724-androidst-okr24-survey-native-app-users-on-choosing-to-not-buy-counterfeits-and-shared-internally-with-scantrusters"
     },
     {
-      "card_id": "6a574721f83a50925885f9bb",
-      "ticket_name": "[Landing page editor] Add \"Footer & Consent\" tab",
-      "return_count": 2,
-      "current_status": "Development",
-      "assignee": "Michael Tai, Iryna, Ivanna Kavetska, Yan",
-      "created_date": "2026-08-28",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/HU3FojUs/4224-landing-page-editor-add-footer-consent-tab"
-    },
-    {
       "card_id": "69c274f7271c5e6047226fda",
       "ticket_name": "[BE][Enterprise portal] Update permissions",
       "return_count": 2,
@@ -164,15 +164,15 @@
       "card_url": "https://trello.com/c/5XuzJ1aZ/4043-beenterprise-portal-update-permissions"
     },
     {
-      "card_id": "691c3dc8541ff89cce78f814",
-      "ticket_name": "[e-label portal] allow self-serve user to change company name",
+      "card_id": "6a561f793849c6a79e23f29d",
+      "ticket_name": "[ST iOS] Align scan history icons with Figma",
       "return_count": 2,
-      "current_status": "Code Review",
-      "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
-      "created_date": "2026-08-28",
+      "current_status": "Development",
+      "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
+      "created_date": "2026-09-02",
       "quality_gate": "yes",
       "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name"
+      "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma"
     },
     {
       "card_id": "6a6338ff5d70752735ce7f51",
@@ -180,7 +180,7 @@
       "return_count": 2,
       "current_status": "QA Review",
       "assignee": "Rizwan, Iryna, vitalina.r",
-      "created_date": "2026-08-27",
+      "created_date": "2026-09-01",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/krT2Adtd/4243-stios-release-v550"
@@ -189,23 +189,23 @@
       "card_id": "6a63387cda57dd79875f87cd",
       "ticket_name": "[ST][iOS] Native blurry-scan result screen for unreadable scans",
       "return_count": 2,
-      "current_status": "QA Review",
+      "current_status": "Done (only for QA team)",
       "assignee": "Rizwan, Hemang Chawla, Iryna, vitalina.r",
-      "created_date": "2026-08-28",
+      "created_date": "2026-09-01",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/Dmnue2e7/4242-stios-native-blurry-scan-result-screen-for-unreadable-scans"
     },
     {
-      "card_id": "6a561f793849c6a79e23f29d",
-      "ticket_name": "[ST iOS] Align scan history icons with Figma",
+      "card_id": "691c3dc8541ff89cce78f814",
+      "ticket_name": "[e-label portal] allow self-serve user to change company name",
       "return_count": 2,
       "current_status": "Done (only for QA team)",
-      "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
-      "created_date": "2026-08-27",
+      "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
+      "created_date": "2026-09-01",
       "quality_gate": "yes",
       "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma"
+      "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name"
     },
     {
       "card_id": "69a6af7c74bd42c933454262",
@@ -461,26 +461,26 @@
       "card_url": "https://trello.com/c/q8rWdQQL/4292-st-pro-qr-color-contrast-validation-missing"
     },
     {
+      "card_id": "6a50977601997643378724d1",
+      "ticket_name": "[MANUKA001] Gallery to store PDF files can be accessed publicly",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Lance Huang - ScanTrust, Arthur Souviron, Khalid Lamptey, Iryna, Diana Fomina",
+      "created_date": "2026-09-03",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/J4kRfqdu/4204-manuka001-gallery-to-store-pdf-files-can-be-accessed-publicly"
+    },
+    {
       "card_id": "68ba9b2a0c65180e2678136c",
       "ticket_name": "[Android][Printer] Release 2.0.0",
       "return_count": 1,
       "current_status": "QA Review",
       "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
-      "created_date": "2026-08-27",
+      "created_date": "2026-09-02",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/ClsKetWw/3715-androidprinter-release-200"
-    },
-    {
-      "card_id": "6a567c5e4c22f86c5da0ee7f",
-      "ticket_name": "[ST iOS] Torch button font and on/off colors do not match the design",
-      "return_count": 1,
-      "current_status": "QA Review",
-      "assignee": "Hemang Chawla, Rizwan, vitalina.r, Iryna",
-      "created_date": "2026-08-28",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/j7NZEhhv/4223-st-ios-torch-button-font-and-on-off-colors-do-not-match-the-design"
     },
     {
       "card_id": "6a55a5a84e2f4b350b190b8f",
@@ -488,29 +488,18 @@
       "return_count": 1,
       "current_status": "QA Review",
       "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
-      "created_date": "2026-08-27",
+      "created_date": "2026-09-01",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/wzO7v33W/4216-standroidrelease-202"
     },
     {
-      "card_id": "698d8f90ba1fb078e741f267",
-      "ticket_name": "[Printer][android] Add WO id on pages.",
-      "return_count": 1,
-      "current_status": "QA Review",
-      "assignee": "Rizwan, vitalina.r, Andrea Beck, Hemang Chawla, Tom.Ji, Iryna",
-      "created_date": "2026-08-26",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/g9mvIbkw/3995-printerandroid-add-wo-id-on-pages"
-    },
-    {
       "card_id": "68514a1f230aa72b8694cbb6",
       "ticket_name": "[Android][ST Printer] Move to better unique ID for QA Session Scans",
       "return_count": 1,
-      "current_status": "QA Review",
+      "current_status": "Done (only for QA team)",
       "assignee": "Rizwan, Iryna, vitalina.r, Tom.Ji",
-      "created_date": "2026-08-26",
+      "created_date": "2026-09-03",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/OWVvhPOA/4032-androidst-printer-move-to-better-unique-id-for-qa-session-scans"
@@ -519,12 +508,34 @@
       "card_id": "695f947f6dbe10a2e1a1f7e9",
       "ticket_name": "[Android][Printer] Flexible QA",
       "return_count": 1,
-      "current_status": "QA Review",
+      "current_status": "Done (only for QA team)",
       "assignee": "Rizwan, Hemang Chawla, Iryna, vitalina.r, Yan",
-      "created_date": "2026-08-26",
+      "created_date": "2026-09-03",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/ww5btc7T/3922-androidprinter-flexible-qa"
+    },
+    {
+      "card_id": "698d8f90ba1fb078e741f267",
+      "ticket_name": "[Printer][android] Add WO id on pages.",
+      "return_count": 1,
+      "current_status": "Done (only for QA team)",
+      "assignee": "Rizwan, vitalina.r, Andrea Beck, Hemang Chawla, Tom.Ji, Iryna",
+      "created_date": "2026-08-28",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/g9mvIbkw/3995-printerandroid-add-wo-id-on-pages"
+    },
+    {
+      "card_id": "6a567c5e4c22f86c5da0ee7f",
+      "ticket_name": "[ST iOS] Torch button font and on/off colors do not match the design",
+      "return_count": 1,
+      "current_status": "Done (only for QA team)",
+      "assignee": "Hemang Chawla, Rizwan, vitalina.r, Iryna",
+      "created_date": "2026-08-28",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/j7NZEhhv/4223-st-ios-torch-button-font-and-on-off-colors-do-not-match-the-design"
     },
     {
       "card_id": "6a5736a402dc23772e6b2583",
@@ -894,35 +905,35 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 51,
+      "total_cards": 75,
       "returned_cards": 2,
-      "pct_returned": 3.9,
+      "pct_returned": 2.7,
       "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
     "tickets": [
       {
-        "card_id": "6a574721f83a50925885f9bb",
-        "ticket_name": "[Landing page editor] Add \"Footer & Consent\" tab",
-        "return_count": 2,
+        "card_id": "6a50977601997643378724d1",
+        "ticket_name": "[MANUKA001] Gallery to store PDF files can be accessed publicly",
+        "return_count": 1,
         "current_status": "Development",
-        "assignee": "Michael Tai, Iryna, Ivanna Kavetska, Yan",
-        "created_date": "2026-08-28",
+        "assignee": "Lance Huang - ScanTrust, Arthur Souviron, Khalid Lamptey, Iryna, Diana Fomina",
+        "created_date": "2026-09-03",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/HU3FojUs/4224-landing-page-editor-add-footer-consent-tab",
+        "card_url": "https://trello.com/c/J4kRfqdu/4204-manuka001-gallery-to-store-pdf-files-can-be-accessed-publicly",
         "new_returns": 1
       },
       {
-        "card_id": "6a5736a402dc23772e6b2583",
-        "ticket_name": "[e-label portal] Add discount field to invoice form for wire transfer payments",
-        "return_count": 1,
+        "card_id": "6a574721f83a50925885f9bb",
+        "ticket_name": "[Landing page editor] Add \"Footer & Consent\" tab",
+        "return_count": 3,
         "current_status": "Done (only for QA team)",
-        "assignee": "Arthur Souviron, Yan, Diana Fomina, jelle.sturm, Michael Tai, Iryna",
-        "created_date": "2026-08-26",
+        "assignee": "Michael Tai, Iryna, Ivanna Kavetska, Yan",
+        "created_date": "2026-09-04",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/lGTncwfy/4325-e-label-portal-add-discount-field-to-invoice-form-for-wire-transfer-payments",
+        "card_url": "https://trello.com/c/HU3FojUs/4224-landing-page-editor-add-footer-consent-tab",
         "new_returns": 1
       }
     ],
@@ -932,35 +943,35 @@
     "label": "Q3 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 211,
-      "returned_cards": 22,
-      "pct_returned": 10.4,
-      "avg_return_count": 1.2,
+      "total_cards": 229,
+      "returned_cards": 23,
+      "pct_returned": 10.0,
+      "avg_return_count": 1.3,
       "failed_qg_count": 0
     },
     "tickets": [
       {
         "card_id": "6a574721f83a50925885f9bb",
         "ticket_name": "[Landing page editor] Add \"Footer & Consent\" tab",
-        "return_count": 2,
-        "current_status": "Development",
+        "return_count": 3,
+        "current_status": "Done (only for QA team)",
         "assignee": "Michael Tai, Iryna, Ivanna Kavetska, Yan",
-        "created_date": "2026-08-28",
+        "created_date": "2026-09-04",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/HU3FojUs/4224-landing-page-editor-add-footer-consent-tab",
-        "new_returns": 2
+        "new_returns": 3
       },
       {
-        "card_id": "691c3dc8541ff89cce78f814",
-        "ticket_name": "[e-label portal] allow self-serve user to change company name",
+        "card_id": "6a561f793849c6a79e23f29d",
+        "ticket_name": "[ST iOS] Align scan history icons with Figma",
         "return_count": 2,
-        "current_status": "Code Review",
-        "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
-        "created_date": "2026-08-28",
+        "current_status": "Development",
+        "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
+        "created_date": "2026-09-02",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name",
+        "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma",
         "new_returns": 2
       },
       {
@@ -969,7 +980,7 @@
         "return_count": 2,
         "current_status": "QA Review",
         "assignee": "Rizwan, Iryna, vitalina.r",
-        "created_date": "2026-08-27",
+        "created_date": "2026-09-01",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/krT2Adtd/4243-stios-release-v550",
@@ -979,24 +990,24 @@
         "card_id": "6a63387cda57dd79875f87cd",
         "ticket_name": "[ST][iOS] Native blurry-scan result screen for unreadable scans",
         "return_count": 2,
-        "current_status": "QA Review",
+        "current_status": "Done (only for QA team)",
         "assignee": "Rizwan, Hemang Chawla, Iryna, vitalina.r",
-        "created_date": "2026-08-28",
+        "created_date": "2026-09-01",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/Dmnue2e7/4242-stios-native-blurry-scan-result-screen-for-unreadable-scans",
         "new_returns": 2
       },
       {
-        "card_id": "6a561f793849c6a79e23f29d",
-        "ticket_name": "[ST iOS] Align scan history icons with Figma",
+        "card_id": "691c3dc8541ff89cce78f814",
+        "ticket_name": "[e-label portal] allow self-serve user to change company name",
         "return_count": 2,
         "current_status": "Done (only for QA team)",
-        "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
-        "created_date": "2026-08-27",
+        "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
+        "created_date": "2026-09-01",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma",
+        "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name",
         "new_returns": 2
       },
       {
@@ -1012,27 +1023,27 @@
         "new_returns": 1
       },
       {
+        "card_id": "6a50977601997643378724d1",
+        "ticket_name": "[MANUKA001] Gallery to store PDF files can be accessed publicly",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Lance Huang - ScanTrust, Arthur Souviron, Khalid Lamptey, Iryna, Diana Fomina",
+        "created_date": "2026-09-03",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/J4kRfqdu/4204-manuka001-gallery-to-store-pdf-files-can-be-accessed-publicly",
+        "new_returns": 1
+      },
+      {
         "card_id": "68ba9b2a0c65180e2678136c",
         "ticket_name": "[Android][Printer] Release 2.0.0",
         "return_count": 1,
         "current_status": "QA Review",
         "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
-        "created_date": "2026-08-27",
+        "created_date": "2026-09-02",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/ClsKetWw/3715-androidprinter-release-200",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a567c5e4c22f86c5da0ee7f",
-        "ticket_name": "[ST iOS] Torch button font and on/off colors do not match the design",
-        "return_count": 1,
-        "current_status": "QA Review",
-        "assignee": "Hemang Chawla, Rizwan, vitalina.r, Iryna",
-        "created_date": "2026-08-28",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/j7NZEhhv/4223-st-ios-torch-button-font-and-on-off-colors-do-not-match-the-design",
         "new_returns": 1
       },
       {
@@ -1041,31 +1052,19 @@
         "return_count": 1,
         "current_status": "QA Review",
         "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
-        "created_date": "2026-08-27",
+        "created_date": "2026-09-01",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/wzO7v33W/4216-standroidrelease-202",
         "new_returns": 1
       },
       {
-        "card_id": "698d8f90ba1fb078e741f267",
-        "ticket_name": "[Printer][android] Add WO id on pages.",
-        "return_count": 1,
-        "current_status": "QA Review",
-        "assignee": "Rizwan, vitalina.r, Andrea Beck, Hemang Chawla, Tom.Ji, Iryna",
-        "created_date": "2026-08-26",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/g9mvIbkw/3995-printerandroid-add-wo-id-on-pages",
-        "new_returns": 1
-      },
-      {
         "card_id": "68514a1f230aa72b8694cbb6",
         "ticket_name": "[Android][ST Printer] Move to better unique ID for QA Session Scans",
         "return_count": 1,
-        "current_status": "QA Review",
+        "current_status": "Done (only for QA team)",
         "assignee": "Rizwan, Iryna, vitalina.r, Tom.Ji",
-        "created_date": "2026-08-26",
+        "created_date": "2026-09-03",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/OWVvhPOA/4032-androidst-printer-move-to-better-unique-id-for-qa-session-scans",
@@ -1075,12 +1074,36 @@
         "card_id": "695f947f6dbe10a2e1a1f7e9",
         "ticket_name": "[Android][Printer] Flexible QA",
         "return_count": 1,
-        "current_status": "QA Review",
+        "current_status": "Done (only for QA team)",
         "assignee": "Rizwan, Hemang Chawla, Iryna, vitalina.r, Yan",
-        "created_date": "2026-08-26",
+        "created_date": "2026-09-03",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/ww5btc7T/3922-androidprinter-flexible-qa",
+        "new_returns": 1
+      },
+      {
+        "card_id": "698d8f90ba1fb078e741f267",
+        "ticket_name": "[Printer][android] Add WO id on pages.",
+        "return_count": 1,
+        "current_status": "Done (only for QA team)",
+        "assignee": "Rizwan, vitalina.r, Andrea Beck, Hemang Chawla, Tom.Ji, Iryna",
+        "created_date": "2026-08-28",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/g9mvIbkw/3995-printerandroid-add-wo-id-on-pages",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a567c5e4c22f86c5da0ee7f",
+        "ticket_name": "[ST iOS] Torch button font and on/off colors do not match the design",
+        "return_count": 1,
+        "current_status": "Done (only for QA team)",
+        "assignee": "Hemang Chawla, Rizwan, vitalina.r, Iryna",
+        "created_date": "2026-08-28",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/j7NZEhhv/4223-st-ios-torch-button-font-and-on-off-colors-do-not-match-the-design",
         "new_returns": 1
       },
       {
