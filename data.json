@@ -1,12 +1,12 @@
 {
-  "last_updated": "Sep 04, 2026",
+  "last_updated": "Sep 11, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 444,
-    "returned_cards": 80,
-    "pct_returned": 18.0,
-    "avg_return_count": 1.6,
-    "failed_qg_count": 1
+    "total_cards": 455,
+    "returned_cards": 83,
+    "pct_returned": 18.2,
+    "avg_return_count": 1.5,
+    "failed_qg_count": 2
   },
   "tickets": [
     {
@@ -164,34 +164,12 @@
       "card_url": "https://trello.com/c/5XuzJ1aZ/4043-beenterprise-portal-update-permissions"
     },
     {
-      "card_id": "6a561f793849c6a79e23f29d",
-      "ticket_name": "[ST iOS] Align scan history icons with Figma",
-      "return_count": 2,
-      "current_status": "Development",
-      "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
-      "created_date": "2026-09-02",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma"
-    },
-    {
-      "card_id": "6a6338ff5d70752735ce7f51",
-      "ticket_name": "[ST][iOS] Release v5.5.0",
-      "return_count": 2,
-      "current_status": "QA Review",
-      "assignee": "Rizwan, Iryna, vitalina.r",
-      "created_date": "2026-09-01",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/krT2Adtd/4243-stios-release-v550"
-    },
-    {
       "card_id": "6a63387cda57dd79875f87cd",
       "ticket_name": "[ST][iOS] Native blurry-scan result screen for unreadable scans",
       "return_count": 2,
-      "current_status": "Done (only for QA team)",
+      "current_status": "Ready for Release",
       "assignee": "Rizwan, Hemang Chawla, Iryna, vitalina.r",
-      "created_date": "2026-09-01",
+      "created_date": "2026-09-08",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/Dmnue2e7/4242-stios-native-blurry-scan-result-screen-for-unreadable-scans"
@@ -200,12 +178,34 @@
       "card_id": "691c3dc8541ff89cce78f814",
       "ticket_name": "[e-label portal] allow self-serve user to change company name",
       "return_count": 2,
-      "current_status": "Done (only for QA team)",
+      "current_status": "Ready for Release",
       "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
-      "created_date": "2026-09-01",
+      "created_date": "2026-09-07",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name"
+    },
+    {
+      "card_id": "6a561f793849c6a79e23f29d",
+      "ticket_name": "[ST iOS] Align scan history icons with Figma",
+      "return_count": 2,
+      "current_status": "Ready for Release",
+      "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
+      "created_date": "2026-09-08",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma"
+    },
+    {
+      "card_id": "6a6338ff5d70752735ce7f51",
+      "ticket_name": "[ST][iOS] Release v5.5.0",
+      "return_count": 2,
+      "current_status": "Ready for Release",
+      "assignee": "Rizwan, Iryna, vitalina.r",
+      "created_date": "2026-09-09",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/krT2Adtd/4243-stios-release-v550"
     },
     {
       "card_id": "69a6af7c74bd42c933454262",
@@ -450,6 +450,17 @@
       "card_url": "https://trello.com/c/5HLvP3Mj/3859-androidst-release-1613"
     },
     {
+      "card_id": "6a630e78b2822a3de39e4dda",
+      "ticket_name": "[HCG001] Warranty program",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Ivanna Kavetska, Dave Hao, Iryna, Bob Zhang",
+      "created_date": "2026-09-07",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/1Wkrk59S/4240-hcg001-warranty-program"
+    },
+    {
       "card_id": "6a0c6cdd143718820ced24b0",
       "ticket_name": "[ST Pro] QR Color Contrast Validation Missing",
       "return_count": 1,
@@ -466,10 +477,43 @@
       "return_count": 1,
       "current_status": "Development",
       "assignee": "Lance Huang - ScanTrust, Arthur Souviron, Khalid Lamptey, Iryna, Diana Fomina",
-      "created_date": "2026-09-03",
+      "created_date": "2026-09-07",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/J4kRfqdu/4204-manuka001-gallery-to-store-pdf-files-can-be-accessed-publicly"
+    },
+    {
+      "card_id": "6a68b130d645749871763f69",
+      "ticket_name": "[ST Pro] Plans page redesign: rename ST Pro → DPP Textile, remove middle plan, raise code quota 50 → 1,000",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska, jelle.sturm, Yan, Taras Tsavolyk",
+      "created_date": "2026-09-10",
+      "quality_gate": "no",
+      "quality_gate_failed": true,
+      "card_url": "https://trello.com/c/UZJZz69e/4337-st-pro-plans-page-redesign-rename-st-pro-%E2%86%92-dpp-textile-remove-middle-plan-raise-code-quota-50-%E2%86%92-1000"
+    },
+    {
+      "card_id": "6a85bdcd2e4c24b5e1372613",
+      "ticket_name": "[ST Pro] Add discount field to invoice form for wire transfer payments",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Arthur Souviron, Yan, jelle.sturm, Michael Tai, Ivanna Kavetska, Iryna",
+      "created_date": "2026-09-07",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/M66PHG86/4326-st-pro-add-discount-field-to-invoice-form-for-wire-transfer-payments"
+    },
+    {
+      "card_id": "6a5736a402dc23772e6b2583",
+      "ticket_name": "[e-label portal] Add discount field to invoice form for wire transfer payments",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Arthur Souviron, Yan, Diana Fomina, jelle.sturm, Michael Tai, Iryna",
+      "created_date": "2026-09-07",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/lGTncwfy/4325-e-label-portal-add-discount-field-to-invoice-form-for-wire-transfer-payments"
     },
     {
       "card_id": "68ba9b2a0c65180e2678136c",
@@ -530,34 +574,12 @@
       "card_id": "6a567c5e4c22f86c5da0ee7f",
       "ticket_name": "[ST iOS] Torch button font and on/off colors do not match the design",
       "return_count": 1,
-      "current_status": "Done (only for QA team)",
+      "current_status": "Ready for Release",
       "assignee": "Hemang Chawla, Rizwan, vitalina.r, Iryna",
-      "created_date": "2026-08-28",
+      "created_date": "2026-09-09",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/j7NZEhhv/4223-st-ios-torch-button-font-and-on-off-colors-do-not-match-the-design"
-    },
-    {
-      "card_id": "6a5736a402dc23772e6b2583",
-      "ticket_name": "[e-label portal] Add discount field to invoice form for wire transfer payments",
-      "return_count": 1,
-      "current_status": "Done (only for QA team)",
-      "assignee": "Arthur Souviron, Yan, Diana Fomina, jelle.sturm, Michael Tai, Iryna",
-      "created_date": "2026-08-26",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/lGTncwfy/4325-e-label-portal-add-discount-field-to-invoice-form-for-wire-transfer-payments"
-    },
-    {
-      "card_id": "6a7ab2ef897d7779b661d5ca",
-      "ticket_name": "[e-label editor] display brand name and GTIN fields on the landing page",
-      "return_count": 1,
-      "current_status": "Done (only for QA team)",
-      "assignee": "Yan, Diana Fomina, Michael Tai, Iryna",
-      "created_date": "2026-08-28",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/U4mhzHAy/4298-e-label-editor-display-brand-name-and-gtin-fields-on-the-landing-page"
     },
     {
       "card_id": "6a59e7d72ee18dcc4e7d1c78",
@@ -580,6 +602,17 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/ZuGHFE73/3890-ulbs02-csv-template-update"
+    },
+    {
+      "card_id": "6a7ab2ef897d7779b661d5ca",
+      "ticket_name": "[e-label editor] display brand name and GTIN fields on the landing page",
+      "return_count": 1,
+      "current_status": "Delivered September 2026",
+      "assignee": "Yan, Diana Fomina, Michael Tai, Iryna",
+      "created_date": "2026-09-10",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/U4mhzHAy/4298-e-label-editor-display-brand-name-and-gtin-fields-on-the-landing-page"
     },
     {
       "card_id": "6a7051770ca38a70adb72196",
@@ -892,6 +925,17 @@
   ],
   "failed_qg": [
     {
+      "card_id": "6a68b130d645749871763f69",
+      "ticket_name": "[ST Pro] Plans page redesign: rename ST Pro → DPP Textile, remove middle plan, raise code quota 50 → 1,000",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska, jelle.sturm, Yan, Taras Tsavolyk",
+      "created_date": "2026-09-10",
+      "quality_gate": "no",
+      "quality_gate_failed": true,
+      "card_url": "https://trello.com/c/UZJZz69e/4337-st-pro-plans-page-redesign-rename-st-pro-%E2%86%92-dpp-textile-remove-middle-plan-raise-code-quota-50-%E2%86%92-1000"
+    },
+    {
       "card_id": "6964a3bc8c7e0e821bc6bcc3",
       "ticket_name": "[Enterprise portal] single brand and product fields translation",
       "return_count": 3,
@@ -905,49 +949,73 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 75,
-      "returned_cards": 2,
-      "pct_returned": 2.7,
+      "total_cards": 51,
+      "returned_cards": 3,
+      "pct_returned": 5.9,
       "avg_return_count": 1.0,
-      "failed_qg_count": 0
+      "failed_qg_count": 1
     },
     "tickets": [
       {
-        "card_id": "6a50977601997643378724d1",
-        "ticket_name": "[MANUKA001] Gallery to store PDF files can be accessed publicly",
+        "card_id": "6a630e78b2822a3de39e4dda",
+        "ticket_name": "[HCG001] Warranty program",
         "return_count": 1,
         "current_status": "Development",
-        "assignee": "Lance Huang - ScanTrust, Arthur Souviron, Khalid Lamptey, Iryna, Diana Fomina",
-        "created_date": "2026-09-03",
+        "assignee": "Ivanna Kavetska, Dave Hao, Iryna, Bob Zhang",
+        "created_date": "2026-09-07",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/J4kRfqdu/4204-manuka001-gallery-to-store-pdf-files-can-be-accessed-publicly",
+        "card_url": "https://trello.com/c/1Wkrk59S/4240-hcg001-warranty-program",
         "new_returns": 1
       },
       {
-        "card_id": "6a574721f83a50925885f9bb",
-        "ticket_name": "[Landing page editor] Add \"Footer & Consent\" tab",
-        "return_count": 3,
-        "current_status": "Done (only for QA team)",
-        "assignee": "Michael Tai, Iryna, Ivanna Kavetska, Yan",
-        "created_date": "2026-09-04",
+        "card_id": "6a68b130d645749871763f69",
+        "ticket_name": "[ST Pro] Plans page redesign: rename ST Pro → DPP Textile, remove middle plan, raise code quota 50 → 1,000",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska, jelle.sturm, Yan, Taras Tsavolyk",
+        "created_date": "2026-09-10",
+        "quality_gate": "no",
+        "quality_gate_failed": true,
+        "card_url": "https://trello.com/c/UZJZz69e/4337-st-pro-plans-page-redesign-rename-st-pro-%E2%86%92-dpp-textile-remove-middle-plan-raise-code-quota-50-%E2%86%92-1000",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a85bdcd2e4c24b5e1372613",
+        "ticket_name": "[ST Pro] Add discount field to invoice form for wire transfer payments",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Arthur Souviron, Yan, jelle.sturm, Michael Tai, Ivanna Kavetska, Iryna",
+        "created_date": "2026-09-07",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/HU3FojUs/4224-landing-page-editor-add-footer-consent-tab",
+        "card_url": "https://trello.com/c/M66PHG86/4326-st-pro-add-discount-field-to-invoice-form-for-wire-transfer-payments",
         "new_returns": 1
       }
     ],
-    "failed_qg": []
+    "failed_qg": [
+      {
+        "card_id": "6a68b130d645749871763f69",
+        "ticket_name": "[ST Pro] Plans page redesign: rename ST Pro → DPP Textile, remove middle plan, raise code quota 50 → 1,000",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska, jelle.sturm, Yan, Taras Tsavolyk",
+        "created_date": "2026-09-10",
+        "quality_gate": "no",
+        "quality_gate_failed": true,
+        "card_url": "https://trello.com/c/UZJZz69e/4337-st-pro-plans-page-redesign-rename-st-pro-%E2%86%92-dpp-textile-remove-middle-plan-raise-code-quota-50-%E2%86%92-1000"
+      }
+    ]
   },
   "quarterly": {
     "label": "Q3 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 229,
-      "returned_cards": 23,
-      "pct_returned": 10.0,
-      "avg_return_count": 1.3,
-      "failed_qg_count": 0
+      "total_cards": 242,
+      "returned_cards": 26,
+      "pct_returned": 10.7,
+      "avg_return_count": 1.2,
+      "failed_qg_count": 1
     },
     "tickets": [
       {
@@ -963,36 +1031,12 @@
         "new_returns": 3
       },
       {
-        "card_id": "6a561f793849c6a79e23f29d",
-        "ticket_name": "[ST iOS] Align scan history icons with Figma",
-        "return_count": 2,
-        "current_status": "Development",
-        "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
-        "created_date": "2026-09-02",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma",
-        "new_returns": 2
-      },
-      {
-        "card_id": "6a6338ff5d70752735ce7f51",
-        "ticket_name": "[ST][iOS] Release v5.5.0",
-        "return_count": 2,
-        "current_status": "QA Review",
-        "assignee": "Rizwan, Iryna, vitalina.r",
-        "created_date": "2026-09-01",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/krT2Adtd/4243-stios-release-v550",
-        "new_returns": 2
-      },
-      {
         "card_id": "6a63387cda57dd79875f87cd",
         "ticket_name": "[ST][iOS] Native blurry-scan result screen for unreadable scans",
         "return_count": 2,
-        "current_status": "Done (only for QA team)",
+        "current_status": "Ready for Release",
         "assignee": "Rizwan, Hemang Chawla, Iryna, vitalina.r",
-        "created_date": "2026-09-01",
+        "created_date": "2026-09-08",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/Dmnue2e7/4242-stios-native-blurry-scan-result-screen-for-unreadable-scans",
@@ -1002,13 +1046,49 @@
         "card_id": "691c3dc8541ff89cce78f814",
         "ticket_name": "[e-label portal] allow self-serve user to change company name",
         "return_count": 2,
-        "current_status": "Done (only for QA team)",
+        "current_status": "Ready for Release",
         "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
-        "created_date": "2026-09-01",
+        "created_date": "2026-09-07",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name",
         "new_returns": 2
+      },
+      {
+        "card_id": "6a561f793849c6a79e23f29d",
+        "ticket_name": "[ST iOS] Align scan history icons with Figma",
+        "return_count": 2,
+        "current_status": "Ready for Release",
+        "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
+        "created_date": "2026-09-08",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma",
+        "new_returns": 2
+      },
+      {
+        "card_id": "6a6338ff5d70752735ce7f51",
+        "ticket_name": "[ST][iOS] Release v5.5.0",
+        "return_count": 2,
+        "current_status": "Ready for Release",
+        "assignee": "Rizwan, Iryna, vitalina.r",
+        "created_date": "2026-09-09",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/krT2Adtd/4243-stios-release-v550",
+        "new_returns": 2
+      },
+      {
+        "card_id": "6a630e78b2822a3de39e4dda",
+        "ticket_name": "[HCG001] Warranty program",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Ivanna Kavetska, Dave Hao, Iryna, Bob Zhang",
+        "created_date": "2026-09-07",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/1Wkrk59S/4240-hcg001-warranty-program",
+        "new_returns": 1
       },
       {
         "card_id": "6a0c6cdd143718820ced24b0",
@@ -1028,10 +1108,46 @@
         "return_count": 1,
         "current_status": "Development",
         "assignee": "Lance Huang - ScanTrust, Arthur Souviron, Khalid Lamptey, Iryna, Diana Fomina",
-        "created_date": "2026-09-03",
+        "created_date": "2026-09-07",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/J4kRfqdu/4204-manuka001-gallery-to-store-pdf-files-can-be-accessed-publicly",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a68b130d645749871763f69",
+        "ticket_name": "[ST Pro] Plans page redesign: rename ST Pro → DPP Textile, remove middle plan, raise code quota 50 → 1,000",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska, jelle.sturm, Yan, Taras Tsavolyk",
+        "created_date": "2026-09-10",
+        "quality_gate": "no",
+        "quality_gate_failed": true,
+        "card_url": "https://trello.com/c/UZJZz69e/4337-st-pro-plans-page-redesign-rename-st-pro-%E2%86%92-dpp-textile-remove-middle-plan-raise-code-quota-50-%E2%86%92-1000",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a85bdcd2e4c24b5e1372613",
+        "ticket_name": "[ST Pro] Add discount field to invoice form for wire transfer payments",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Arthur Souviron, Yan, jelle.sturm, Michael Tai, Ivanna Kavetska, Iryna",
+        "created_date": "2026-09-07",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/M66PHG86/4326-st-pro-add-discount-field-to-invoice-form-for-wire-transfer-payments",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a5736a402dc23772e6b2583",
+        "ticket_name": "[e-label portal] Add discount field to invoice form for wire transfer payments",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Arthur Souviron, Yan, Diana Fomina, jelle.sturm, Michael Tai, Iryna",
+        "created_date": "2026-09-07",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/lGTncwfy/4325-e-label-portal-add-discount-field-to-invoice-form-for-wire-transfer-payments",
         "new_returns": 1
       },
       {
@@ -1098,36 +1214,12 @@
         "card_id": "6a567c5e4c22f86c5da0ee7f",
         "ticket_name": "[ST iOS] Torch button font and on/off colors do not match the design",
         "return_count": 1,
-        "current_status": "Done (only for QA team)",
+        "current_status": "Ready for Release",
         "assignee": "Hemang Chawla, Rizwan, vitalina.r, Iryna",
-        "created_date": "2026-08-28",
+        "created_date": "2026-09-09",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/j7NZEhhv/4223-st-ios-torch-button-font-and-on-off-colors-do-not-match-the-design",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a5736a402dc23772e6b2583",
-        "ticket_name": "[e-label portal] Add discount field to invoice form for wire transfer payments",
-        "return_count": 1,
-        "current_status": "Done (only for QA team)",
-        "assignee": "Arthur Souviron, Yan, Diana Fomina, jelle.sturm, Michael Tai, Iryna",
-        "created_date": "2026-08-26",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/lGTncwfy/4325-e-label-portal-add-discount-field-to-invoice-form-for-wire-transfer-payments",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a7ab2ef897d7779b661d5ca",
-        "ticket_name": "[e-label editor] display brand name and GTIN fields on the landing page",
-        "return_count": 1,
-        "current_status": "Done (only for QA team)",
-        "assignee": "Yan, Diana Fomina, Michael Tai, Iryna",
-        "created_date": "2026-08-28",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/U4mhzHAy/4298-e-label-editor-display-brand-name-and-gtin-fields-on-the-landing-page",
         "new_returns": 1
       },
       {
@@ -1140,6 +1232,18 @@
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/1j335NXx/4230-image-gallery-image-validation-for-name-length-min-5-characters-is-not-triggered-when-the-name-field-is-not-manually-focused-bef",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a7ab2ef897d7779b661d5ca",
+        "ticket_name": "[e-label editor] display brand name and GTIN fields on the landing page",
+        "return_count": 1,
+        "current_status": "Delivered September 2026",
+        "assignee": "Yan, Diana Fomina, Michael Tai, Iryna",
+        "created_date": "2026-09-10",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/U4mhzHAy/4298-e-label-editor-display-brand-name-and-gtin-fields-on-the-landing-page",
         "new_returns": 1
       },
       {
@@ -1227,6 +1331,18 @@
         "new_returns": 1
       }
     ],
-    "failed_qg": []
+    "failed_qg": [
+      {
+        "card_id": "6a68b130d645749871763f69",
+        "ticket_name": "[ST Pro] Plans page redesign: rename ST Pro → DPP Textile, remove middle plan, raise code quota 50 → 1,000",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska, jelle.sturm, Yan, Taras Tsavolyk",
+        "created_date": "2026-09-10",
+        "quality_gate": "no",
+        "quality_gate_failed": true,
+        "card_url": "https://trello.com/c/UZJZz69e/4337-st-pro-plans-page-redesign-rename-st-pro-%E2%86%92-dpp-textile-remove-middle-plan-raise-code-quota-50-%E2%86%92-1000"
+      }
+    ]
   }
 }
