@@ -1,10 +1,10 @@
 {
-  "last_updated": "Sep 25, 2026",
+  "last_updated": "Oct 02, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 479,
-    "returned_cards": 91,
-    "pct_returned": 19.0,
+    "total_cards": 484,
+    "returned_cards": 95,
+    "pct_returned": 19.6,
     "avg_return_count": 1.5,
     "failed_qg_count": 2
   },
@@ -162,6 +162,17 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/5XuzJ1aZ/4043-beenterprise-portal-update-permissions"
+    },
+    {
+      "card_id": "6a630e78b2822a3de39e4dda",
+      "ticket_name": "[HCG001] Warranty program",
+      "return_count": 2,
+      "current_status": "Development",
+      "assignee": "Ivanna Kavetska, Dave Hao, Iryna, Bob Zhang",
+      "created_date": "2026-09-30",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/1Wkrk59S/4240-hcg001-warranty-program"
     },
     {
       "card_id": "6a68b130d645749871763f69",
@@ -461,26 +472,15 @@
       "card_url": "https://trello.com/c/5HLvP3Mj/3859-androidst-release-1613"
     },
     {
-      "card_id": "6a630e78b2822a3de39e4dda",
-      "ticket_name": "[HCG001] Warranty program",
+      "card_id": "6aabab6f4fe6c352961a1778",
+      "ticket_name": "[STE Editor] Release Checklist",
       "return_count": 1,
       "current_status": "Development",
-      "assignee": "Ivanna Kavetska, Dave Hao, Iryna, Bob Zhang",
-      "created_date": "2026-09-16",
+      "assignee": "Iryna, vitalina.r, Rizwan, Taras Tsavolyk",
+      "created_date": "2026-10-01",
       "quality_gate": "yes",
       "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/1Wkrk59S/4240-hcg001-warranty-program"
-    },
-    {
-      "card_id": "6a55a5a84e2f4b350b190b8f",
-      "ticket_name": "[ST][Android] Release 2.0.2",
-      "return_count": 1,
-      "current_status": "Development",
-      "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
-      "created_date": "2026-09-24",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/wzO7v33W/4216-standroid-release-202"
+      "card_url": "https://trello.com/c/NBuhh9l8/4374-ste-editor-release-checklist"
     },
     {
       "card_id": "6a0c6cdd143718820ced24b0",
@@ -494,26 +494,59 @@
       "card_url": "https://trello.com/c/q8rWdQQL/4292-st-pro-qr-color-contrast-validation-missing"
     },
     {
-      "card_id": "6a9995da0e110a49208803ce",
-      "ticket_name": "[Portal] Add work order due date on create/edit and show it to printers with at-risk highlighting",
+      "card_id": "6aad0e389c19ccd79d745ba7",
+      "ticket_name": "[QR manager] e-label data export UI",
       "return_count": 1,
-      "current_status": "Done (only for QA team)",
-      "assignee": "Rizwan, Arthur Souviron, Yan, Taras Tsavolyk, Iryna",
-      "created_date": "2026-09-24",
+      "current_status": "Development",
+      "assignee": "Yan, Diana Fomina, Michael Tai, Iryna, Arthur Souviron, vitalina.r",
+      "created_date": "2026-09-28",
       "quality_gate": "yes",
       "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/PeDFLH1I/4349-portal-add-work-order-due-date-on-create-edit-and-show-it-to-printers-with-at-risk-highlighting"
+      "card_url": "https://trello.com/c/QL2RJ4tR/4378-qr-manager-e-label-data-export-ui"
     },
     {
-      "card_id": "6aa29a9ac8a4861f6f72e301",
-      "ticket_name": "[Portal] Update proofsheet zip file name",
+      "card_id": "6aa7f8d3337a165dee392080",
+      "ticket_name": "[FERN001] Separate Dashboard for Licensees",
       "return_count": 1,
-      "current_status": "Done (only for QA team)",
-      "assignee": "Taras Tsavolyk, Arthur Souviron, Rizwan, Justin Picard, vitalina.r, Iryna, Hemang Chawla",
-      "created_date": "2026-09-23",
+      "current_status": "Development",
+      "assignee": "Iryna, Dave Hao, Bob Zhang, Ivanna Kavetska",
+      "created_date": "2026-09-30",
       "quality_gate": "yes",
       "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/1rBIfwND/4363-portal-update-proofsheet-zip-file-name"
+      "card_url": "https://trello.com/c/gQO6deo6/4366-fern001-separate-dashboard-for-licensees"
+    },
+    {
+      "card_id": "6aabc5788992b4e5d4d791e3",
+      "ticket_name": "[STE][Android] Release 2.3.16",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Rizwan, vitalina.r, Iryna",
+      "created_date": "2026-10-01",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/Qndamk5Z/4376-steandroid-release-2316"
+    },
+    {
+      "card_id": "6a55a5a84e2f4b350b190b8f",
+      "ticket_name": "[ST][Android] Release 2.0.2",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
+      "created_date": "2026-09-30",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/wzO7v33W/4216-standroid-release-202"
+    },
+    {
+      "card_id": "68ba9b2a0c65180e2678136c",
+      "ticket_name": "[Android][Printer] Release 2.0.0",
+      "return_count": 1,
+      "current_status": "Ready for Release",
+      "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
+      "created_date": "2026-09-30",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/ClsKetWw/3715-androidprinter-release-200"
     },
     {
       "card_id": "695f947f6dbe10a2e1a1f7e9",
@@ -525,17 +558,6 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/ww5btc7T/3922-androidprinter-flexible-qa"
-    },
-    {
-      "card_id": "68ba9b2a0c65180e2678136c",
-      "ticket_name": "[Android][Printer] Release 2.0.0",
-      "return_count": 1,
-      "current_status": "Ready for Release",
-      "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
-      "created_date": "2026-09-12",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/ClsKetWw/3715-androidprinter-release-200"
     },
     {
       "card_id": "698d8f90ba1fb078e741f267",
@@ -558,6 +580,28 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/OWVvhPOA/4032-androidst-printer-move-to-better-unique-id-for-qa-session-scans"
+    },
+    {
+      "card_id": "6aa29a9ac8a4861f6f72e301",
+      "ticket_name": "[Portal] Update proofsheet zip file name",
+      "return_count": 1,
+      "current_status": "Delivered September 2026",
+      "assignee": "Taras Tsavolyk, Arthur Souviron, Rizwan, Justin Picard, vitalina.r, Iryna, Hemang Chawla",
+      "created_date": "2026-09-29",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/1rBIfwND/4363-portal-update-proofsheet-zip-file-name"
+    },
+    {
+      "card_id": "6a9995da0e110a49208803ce",
+      "ticket_name": "[Portal] Add work order due date on create/edit and show it to printers with at-risk highlighting",
+      "return_count": 1,
+      "current_status": "Delivered September 2026",
+      "assignee": "Rizwan, Arthur Souviron, Yan, Taras Tsavolyk, Iryna",
+      "created_date": "2026-09-29",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/PeDFLH1I/4349-portal-add-work-order-due-date-on-create-edit-and-show-it-to-printers-with-at-risk-highlighting"
     },
     {
       "card_id": "6a50977601997643378724d1",
@@ -1037,472 +1081,87 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 81,
-      "returned_cards": 2,
-      "pct_returned": 2.5,
+      "total_cards": 43,
+      "returned_cards": 5,
+      "pct_returned": 11.6,
       "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
     "tickets": [
       {
-        "card_id": "6a9995da0e110a49208803ce",
-        "ticket_name": "[Portal] Add work order due date on create/edit and show it to printers with at-risk highlighting",
+        "card_id": "6aabab6f4fe6c352961a1778",
+        "ticket_name": "[STE Editor] Release Checklist",
         "return_count": 1,
-        "current_status": "Done (only for QA team)",
-        "assignee": "Rizwan, Arthur Souviron, Yan, Taras Tsavolyk, Iryna",
-        "created_date": "2026-09-24",
+        "current_status": "Development",
+        "assignee": "Iryna, vitalina.r, Rizwan, Taras Tsavolyk",
+        "created_date": "2026-10-01",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/PeDFLH1I/4349-portal-add-work-order-due-date-on-create-edit-and-show-it-to-printers-with-at-risk-highlighting",
+        "card_url": "https://trello.com/c/NBuhh9l8/4374-ste-editor-release-checklist",
         "new_returns": 1
       },
       {
-        "card_id": "6aa29a9ac8a4861f6f72e301",
-        "ticket_name": "[Portal] Update proofsheet zip file name",
+        "card_id": "6aad0e389c19ccd79d745ba7",
+        "ticket_name": "[QR manager] e-label data export UI",
         "return_count": 1,
-        "current_status": "Done (only for QA team)",
-        "assignee": "Taras Tsavolyk, Arthur Souviron, Rizwan, Justin Picard, vitalina.r, Iryna, Hemang Chawla",
-        "created_date": "2026-09-23",
+        "current_status": "Development",
+        "assignee": "Yan, Diana Fomina, Michael Tai, Iryna, Arthur Souviron, vitalina.r",
+        "created_date": "2026-09-28",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/1rBIfwND/4363-portal-update-proofsheet-zip-file-name",
+        "card_url": "https://trello.com/c/QL2RJ4tR/4378-qr-manager-e-label-data-export-ui",
         "new_returns": 1
-      }
-    ],
-    "failed_qg": []
-  },
-  "quarterly": {
-    "label": "Q3 2026",
-    "is_new": false,
-    "kpi": {
-      "total_cards": 267,
-      "returned_cards": 34,
-      "pct_returned": 12.7,
-      "avg_return_count": 1.2,
-      "failed_qg_count": 1
-    },
-    "tickets": [
-      {
-        "card_id": "6a574721f83a50925885f9bb",
-        "ticket_name": "[Landing page editor] Add \"Footer & Consent\" tab",
-        "return_count": 3,
-        "current_status": "Delivered September 2026",
-        "assignee": "Michael Tai, Iryna, Ivanna Kavetska, Yan",
-        "created_date": "2026-09-24",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/HU3FojUs/4224-landing-page-editor-add-footer-consent-tab",
-        "new_returns": 3
       },
       {
-        "card_id": "6a68b130d645749871763f69",
-        "ticket_name": "[ST Pro] Plans page redesign: rename ST Pro → DPP Textile, remove middle plan, raise code quota 50 → 1,000",
-        "return_count": 2,
-        "current_status": "Delivered September 2026",
-        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska, jelle.sturm, Yan, Taras Tsavolyk",
-        "created_date": "2026-09-21",
-        "quality_gate": "no",
-        "quality_gate_failed": true,
-        "card_url": "https://trello.com/c/UZJZz69e/4337-st-pro-plans-page-redesign-rename-st-pro-%E2%86%92-dpp-textile-remove-middle-plan-raise-code-quota-50-%E2%86%92-1000",
-        "new_returns": 2
-      },
-      {
-        "card_id": "6a63387cda57dd79875f87cd",
-        "ticket_name": "[ST][iOS] Native blurry-scan result screen for unreadable scans",
-        "return_count": 2,
-        "current_status": "Delivered September 2026",
-        "assignee": "Rizwan, Hemang Chawla, Iryna, vitalina.r",
-        "created_date": "2026-09-16",
+        "card_id": "6aa7f8d3337a165dee392080",
+        "ticket_name": "[FERN001] Separate Dashboard for Licensees",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Iryna, Dave Hao, Bob Zhang, Ivanna Kavetska",
+        "created_date": "2026-09-30",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/Dmnue2e7/4242-stios-native-blurry-scan-result-screen-for-unreadable-scans",
-        "new_returns": 2
-      },
-      {
-        "card_id": "6a561f793849c6a79e23f29d",
-        "ticket_name": "[ST iOS] Align scan history icons with Figma",
-        "return_count": 2,
-        "current_status": "Delivered September 2026",
-        "assignee": "vitalina.r, Hemang Chawla, Iryna, Rizwan",
-        "created_date": "2026-09-16",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/YfUbAB72/4221-st-ios-align-scan-history-icons-with-figma",
-        "new_returns": 2
-      },
-      {
-        "card_id": "6a6338ff5d70752735ce7f51",
-        "ticket_name": "[ST][iOS] Release v5.5.0",
-        "return_count": 2,
-        "current_status": "Delivered September 2026",
-        "assignee": "Rizwan, Iryna, vitalina.r",
-        "created_date": "2026-09-16",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/krT2Adtd/4243-stios-release-v550",
-        "new_returns": 2
-      },
-      {
-        "card_id": "691c3dc8541ff89cce78f814",
-        "ticket_name": "[e-label portal] allow self-serve user to change company name",
-        "return_count": 2,
-        "current_status": "Delivered September 2026",
-        "assignee": "Iryna, Diana Fomina, Yan, Khalid Lamptey",
-        "created_date": "2026-09-15",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/dC2vUVTO/4192-e-label-portal-allow-self-serve-user-to-change-company-name",
-        "new_returns": 2
+        "card_url": "https://trello.com/c/gQO6deo6/4366-fern001-separate-dashboard-for-licensees",
+        "new_returns": 1
       },
       {
         "card_id": "6a630e78b2822a3de39e4dda",
         "ticket_name": "[HCG001] Warranty program",
-        "return_count": 1,
+        "return_count": 2,
         "current_status": "Development",
         "assignee": "Ivanna Kavetska, Dave Hao, Iryna, Bob Zhang",
-        "created_date": "2026-09-16",
+        "created_date": "2026-09-30",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/1Wkrk59S/4240-hcg001-warranty-program",
         "new_returns": 1
       },
       {
-        "card_id": "6a55a5a84e2f4b350b190b8f",
-        "ticket_name": "[ST][Android] Release 2.0.2",
+        "card_id": "6aabc5788992b4e5d4d791e3",
+        "ticket_name": "[STE][Android] Release 2.3.16",
         "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
-        "created_date": "2026-09-24",
+        "current_status": "QA Review",
+        "assignee": "Rizwan, vitalina.r, Iryna",
+        "created_date": "2026-10-01",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/wzO7v33W/4216-standroid-release-202",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a0c6cdd143718820ced24b0",
-        "ticket_name": "[ST Pro] QR Color Contrast Validation Missing",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Arthur Souviron, Iryna, Ivanna Kavetska",
-        "created_date": "2026-08-27",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/q8rWdQQL/4292-st-pro-qr-color-contrast-validation-missing",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a9995da0e110a49208803ce",
-        "ticket_name": "[Portal] Add work order due date on create/edit and show it to printers with at-risk highlighting",
-        "return_count": 1,
-        "current_status": "Done (only for QA team)",
-        "assignee": "Rizwan, Arthur Souviron, Yan, Taras Tsavolyk, Iryna",
-        "created_date": "2026-09-24",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/PeDFLH1I/4349-portal-add-work-order-due-date-on-create-edit-and-show-it-to-printers-with-at-risk-highlighting",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6aa29a9ac8a4861f6f72e301",
-        "ticket_name": "[Portal] Update proofsheet zip file name",
-        "return_count": 1,
-        "current_status": "Done (only for QA team)",
-        "assignee": "Taras Tsavolyk, Arthur Souviron, Rizwan, Justin Picard, vitalina.r, Iryna, Hemang Chawla",
-        "created_date": "2026-09-23",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/1rBIfwND/4363-portal-update-proofsheet-zip-file-name",
-        "new_returns": 1
-      },
-      {
-        "card_id": "695f947f6dbe10a2e1a1f7e9",
-        "ticket_name": "[Android][Printer] Flexible QA",
-        "return_count": 1,
-        "current_status": "Ready for Release",
-        "assignee": "Rizwan, Hemang Chawla, Iryna, vitalina.r, Yan",
-        "created_date": "2026-09-11",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/ww5btc7T/3922-androidprinter-flexible-qa",
-        "new_returns": 1
-      },
-      {
-        "card_id": "68ba9b2a0c65180e2678136c",
-        "ticket_name": "[Android][Printer] Release 2.0.0",
-        "return_count": 1,
-        "current_status": "Ready for Release",
-        "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
-        "created_date": "2026-09-12",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/ClsKetWw/3715-androidprinter-release-200",
-        "new_returns": 1
-      },
-      {
-        "card_id": "698d8f90ba1fb078e741f267",
-        "ticket_name": "[Printer][android] Add WO id on pages.",
-        "return_count": 1,
-        "current_status": "Ready for Release",
-        "assignee": "Rizwan, vitalina.r, Andrea Beck, Hemang Chawla, Tom.Ji, Iryna",
-        "created_date": "2026-09-11",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/g9mvIbkw/3995-printerandroid-add-wo-id-on-pages",
-        "new_returns": 1
-      },
-      {
-        "card_id": "68514a1f230aa72b8694cbb6",
-        "ticket_name": "[Android][ST Printer] Move to better unique ID for QA Session Scans",
-        "return_count": 1,
-        "current_status": "Ready for Release",
-        "assignee": "Rizwan, Iryna, vitalina.r, Tom.Ji",
-        "created_date": "2026-09-11",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/OWVvhPOA/4032-androidst-printer-move-to-better-unique-id-for-qa-session-scans",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a50977601997643378724d1",
-        "ticket_name": "[MANUKA001] Gallery to store PDF files can be accessed publicly",
-        "return_count": 1,
-        "current_status": "Delivered September 2026",
-        "assignee": "Lance Huang - ScanTrust, Arthur Souviron, Khalid Lamptey, Iryna, Diana Fomina",
-        "created_date": "2026-09-24",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/J4kRfqdu/4204-manuka001-gallery-to-store-pdf-files-can-be-accessed-publicly",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a8838fa386d0fa3f212c420",
-        "ticket_name": "[ST Pro] New DPP editor",
-        "return_count": 1,
-        "current_status": "Delivered September 2026",
-        "assignee": "Iryna, Ivanna Kavetska, Arthur Souviron",
-        "created_date": "2026-09-21",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/j9KEt1yx/4327-st-pro-new-dpp-editor",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a85bdcd2e4c24b5e1372613",
-        "ticket_name": "[ST Pro] Add discount field to invoice form for wire transfer payments",
-        "return_count": 1,
-        "current_status": "Delivered September 2026",
-        "assignee": "Arthur Souviron, Yan, jelle.sturm, Michael Tai, Ivanna Kavetska, Iryna",
-        "created_date": "2026-09-21",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/M66PHG86/4326-st-pro-add-discount-field-to-invoice-form-for-wire-transfer-payments",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a7f23715fb93e226a34b56d",
-        "ticket_name": "[VA][PA] Release Checklist - Improvements for CN",
-        "return_count": 1,
-        "current_status": "Delivered September 2026",
-        "assignee": "Hemang Chawla, Taras Tsavolyk, vitalina.r, Iryna, Dave Hao",
-        "created_date": "2026-09-22",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/zSYPEmaX/4309-vapa-release-checklist-improvements-for-cn",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a6c79ab9a3f3cdf9fa9de40",
-        "ticket_name": "[VA] Publish sourcemaps to Sentry only, not to the CDN",
-        "return_count": 1,
-        "current_status": "Delivered September 2026",
-        "assignee": "Taras Tsavolyk, Hemang Chawla, Michael Bolay, Arthur Souviron, vitalina.r, Iryna",
-        "created_date": "2026-09-23",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/YyRaUa8v/4263-va-publish-sourcemaps-to-sentry-only-not-to-the-cdn",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a7e486007b14e4cd750d060",
-        "ticket_name": "[VA] Send third party content reports to the China host on China builds",
-        "return_count": 1,
-        "current_status": "Delivered September 2026",
-        "assignee": "Hemang Chawla, Dave Hao, vitalina.r, Iryna, Taras Tsavolyk",
-        "created_date": "2026-09-23",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/SaKZQuk0/4307-va-send-third-party-content-reports-to-the-china-host-on-china-builds",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a6c7d6912833db72917f48b",
-        "ticket_name": "[PA] Publish sourcemaps to Sentry only, not to the CDN",
-        "return_count": 1,
-        "current_status": "Delivered September 2026",
-        "assignee": "Taras Tsavolyk, Hemang Chawla, Michael Bolay, Arthur Souviron, vitalina.r, Iryna",
-        "created_date": "2026-09-23",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/enRn44bf/4264-pa-publish-sourcemaps-to-sentry-only-not-to-the-cdn",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a6c5fea9a79df103e2f9560",
-        "ticket_name": "[ST Pro] [UX] Products empty state — reposition for Textile DPP + New onboarding flow",
-        "return_count": 1,
-        "current_status": "Delivered September 2026",
-        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska, Yan",
-        "created_date": "2026-09-21",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/Hpxl9FB8/4347-st-pro-ux-products-empty-state-reposition-for-textile-dpp-new-onboarding-flow",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a567c5e4c22f86c5da0ee7f",
-        "ticket_name": "[ST iOS] Torch button font and on/off colors do not match the design",
-        "return_count": 1,
-        "current_status": "Delivered September 2026",
-        "assignee": "Hemang Chawla, Rizwan, vitalina.r, Iryna",
-        "created_date": "2026-09-16",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/j7NZEhhv/4223-st-ios-torch-button-font-and-on-off-colors-do-not-match-the-design",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a59e7d72ee18dcc4e7d1c78",
-        "ticket_name": "[Image gallery] Image validation for name length (min 5 characters) is not triggered when the name field is not manually focused before saving",
-        "return_count": 1,
-        "current_status": "Delivered September 2026",
-        "assignee": "Diana Fomina, Iryna, Khalid Lamptey",
-        "created_date": "2026-09-15",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/1j335NXx/4230-image-gallery-image-validation-for-name-length-min-5-characters-is-not-triggered-when-the-name-field-is-not-manually-focused-bef",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a5736a402dc23772e6b2583",
-        "ticket_name": "[e-label portal] Add discount field to invoice form for wire transfer payments",
-        "return_count": 1,
-        "current_status": "Delivered September 2026",
-        "assignee": "Arthur Souviron, Yan, Diana Fomina, jelle.sturm, Michael Tai, Iryna",
-        "created_date": "2026-09-15",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/lGTncwfy/4325-e-label-portal-add-discount-field-to-invoice-form-for-wire-transfer-payments",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a7ab2ef897d7779b661d5ca",
-        "ticket_name": "[e-label editor] display brand name and GTIN fields on the landing page",
-        "return_count": 1,
-        "current_status": "Delivered September 2026",
-        "assignee": "Yan, Diana Fomina, Michael Tai, Iryna",
-        "created_date": "2026-09-10",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/U4mhzHAy/4298-e-label-editor-display-brand-name-and-gtin-fields-on-the-landing-page",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a7051770ca38a70adb72196",
-        "ticket_name": "[QR manager] e-label excel template update",
-        "return_count": 1,
-        "current_status": "Delivered August 2026",
-        "assignee": "Yan, Michael Tai, Diana Fomina, Iryna",
-        "created_date": "2026-08-28",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/jVCUjl9R/4285-qr-manager-e-label-excel-template-update",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a59e2a57d4376fab056cba8",
-        "ticket_name": "[Portal - QR Manager] ability to download csv for created codes",
-        "return_count": 1,
-        "current_status": "Delivered August 2026",
-        "assignee": "Arthur Souviron, Yan, Khalid Lamptey, Diana Fomina, Iryna",
-        "created_date": "2026-08-28",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/6XlbhTpY/4236-portal-qr-manager-ability-to-download-csv-for-created-codes",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a4f74d9e55d88992672a38d",
-        "ticket_name": "[e-label editor] PPWR prep: add \"Packaging information\" subsection (Sustainability) + Business Operator contact field",
-        "return_count": 1,
-        "current_status": "Delivered August 2026",
-        "assignee": "Yan, Diana Fomina, Michael Tai, Iryna",
-        "created_date": "2026-08-13",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/1Rrum784/4272-e-label-editor-ppwr-prep-add-packaging-information-subsection-sustainability-business-operator-contact-field",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a545516fe2a874225336561",
-        "ticket_name": "[e-label editor] Aromatized wine: expand \"Base grapevine product\" options + rename field",
-        "return_count": 1,
-        "current_status": "Delivered August 2026",
-        "assignee": "Yan, Michael Tai, Diana Fomina, Iryna",
-        "created_date": "2026-08-12",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/1MFn6oRH/4271-e-label-editor-aromatized-wine-expand-base-grapevine-product-options-rename-field",
-        "new_returns": 1
-      },
-      {
-        "card_id": "5ae9d39f6d69d89b8cd849b2",
-        "ticket_name": "[PORTAL] Long names for printing equipment",
-        "return_count": 1,
-        "current_status": "Delivered July 2026",
-        "assignee": "Iryna, Arthur Souviron, vitalina.r",
-        "created_date": "2026-07-16",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/wDtDLbu9/4178-portal-long-names-for-printing-equipment",
-        "new_returns": 1
-      },
-      {
-        "card_id": "634eb187e6f72701f8b98d94",
-        "ticket_name": "[Portal] Log in vs. Sign in",
-        "return_count": 1,
-        "current_status": "Delivered July 2026",
-        "assignee": "Iryna, Andrea Beck, Arthur Souviron, vitalina.r",
-        "created_date": "2026-07-16",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/nDXCnXj5/4180-portal-log-in-vs-sign-in",
-        "new_returns": 1
-      },
-      {
-        "card_id": "69b9652e2734cc1a4856a9c4",
-        "ticket_name": "[VA] Update Phone Selection and How to Scan",
-        "return_count": 5,
-        "current_status": "Delivered July 2026",
-        "assignee": "Hemang Chawla, Taras Tsavolyk, Yan, vitalina.r, Iryna",
-        "created_date": "2026-07-14",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/G1kjtXLT/4035-va-update-phone-selection-and-how-to-scan",
+        "card_url": "https://trello.com/c/Qndamk5Z/4376-steandroid-release-2316",
         "new_returns": 1
       }
     ],
-    "failed_qg": [
-      {
-        "card_id": "6a68b130d645749871763f69",
-        "ticket_name": "[ST Pro] Plans page redesign: rename ST Pro → DPP Textile, remove middle plan, raise code quota 50 → 1,000",
-        "return_count": 2,
-        "current_status": "Delivered September 2026",
-        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska, jelle.sturm, Yan, Taras Tsavolyk",
-        "created_date": "2026-09-21",
-        "quality_gate": "no",
-        "quality_gate_failed": true,
-        "card_url": "https://trello.com/c/UZJZz69e/4337-st-pro-plans-page-redesign-rename-st-pro-%E2%86%92-dpp-textile-remove-middle-plan-raise-code-quota-50-%E2%86%92-1000"
-      }
-    ]
+    "failed_qg": []
+  },
+  "quarterly": {
+    "label": "Q4 2026",
+    "is_new": true,
+    "kpi": {
+      "total_cards": 5,
+      "returned_cards": 0,
+      "pct_returned": 0.0,
+      "avg_return_count": 0,
+      "failed_qg_count": 0
+    },
+    "tickets": [],
+    "failed_qg": []
   }
 }
