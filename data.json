@@ -1,10 +1,10 @@
 {
-  "last_updated": "Oct 02, 2026",
+  "last_updated": "Oct 09, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 484,
-    "returned_cards": 95,
-    "pct_returned": 19.6,
+    "total_cards": 496,
+    "returned_cards": 96,
+    "pct_returned": 19.4,
     "avg_return_count": 1.5,
     "failed_qg_count": 2
   },
@@ -472,17 +472,6 @@
       "card_url": "https://trello.com/c/5HLvP3Mj/3859-androidst-release-1613"
     },
     {
-      "card_id": "6aabab6f4fe6c352961a1778",
-      "ticket_name": "[STE Editor] Release Checklist",
-      "return_count": 1,
-      "current_status": "Development",
-      "assignee": "Iryna, vitalina.r, Rizwan, Taras Tsavolyk",
-      "created_date": "2026-10-01",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/NBuhh9l8/4374-ste-editor-release-checklist"
-    },
-    {
       "card_id": "6a0c6cdd143718820ced24b0",
       "ticket_name": "[ST Pro] QR Color Contrast Validation Missing",
       "return_count": 1,
@@ -499,7 +488,7 @@
       "return_count": 1,
       "current_status": "Development",
       "assignee": "Yan, Diana Fomina, Michael Tai, Iryna, Arthur Souviron, vitalina.r",
-      "created_date": "2026-09-28",
+      "created_date": "2026-10-08",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/QL2RJ4tR/4378-qr-manager-e-label-data-export-ui"
@@ -516,26 +505,37 @@
       "card_url": "https://trello.com/c/gQO6deo6/4366-fern001-separate-dashboard-for-licensees"
     },
     {
+      "card_id": "6ab261934c6d15c6cef5358e",
+      "ticket_name": "[QR manager] e-label data export - CSV file",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Dave Hao, Diana Fomina, Yan, Iryna, vitalina.r",
+      "created_date": "2026-10-09",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/nuiiqDCd/4383-qr-manager-e-label-data-export-csv-file"
+    },
+    {
+      "card_id": "6aabab6f4fe6c352961a1778",
+      "ticket_name": "[STE Editor] Release Checklist",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Iryna, vitalina.r, Rizwan, Taras Tsavolyk",
+      "created_date": "2026-10-07",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/NBuhh9l8/4374-ste-editor-release-checklist"
+    },
+    {
       "card_id": "6aabc5788992b4e5d4d791e3",
       "ticket_name": "[STE][Android] Release 2.3.16",
       "return_count": 1,
-      "current_status": "QA Review",
+      "current_status": "Done (only for QA team)",
       "assignee": "Rizwan, vitalina.r, Iryna",
-      "created_date": "2026-10-01",
+      "created_date": "2026-10-08",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/Qndamk5Z/4376-steandroid-release-2316"
-    },
-    {
-      "card_id": "6a55a5a84e2f4b350b190b8f",
-      "ticket_name": "[ST][Android] Release 2.0.2",
-      "return_count": 1,
-      "current_status": "QA Review",
-      "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
-      "created_date": "2026-09-30",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/wzO7v33W/4216-standroid-release-202"
     },
     {
       "card_id": "68ba9b2a0c65180e2678136c",
@@ -580,6 +580,17 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/OWVvhPOA/4032-androidst-printer-move-to-better-unique-id-for-qa-session-scans"
+    },
+    {
+      "card_id": "6a55a5a84e2f4b350b190b8f",
+      "ticket_name": "[ST][Android] Release 2.0.2",
+      "return_count": 1,
+      "current_status": "Delivered October 2026",
+      "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
+      "created_date": "2026-10-05",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/wzO7v33W/4216-standroid-release-202"
     },
     {
       "card_id": "6aa29a9ac8a4861f6f72e301",
@@ -1081,71 +1092,23 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 43,
-      "returned_cards": 5,
-      "pct_returned": 11.6,
+      "total_cards": 30,
+      "returned_cards": 1,
+      "pct_returned": 3.3,
       "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
     "tickets": [
       {
-        "card_id": "6aabab6f4fe6c352961a1778",
-        "ticket_name": "[STE Editor] Release Checklist",
+        "card_id": "6ab261934c6d15c6cef5358e",
+        "ticket_name": "[QR manager] e-label data export - CSV file",
         "return_count": 1,
         "current_status": "Development",
-        "assignee": "Iryna, vitalina.r, Rizwan, Taras Tsavolyk",
-        "created_date": "2026-10-01",
+        "assignee": "Dave Hao, Diana Fomina, Yan, Iryna, vitalina.r",
+        "created_date": "2026-10-09",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/NBuhh9l8/4374-ste-editor-release-checklist",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6aad0e389c19ccd79d745ba7",
-        "ticket_name": "[QR manager] e-label data export UI",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Yan, Diana Fomina, Michael Tai, Iryna, Arthur Souviron, vitalina.r",
-        "created_date": "2026-09-28",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/QL2RJ4tR/4378-qr-manager-e-label-data-export-ui",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6aa7f8d3337a165dee392080",
-        "ticket_name": "[FERN001] Separate Dashboard for Licensees",
-        "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Iryna, Dave Hao, Bob Zhang, Ivanna Kavetska",
-        "created_date": "2026-09-30",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/gQO6deo6/4366-fern001-separate-dashboard-for-licensees",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6a630e78b2822a3de39e4dda",
-        "ticket_name": "[HCG001] Warranty program",
-        "return_count": 2,
-        "current_status": "Development",
-        "assignee": "Ivanna Kavetska, Dave Hao, Iryna, Bob Zhang",
-        "created_date": "2026-09-30",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/1Wkrk59S/4240-hcg001-warranty-program",
-        "new_returns": 1
-      },
-      {
-        "card_id": "6aabc5788992b4e5d4d791e3",
-        "ticket_name": "[STE][Android] Release 2.3.16",
-        "return_count": 1,
-        "current_status": "QA Review",
-        "assignee": "Rizwan, vitalina.r, Iryna",
-        "created_date": "2026-10-01",
-        "quality_gate": "yes",
-        "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/Qndamk5Z/4376-steandroid-release-2316",
+        "card_url": "https://trello.com/c/nuiiqDCd/4383-qr-manager-e-label-data-export-csv-file",
         "new_returns": 1
       }
     ],
@@ -1153,15 +1116,28 @@
   },
   "quarterly": {
     "label": "Q4 2026",
-    "is_new": true,
+    "is_new": false,
     "kpi": {
-      "total_cards": 5,
-      "returned_cards": 0,
-      "pct_returned": 0.0,
-      "avg_return_count": 0,
+      "total_cards": 30,
+      "returned_cards": 1,
+      "pct_returned": 3.3,
+      "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
-    "tickets": [],
+    "tickets": [
+      {
+        "card_id": "6ab261934c6d15c6cef5358e",
+        "ticket_name": "[QR manager] e-label data export - CSV file",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Dave Hao, Diana Fomina, Yan, Iryna, vitalina.r",
+        "created_date": "2026-10-09",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/nuiiqDCd/4383-qr-manager-e-label-data-export-csv-file",
+        "new_returns": 1
+      }
+    ],
     "failed_qg": []
   }
 }
