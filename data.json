@@ -1,10 +1,10 @@
 {
-  "last_updated": "Oct 16, 2026",
+  "last_updated": "Oct 23, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 503,
-    "returned_cards": 98,
-    "pct_returned": 19.5,
+    "total_cards": 541,
+    "returned_cards": 99,
+    "pct_returned": 18.3,
     "avg_return_count": 1.5,
     "failed_qg_count": 2
   },
@@ -153,6 +153,17 @@
       "card_url": "https://trello.com/c/TQ7vwSXC/3724-androidst-okr24-survey-native-app-users-on-choosing-to-not-buy-counterfeits-and-shared-internally-with-scantrusters"
     },
     {
+      "card_id": "6a630e78b2822a3de39e4dda",
+      "ticket_name": "[HCG001] Warranty program",
+      "return_count": 2,
+      "current_status": "Development",
+      "assignee": "Ivanna Kavetska, Dave Hao, Iryna, Bob Zhang",
+      "created_date": "2026-10-22",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/1Wkrk59S/4240-hcg001-warranty-program"
+    },
+    {
       "card_id": "69c274f7271c5e6047226fda",
       "ticket_name": "[BE][Enterprise portal] Update permissions",
       "return_count": 2,
@@ -164,15 +175,15 @@
       "card_url": "https://trello.com/c/5XuzJ1aZ/4043-beenterprise-portal-update-permissions"
     },
     {
-      "card_id": "6a630e78b2822a3de39e4dda",
-      "ticket_name": "[HCG001] Warranty program",
+      "card_id": "6a5d53a2fbd95eea2ef83366",
+      "ticket_name": "[VA] Help page shows static image instead of scan animation before \"How to scan?\"",
       "return_count": 2,
-      "current_status": "Development",
-      "assignee": "Ivanna Kavetska, Dave Hao, Iryna, Bob Zhang",
-      "created_date": "2026-09-30",
+      "current_status": "Done (only for QA team)",
+      "assignee": "Hemang Chawla, Iryna, vitalina.r",
+      "created_date": "2026-10-22",
       "quality_gate": "yes",
       "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/1Wkrk59S/4240-hcg001-warranty-program"
+      "card_url": "https://trello.com/c/z33F1VfT/4227-va-help-page-shows-static-image-instead-of-scan-animation-before-how-to-scan"
     },
     {
       "card_id": "6a68b130d645749871763f69",
@@ -472,6 +483,17 @@
       "card_url": "https://trello.com/c/5HLvP3Mj/3859-androidst-release-1613"
     },
     {
+      "card_id": "6aa7f8d3337a165dee392080",
+      "ticket_name": "[FERN001] Separate Dashboard for Licensees",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Iryna, Dave Hao, Bob Zhang, Ivanna Kavetska",
+      "created_date": "2026-10-22",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/gQO6deo6/4366-fern001-separate-dashboard-for-licensees"
+    },
+    {
       "card_id": "6a0c6cdd143718820ced24b0",
       "ticket_name": "[ST Pro] QR Color Contrast Validation Missing",
       "return_count": 1,
@@ -481,17 +503,6 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/q8rWdQQL/4292-st-pro-qr-color-contrast-validation-missing"
-    },
-    {
-      "card_id": "6aa7f8d3337a165dee392080",
-      "ticket_name": "[FERN001] Separate Dashboard for Licensees",
-      "return_count": 1,
-      "current_status": "Development",
-      "assignee": "Iryna, Dave Hao, Bob Zhang, Ivanna Kavetska",
-      "created_date": "2026-09-30",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/gQO6deo6/4366-fern001-separate-dashboard-for-licensees"
     },
     {
       "card_id": "6abbe357e2b3e5c03cf5c284",
@@ -505,15 +516,15 @@
       "card_url": "https://trello.com/c/fgzOuk1c/4390-dpp-editor-json-ld-improovments"
     },
     {
-      "card_id": "6a5d53a2fbd95eea2ef83366",
-      "ticket_name": "[VA] Help page shows static image instead of scan animation before \"How to scan?\"",
+      "card_id": "6942ca73ee339e46f9eb7f9e",
+      "ticket_name": "[Portal][Code ingestion] UX: Product select dropdown shows irrelevant products",
       "return_count": 1,
       "current_status": "Development",
-      "assignee": "Hemang Chawla, Iryna, vitalina.r",
-      "created_date": "2026-10-15",
+      "assignee": "Khalid Lamptey, Iryna, vitalina.r, Arthur Souviron, Yan",
+      "created_date": "2026-10-23",
       "quality_gate": "yes",
       "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/z33F1VfT/4227-va-help-page-shows-static-image-instead-of-scan-animation-before-how-to-scan"
+      "card_url": "https://trello.com/c/ry5oUDo6/4141-portalcode-ingestion-ux-product-select-dropdown-shows-irrelevant-products"
     },
     {
       "card_id": "6aabab6f4fe6c352961a1778",
@@ -530,9 +541,9 @@
       "card_id": "6aad0e389c19ccd79d745ba7",
       "ticket_name": "[QR manager] e-label data export UI",
       "return_count": 1,
-      "current_status": "QA Review",
+      "current_status": "Delivered October 2026",
       "assignee": "Yan, Diana Fomina, Michael Tai, Iryna, Arthur Souviron, vitalina.r",
-      "created_date": "2026-10-15",
+      "created_date": "2026-10-20",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/QL2RJ4tR/4378-qr-manager-e-label-data-export-ui"
@@ -541,42 +552,53 @@
       "card_id": "6ab261934c6d15c6cef5358e",
       "ticket_name": "[QR manager] e-label data export - CSV file",
       "return_count": 1,
-      "current_status": "Done (only for QA team)",
+      "current_status": "Delivered October 2026",
       "assignee": "Dave Hao, Diana Fomina, Yan, Iryna, vitalina.r",
-      "created_date": "2026-10-15",
+      "created_date": "2026-10-20",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/nuiiqDCd/4383-qr-manager-e-label-data-export-csv-file"
     },
     {
-      "card_id": "68ba9b2a0c65180e2678136c",
-      "ticket_name": "[Android][Printer] Release 2.0.0",
-      "return_count": 1,
-      "current_status": "Ready for Release",
-      "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
-      "created_date": "2026-09-30",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/ClsKetWw/3715-androidprinter-release-200"
-    },
-    {
       "card_id": "6aabc5788992b4e5d4d791e3",
       "ticket_name": "[STE][Android] Release 2.3.16",
       "return_count": 1,
-      "current_status": "Ready for Release",
+      "current_status": "Delivered October 2026",
       "assignee": "Rizwan, vitalina.r, Iryna",
-      "created_date": "2026-10-09",
+      "created_date": "2026-10-19",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/Qndamk5Z/4376-steandroid-release-2316"
     },
     {
+      "card_id": "68ba9b2a0c65180e2678136c",
+      "ticket_name": "[Android][Printer] Release 2.0.0",
+      "return_count": 1,
+      "current_status": "Delivered October 2026",
+      "assignee": "Rizwan, vitalina.r, Tom.Ji, Iryna, Hemang Chawla",
+      "created_date": "2026-10-19",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/ClsKetWw/3715-androidprinter-release-200"
+    },
+    {
+      "card_id": "68514a1f230aa72b8694cbb6",
+      "ticket_name": "[Android][ST Printer] Move to better unique ID for QA Session Scans",
+      "return_count": 1,
+      "current_status": "Delivered October 2026",
+      "assignee": "Rizwan, Iryna, vitalina.r, Tom.Ji",
+      "created_date": "2026-10-19",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/OWVvhPOA/4032-androidst-printer-move-to-better-unique-id-for-qa-session-scans"
+    },
+    {
       "card_id": "695f947f6dbe10a2e1a1f7e9",
       "ticket_name": "[Android][Printer] Flexible QA",
       "return_count": 1,
-      "current_status": "Ready for Release",
+      "current_status": "Delivered October 2026",
       "assignee": "Rizwan, Hemang Chawla, Iryna, vitalina.r, Yan",
-      "created_date": "2026-09-11",
+      "created_date": "2026-10-19",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/ww5btc7T/3922-androidprinter-flexible-qa"
@@ -585,23 +607,12 @@
       "card_id": "698d8f90ba1fb078e741f267",
       "ticket_name": "[Printer][android] Add WO id on pages.",
       "return_count": 1,
-      "current_status": "Ready for Release",
+      "current_status": "Delivered October 2026",
       "assignee": "Rizwan, vitalina.r, Andrea Beck, Hemang Chawla, Tom.Ji, Iryna",
-      "created_date": "2026-09-11",
+      "created_date": "2026-10-19",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/g9mvIbkw/3995-printerandroid-add-wo-id-on-pages"
-    },
-    {
-      "card_id": "68514a1f230aa72b8694cbb6",
-      "ticket_name": "[Android][ST Printer] Move to better unique ID for QA Session Scans",
-      "return_count": 1,
-      "current_status": "Ready for Release",
-      "assignee": "Rizwan, Iryna, vitalina.r, Tom.Ji",
-      "created_date": "2026-09-11",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/OWVvhPOA/4032-androidst-printer-move-to-better-unique-id-for-qa-session-scans"
     },
     {
       "card_id": "6a55a5a84e2f4b350b190b8f",
@@ -1114,32 +1125,32 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 26,
+      "total_cards": 96,
       "returned_cards": 2,
-      "pct_returned": 7.7,
+      "pct_returned": 2.1,
       "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
     "tickets": [
       {
-        "card_id": "6abbe357e2b3e5c03cf5c284",
-        "ticket_name": "[DPP Editor] JSON-LD improovments",
+        "card_id": "6942ca73ee339e46f9eb7f9e",
+        "ticket_name": "[Portal][Code ingestion] UX: Product select dropdown shows irrelevant products",
         "return_count": 1,
         "current_status": "Development",
-        "assignee": "Iryna, Arthur Souviron, Ivanna Kavetska",
-        "created_date": "2026-10-12",
+        "assignee": "Khalid Lamptey, Iryna, vitalina.r, Arthur Souviron, Yan",
+        "created_date": "2026-10-23",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/fgzOuk1c/4390-dpp-editor-json-ld-improovments",
+        "card_url": "https://trello.com/c/ry5oUDo6/4141-portalcode-ingestion-ux-product-select-dropdown-shows-irrelevant-products",
         "new_returns": 1
       },
       {
         "card_id": "6a5d53a2fbd95eea2ef83366",
         "ticket_name": "[VA] Help page shows static image instead of scan animation before \"How to scan?\"",
-        "return_count": 1,
-        "current_status": "Development",
+        "return_count": 2,
+        "current_status": "Done (only for QA team)",
         "assignee": "Hemang Chawla, Iryna, vitalina.r",
-        "created_date": "2026-10-15",
+        "created_date": "2026-10-22",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/z33F1VfT/4227-va-help-page-shows-static-image-instead-of-scan-animation-before-how-to-scan",
@@ -1152,13 +1163,25 @@
     "label": "Q4 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 42,
-      "returned_cards": 3,
-      "pct_returned": 7.1,
-      "avg_return_count": 1.0,
+      "total_cards": 118,
+      "returned_cards": 4,
+      "pct_returned": 3.4,
+      "avg_return_count": 1.2,
       "failed_qg_count": 0
     },
     "tickets": [
+      {
+        "card_id": "6a5d53a2fbd95eea2ef83366",
+        "ticket_name": "[VA] Help page shows static image instead of scan animation before \"How to scan?\"",
+        "return_count": 2,
+        "current_status": "Done (only for QA team)",
+        "assignee": "Hemang Chawla, Iryna, vitalina.r",
+        "created_date": "2026-10-22",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/z33F1VfT/4227-va-help-page-shows-static-image-instead-of-scan-animation-before-how-to-scan",
+        "new_returns": 2
+      },
       {
         "card_id": "6abbe357e2b3e5c03cf5c284",
         "ticket_name": "[DPP Editor] JSON-LD improovments",
@@ -1172,24 +1195,24 @@
         "new_returns": 1
       },
       {
-        "card_id": "6a5d53a2fbd95eea2ef83366",
-        "ticket_name": "[VA] Help page shows static image instead of scan animation before \"How to scan?\"",
+        "card_id": "6942ca73ee339e46f9eb7f9e",
+        "ticket_name": "[Portal][Code ingestion] UX: Product select dropdown shows irrelevant products",
         "return_count": 1,
         "current_status": "Development",
-        "assignee": "Hemang Chawla, Iryna, vitalina.r",
-        "created_date": "2026-10-15",
+        "assignee": "Khalid Lamptey, Iryna, vitalina.r, Arthur Souviron, Yan",
+        "created_date": "2026-10-23",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/z33F1VfT/4227-va-help-page-shows-static-image-instead-of-scan-animation-before-how-to-scan",
+        "card_url": "https://trello.com/c/ry5oUDo6/4141-portalcode-ingestion-ux-product-select-dropdown-shows-irrelevant-products",
         "new_returns": 1
       },
       {
         "card_id": "6ab261934c6d15c6cef5358e",
         "ticket_name": "[QR manager] e-label data export - CSV file",
         "return_count": 1,
-        "current_status": "Done (only for QA team)",
+        "current_status": "Delivered October 2026",
         "assignee": "Dave Hao, Diana Fomina, Yan, Iryna, vitalina.r",
-        "created_date": "2026-10-15",
+        "created_date": "2026-10-20",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/nuiiqDCd/4383-qr-manager-e-label-data-export-csv-file",
