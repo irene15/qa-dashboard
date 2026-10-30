@@ -1,10 +1,10 @@
 {
-  "last_updated": "Oct 23, 2026",
+  "last_updated": "Oct 30, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 541,
-    "returned_cards": 99,
-    "pct_returned": 18.3,
+    "total_cards": 554,
+    "returned_cards": 102,
+    "pct_returned": 18.4,
     "avg_return_count": 1.5,
     "failed_qg_count": 2
   },
@@ -178,9 +178,9 @@
       "card_id": "6a5d53a2fbd95eea2ef83366",
       "ticket_name": "[VA] Help page shows static image instead of scan animation before \"How to scan?\"",
       "return_count": 2,
-      "current_status": "Done (only for QA team)",
+      "current_status": "Delivered October 2026",
       "assignee": "Hemang Chawla, Iryna, vitalina.r",
-      "created_date": "2026-10-22",
+      "created_date": "2026-10-27",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/z33F1VfT/4227-va-help-page-shows-static-image-instead-of-scan-animation-before-how-to-scan"
@@ -527,12 +527,45 @@
       "card_url": "https://trello.com/c/ry5oUDo6/4141-portalcode-ingestion-ux-product-select-dropdown-shows-irrelevant-products"
     },
     {
+      "card_id": "6a3ccc5e8adeab7bf7855fe2",
+      "ticket_name": "[ST Pro] [UX] Scan destination configuration is not discoverable from the Products list",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Iryna, Yan, Ivanna Kavetska, Arthur Souviron",
+      "created_date": "2026-10-27",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/BGjFlcwI/4455-st-pro-ux-scan-destination-configuration-is-not-discoverable-from-the-products-list"
+    },
+    {
+      "card_id": "6971fb20b959d3e880f8efda",
+      "ticket_name": "[STE][Android] App crashes when a user with 2FA is logging in",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Rizwan, vitalina.r, Iryna, Tom.Ji",
+      "created_date": "2026-10-30",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/KTTsC6qi/4446-steandroid-app-crashes-when-a-user-with-2fa-is-logging-in"
+    },
+    {
+      "card_id": "6aacf3564c5d9be9381900a3",
+      "ticket_name": "[STE][Android] unify the behavior of how to handle the auth-task on the ios and android.",
+      "return_count": 1,
+      "current_status": "Development",
+      "assignee": "Tom.Ji, Rizwan, Iryna, vitalina.r",
+      "created_date": "2026-10-30",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/zAYBNEDG/4377-steandroid-unify-the-behavior-of-how-to-handle-the-auth-task-on-the-ios-and-android"
+    },
+    {
       "card_id": "6aabab6f4fe6c352961a1778",
       "ticket_name": "[STE Editor] Release Checklist",
       "return_count": 1,
-      "current_status": "QA Review",
+      "current_status": "Done (only for QA team)",
       "assignee": "Iryna, vitalina.r, Rizwan, Taras Tsavolyk",
-      "created_date": "2026-10-07",
+      "created_date": "2026-10-30",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/NBuhh9l8/4374-ste-editor-release-checklist"
@@ -1125,35 +1158,47 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 96,
-      "returned_cards": 2,
-      "pct_returned": 2.1,
+      "total_cards": 82,
+      "returned_cards": 3,
+      "pct_returned": 3.7,
       "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
     "tickets": [
       {
-        "card_id": "6942ca73ee339e46f9eb7f9e",
-        "ticket_name": "[Portal][Code ingestion] UX: Product select dropdown shows irrelevant products",
+        "card_id": "6a3ccc5e8adeab7bf7855fe2",
+        "ticket_name": "[ST Pro] [UX] Scan destination configuration is not discoverable from the Products list",
         "return_count": 1,
         "current_status": "Development",
-        "assignee": "Khalid Lamptey, Iryna, vitalina.r, Arthur Souviron, Yan",
-        "created_date": "2026-10-23",
+        "assignee": "Iryna, Yan, Ivanna Kavetska, Arthur Souviron",
+        "created_date": "2026-10-27",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/ry5oUDo6/4141-portalcode-ingestion-ux-product-select-dropdown-shows-irrelevant-products",
+        "card_url": "https://trello.com/c/BGjFlcwI/4455-st-pro-ux-scan-destination-configuration-is-not-discoverable-from-the-products-list",
         "new_returns": 1
       },
       {
-        "card_id": "6a5d53a2fbd95eea2ef83366",
-        "ticket_name": "[VA] Help page shows static image instead of scan animation before \"How to scan?\"",
-        "return_count": 2,
-        "current_status": "Done (only for QA team)",
-        "assignee": "Hemang Chawla, Iryna, vitalina.r",
-        "created_date": "2026-10-22",
+        "card_id": "6971fb20b959d3e880f8efda",
+        "ticket_name": "[STE][Android] App crashes when a user with 2FA is logging in",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Rizwan, vitalina.r, Iryna, Tom.Ji",
+        "created_date": "2026-10-30",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/z33F1VfT/4227-va-help-page-shows-static-image-instead-of-scan-animation-before-how-to-scan",
+        "card_url": "https://trello.com/c/KTTsC6qi/4446-steandroid-app-crashes-when-a-user-with-2fa-is-logging-in",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6aacf3564c5d9be9381900a3",
+        "ticket_name": "[STE][Android] unify the behavior of how to handle the auth-task on the ios and android.",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Tom.Ji, Rizwan, Iryna, vitalina.r",
+        "created_date": "2026-10-30",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/zAYBNEDG/4377-steandroid-unify-the-behavior-of-how-to-handle-the-auth-task-on-the-ios-and-android",
         "new_returns": 1
       }
     ],
@@ -1163,10 +1208,10 @@
     "label": "Q4 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 118,
-      "returned_cards": 4,
-      "pct_returned": 3.4,
-      "avg_return_count": 1.2,
+      "total_cards": 133,
+      "returned_cards": 7,
+      "pct_returned": 5.3,
+      "avg_return_count": 1.1,
       "failed_qg_count": 0
     },
     "tickets": [
@@ -1174,9 +1219,9 @@
         "card_id": "6a5d53a2fbd95eea2ef83366",
         "ticket_name": "[VA] Help page shows static image instead of scan animation before \"How to scan?\"",
         "return_count": 2,
-        "current_status": "Done (only for QA team)",
+        "current_status": "Delivered October 2026",
         "assignee": "Hemang Chawla, Iryna, vitalina.r",
-        "created_date": "2026-10-22",
+        "created_date": "2026-10-27",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/z33F1VfT/4227-va-help-page-shows-static-image-instead-of-scan-animation-before-how-to-scan",
@@ -1204,6 +1249,42 @@
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/ry5oUDo6/4141-portalcode-ingestion-ux-product-select-dropdown-shows-irrelevant-products",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a3ccc5e8adeab7bf7855fe2",
+        "ticket_name": "[ST Pro] [UX] Scan destination configuration is not discoverable from the Products list",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Iryna, Yan, Ivanna Kavetska, Arthur Souviron",
+        "created_date": "2026-10-27",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/BGjFlcwI/4455-st-pro-ux-scan-destination-configuration-is-not-discoverable-from-the-products-list",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6971fb20b959d3e880f8efda",
+        "ticket_name": "[STE][Android] App crashes when a user with 2FA is logging in",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Rizwan, vitalina.r, Iryna, Tom.Ji",
+        "created_date": "2026-10-30",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/KTTsC6qi/4446-steandroid-app-crashes-when-a-user-with-2fa-is-logging-in",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6aacf3564c5d9be9381900a3",
+        "ticket_name": "[STE][Android] unify the behavior of how to handle the auth-task on the ios and android.",
+        "return_count": 1,
+        "current_status": "Development",
+        "assignee": "Tom.Ji, Rizwan, Iryna, vitalina.r",
+        "created_date": "2026-10-30",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/zAYBNEDG/4377-steandroid-unify-the-behavior-of-how-to-handle-the-auth-task-on-the-ios-and-android",
         "new_returns": 1
       },
       {
