@@ -1,11 +1,11 @@
 {
-  "last_updated": "Oct 30, 2026",
+  "last_updated": "Nov 06, 2026",
   "is_first_run": false,
   "kpi": {
-    "total_cards": 554,
-    "returned_cards": 102,
-    "pct_returned": 18.4,
-    "avg_return_count": 1.5,
+    "total_cards": 576,
+    "returned_cards": 107,
+    "pct_returned": 18.6,
+    "avg_return_count": 1.4,
     "failed_qg_count": 2
   },
   "tickets": [
@@ -41,6 +41,17 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/kTOWjeFw/3786-stios-add-third-party-non-st-url-scan-pages-as-per-unified-ui"
+    },
+    {
+      "card_id": "69e8db97d51d2237e065399f",
+      "ticket_name": "[VA] Fix issue with restrict landscape mode and add \"Rotate back\" popup",
+      "return_count": 3,
+      "current_status": "Development",
+      "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
+      "created_date": "2026-11-04",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup"
     },
     {
       "card_id": "6a574721f83a50925885f9bb",
@@ -96,17 +107,6 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/IfinKfUj/3851-pawechat-update-launching-screen-to-match-unified-ui"
-    },
-    {
-      "card_id": "69e8db97d51d2237e065399f",
-      "ticket_name": "[VA] Fix issue with restrict landscape mode and add \"Rotate back\" popup",
-      "return_count": 2,
-      "current_status": "Code Review",
-      "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
-      "created_date": "2026-08-19",
-      "quality_gate": "yes",
-      "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup"
     },
     {
       "card_id": "698aa164fdec244ee8e8e3f0",
@@ -538,26 +538,48 @@
       "card_url": "https://trello.com/c/BGjFlcwI/4455-st-pro-ux-scan-destination-configuration-is-not-discoverable-from-the-products-list"
     },
     {
-      "card_id": "6971fb20b959d3e880f8efda",
-      "ticket_name": "[STE][Android] App crashes when a user with 2FA is logging in",
+      "card_id": "6a508f5937f50105572f8d82",
+      "ticket_name": "[MANUKA001] MCC Process Adjustment",
       "return_count": 1,
-      "current_status": "Development",
-      "assignee": "Rizwan, vitalina.r, Iryna, Tom.Ji",
-      "created_date": "2026-10-30",
+      "current_status": "QA Review",
+      "assignee": "Andrew, Arthur Souviron, Iryna, Lance Huang - ScanTrust, vitalina.r, Khalid Lamptey",
+      "created_date": "2026-11-06",
       "quality_gate": "yes",
       "quality_gate_failed": false,
-      "card_url": "https://trello.com/c/KTTsC6qi/4446-steandroid-app-crashes-when-a-user-with-2fa-is-logging-in"
+      "card_url": "https://trello.com/c/48k19BzF/4202-manuka001-mcc-process-adjustment"
+    },
+    {
+      "card_id": "6a9e5cd60ff812efcc8b9bca",
+      "ticket_name": "[STE][Android] Release 2.4.0",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Rizwan, Tom.Ji, Iryna, vitalina.r",
+      "created_date": "2026-11-04",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/0D2a5itq/4354-steandroid-release-240"
     },
     {
       "card_id": "6aacf3564c5d9be9381900a3",
       "ticket_name": "[STE][Android] unify the behavior of how to handle the auth-task on the ios and android.",
       "return_count": 1,
-      "current_status": "Development",
+      "current_status": "QA Review",
       "assignee": "Tom.Ji, Rizwan, Iryna, vitalina.r",
-      "created_date": "2026-10-30",
+      "created_date": "2026-11-04",
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/zAYBNEDG/4377-steandroid-unify-the-behavior-of-how-to-handle-the-auth-task-on-the-ios-and-android"
+    },
+    {
+      "card_id": "6971fb20b959d3e880f8efda",
+      "ticket_name": "[STE][Android] App crashes when a user with 2FA is logging in",
+      "return_count": 1,
+      "current_status": "QA Review",
+      "assignee": "Rizwan, vitalina.r, Iryna, Tom.Ji",
+      "created_date": "2026-11-04",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/KTTsC6qi/4446-steandroid-app-crashes-when-a-user-with-2fa-is-logging-in"
     },
     {
       "card_id": "6aabab6f4fe6c352961a1778",
@@ -569,6 +591,39 @@
       "quality_gate": "yes",
       "quality_gate_failed": false,
       "card_url": "https://trello.com/c/NBuhh9l8/4374-ste-editor-release-checklist"
+    },
+    {
+      "card_id": "6ae31ecad9a89252b277698e",
+      "ticket_name": "[QR Manager] [ST Pro] [e-label portal][e-label editor] Naming template placeholders not resolved when downloading a newly created QR code",
+      "return_count": 1,
+      "current_status": "Done (only for QA team)",
+      "assignee": "vitalina.r, Iryna, Michael Tai, Arthur Souviron, Ivanna Kavetska",
+      "created_date": "2026-11-05",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/mNvoxYUr/4469-qr-manager-st-pro-e-label-portale-label-editor-naming-template-placeholders-not-resolved-when-downloading-a-newly-created-qr-cod"
+    },
+    {
+      "card_id": "6ae076a1ed1a31b5a7c00cef",
+      "ticket_name": "[VA] Add support for iPhone 18 Pro and Pro Max in VA",
+      "return_count": 1,
+      "current_status": "Delivered November 2026",
+      "assignee": "vitalina.r, Iryna, Hemang Chawla",
+      "created_date": "2026-11-05",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/p4Rpnaw8/4458-va-add-support-for-iphone-18-pro-and-pro-max-in-va"
+    },
+    {
+      "card_id": "6a82d873e141b0fa300d8b80",
+      "ticket_name": "[VA] Release Checklist - Sep B",
+      "return_count": 1,
+      "current_status": "Delivered November 2026",
+      "assignee": "Hemang Chawla, Taras Tsavolyk, vitalina.r, Iryna",
+      "created_date": "2026-11-05",
+      "quality_gate": "yes",
+      "quality_gate_failed": false,
+      "card_url": "https://trello.com/c/WlpAC4jN/4311-va-release-checklist-sep-b"
     },
     {
       "card_id": "6aad0e389c19ccd79d745ba7",
@@ -1158,47 +1213,83 @@
   ],
   "weekly": {
     "kpi": {
-      "total_cards": 82,
-      "returned_cards": 3,
-      "pct_returned": 3.7,
+      "total_cards": 76,
+      "returned_cards": 6,
+      "pct_returned": 7.9,
       "avg_return_count": 1.0,
       "failed_qg_count": 0
     },
     "tickets": [
       {
-        "card_id": "6a3ccc5e8adeab7bf7855fe2",
-        "ticket_name": "[ST Pro] [UX] Scan destination configuration is not discoverable from the Products list",
-        "return_count": 1,
+        "card_id": "69e8db97d51d2237e065399f",
+        "ticket_name": "[VA] Fix issue with restrict landscape mode and add \"Rotate back\" popup",
+        "return_count": 3,
         "current_status": "Development",
-        "assignee": "Iryna, Yan, Ivanna Kavetska, Arthur Souviron",
-        "created_date": "2026-10-27",
+        "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
+        "created_date": "2026-11-04",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/BGjFlcwI/4455-st-pro-ux-scan-destination-configuration-is-not-discoverable-from-the-products-list",
+        "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup",
         "new_returns": 1
       },
       {
-        "card_id": "6971fb20b959d3e880f8efda",
-        "ticket_name": "[STE][Android] App crashes when a user with 2FA is logging in",
+        "card_id": "6a508f5937f50105572f8d82",
+        "ticket_name": "[MANUKA001] MCC Process Adjustment",
         "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Rizwan, vitalina.r, Iryna, Tom.Ji",
-        "created_date": "2026-10-30",
+        "current_status": "QA Review",
+        "assignee": "Andrew, Arthur Souviron, Iryna, Lance Huang - ScanTrust, vitalina.r, Khalid Lamptey",
+        "created_date": "2026-11-06",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/KTTsC6qi/4446-steandroid-app-crashes-when-a-user-with-2fa-is-logging-in",
+        "card_url": "https://trello.com/c/48k19BzF/4202-manuka001-mcc-process-adjustment",
         "new_returns": 1
       },
       {
-        "card_id": "6aacf3564c5d9be9381900a3",
-        "ticket_name": "[STE][Android] unify the behavior of how to handle the auth-task on the ios and android.",
+        "card_id": "6a9e5cd60ff812efcc8b9bca",
+        "ticket_name": "[STE][Android] Release 2.4.0",
         "return_count": 1,
-        "current_status": "Development",
-        "assignee": "Tom.Ji, Rizwan, Iryna, vitalina.r",
-        "created_date": "2026-10-30",
+        "current_status": "QA Review",
+        "assignee": "Rizwan, Tom.Ji, Iryna, vitalina.r",
+        "created_date": "2026-11-04",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/zAYBNEDG/4377-steandroid-unify-the-behavior-of-how-to-handle-the-auth-task-on-the-ios-and-android",
+        "card_url": "https://trello.com/c/0D2a5itq/4354-steandroid-release-240",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6ae31ecad9a89252b277698e",
+        "ticket_name": "[QR Manager] [ST Pro] [e-label portal][e-label editor] Naming template placeholders not resolved when downloading a newly created QR code",
+        "return_count": 1,
+        "current_status": "Done (only for QA team)",
+        "assignee": "vitalina.r, Iryna, Michael Tai, Arthur Souviron, Ivanna Kavetska",
+        "created_date": "2026-11-05",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/mNvoxYUr/4469-qr-manager-st-pro-e-label-portale-label-editor-naming-template-placeholders-not-resolved-when-downloading-a-newly-created-qr-cod",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6ae076a1ed1a31b5a7c00cef",
+        "ticket_name": "[VA] Add support for iPhone 18 Pro and Pro Max in VA",
+        "return_count": 1,
+        "current_status": "Delivered November 2026",
+        "assignee": "vitalina.r, Iryna, Hemang Chawla",
+        "created_date": "2026-11-05",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/p4Rpnaw8/4458-va-add-support-for-iphone-18-pro-and-pro-max-in-va",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a82d873e141b0fa300d8b80",
+        "ticket_name": "[VA] Release Checklist - Sep B",
+        "return_count": 1,
+        "current_status": "Delivered November 2026",
+        "assignee": "Hemang Chawla, Taras Tsavolyk, vitalina.r, Iryna",
+        "created_date": "2026-11-05",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/WlpAC4jN/4311-va-release-checklist-sep-b",
         "new_returns": 1
       }
     ],
@@ -1208,9 +1299,9 @@
     "label": "Q4 2026",
     "is_new": false,
     "kpi": {
-      "total_cards": 133,
-      "returned_cards": 7,
-      "pct_returned": 5.3,
+      "total_cards": 163,
+      "returned_cards": 13,
+      "pct_returned": 8.0,
       "avg_return_count": 1.1,
       "failed_qg_count": 0
     },
@@ -1264,27 +1355,99 @@
         "new_returns": 1
       },
       {
-        "card_id": "6971fb20b959d3e880f8efda",
-        "ticket_name": "[STE][Android] App crashes when a user with 2FA is logging in",
-        "return_count": 1,
+        "card_id": "69e8db97d51d2237e065399f",
+        "ticket_name": "[VA] Fix issue with restrict landscape mode and add \"Rotate back\" popup",
+        "return_count": 3,
         "current_status": "Development",
-        "assignee": "Rizwan, vitalina.r, Iryna, Tom.Ji",
-        "created_date": "2026-10-30",
+        "assignee": "Hemang Chawla, vitalina.r, Iryna, Taras Tsavolyk",
+        "created_date": "2026-11-04",
         "quality_gate": "yes",
         "quality_gate_failed": false,
-        "card_url": "https://trello.com/c/KTTsC6qi/4446-steandroid-app-crashes-when-a-user-with-2fa-is-logging-in",
+        "card_url": "https://trello.com/c/hVXSJfw5/4093-va-fix-issue-with-restrict-landscape-mode-and-add-rotate-back-popup",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a508f5937f50105572f8d82",
+        "ticket_name": "[MANUKA001] MCC Process Adjustment",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Andrew, Arthur Souviron, Iryna, Lance Huang - ScanTrust, vitalina.r, Khalid Lamptey",
+        "created_date": "2026-11-06",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/48k19BzF/4202-manuka001-mcc-process-adjustment",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a9e5cd60ff812efcc8b9bca",
+        "ticket_name": "[STE][Android] Release 2.4.0",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Rizwan, Tom.Ji, Iryna, vitalina.r",
+        "created_date": "2026-11-04",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/0D2a5itq/4354-steandroid-release-240",
         "new_returns": 1
       },
       {
         "card_id": "6aacf3564c5d9be9381900a3",
         "ticket_name": "[STE][Android] unify the behavior of how to handle the auth-task on the ios and android.",
         "return_count": 1,
-        "current_status": "Development",
+        "current_status": "QA Review",
         "assignee": "Tom.Ji, Rizwan, Iryna, vitalina.r",
-        "created_date": "2026-10-30",
+        "created_date": "2026-11-04",
         "quality_gate": "yes",
         "quality_gate_failed": false,
         "card_url": "https://trello.com/c/zAYBNEDG/4377-steandroid-unify-the-behavior-of-how-to-handle-the-auth-task-on-the-ios-and-android",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6971fb20b959d3e880f8efda",
+        "ticket_name": "[STE][Android] App crashes when a user with 2FA is logging in",
+        "return_count": 1,
+        "current_status": "QA Review",
+        "assignee": "Rizwan, vitalina.r, Iryna, Tom.Ji",
+        "created_date": "2026-11-04",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/KTTsC6qi/4446-steandroid-app-crashes-when-a-user-with-2fa-is-logging-in",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6ae31ecad9a89252b277698e",
+        "ticket_name": "[QR Manager] [ST Pro] [e-label portal][e-label editor] Naming template placeholders not resolved when downloading a newly created QR code",
+        "return_count": 1,
+        "current_status": "Done (only for QA team)",
+        "assignee": "vitalina.r, Iryna, Michael Tai, Arthur Souviron, Ivanna Kavetska",
+        "created_date": "2026-11-05",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/mNvoxYUr/4469-qr-manager-st-pro-e-label-portale-label-editor-naming-template-placeholders-not-resolved-when-downloading-a-newly-created-qr-cod",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6ae076a1ed1a31b5a7c00cef",
+        "ticket_name": "[VA] Add support for iPhone 18 Pro and Pro Max in VA",
+        "return_count": 1,
+        "current_status": "Delivered November 2026",
+        "assignee": "vitalina.r, Iryna, Hemang Chawla",
+        "created_date": "2026-11-05",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/p4Rpnaw8/4458-va-add-support-for-iphone-18-pro-and-pro-max-in-va",
+        "new_returns": 1
+      },
+      {
+        "card_id": "6a82d873e141b0fa300d8b80",
+        "ticket_name": "[VA] Release Checklist - Sep B",
+        "return_count": 1,
+        "current_status": "Delivered November 2026",
+        "assignee": "Hemang Chawla, Taras Tsavolyk, vitalina.r, Iryna",
+        "created_date": "2026-11-05",
+        "quality_gate": "yes",
+        "quality_gate_failed": false,
+        "card_url": "https://trello.com/c/WlpAC4jN/4311-va-release-checklist-sep-b",
         "new_returns": 1
       },
       {
